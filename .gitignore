@@ -6,6 +6,7 @@
 *.toc
 *.out
 *.pdf
+!docs/SRS/CookWise_SRS.pdf
 *.dvi
 *.ps
 *.synctex.gz

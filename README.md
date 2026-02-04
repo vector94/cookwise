@@ -17,4 +17,4 @@ CookWise helps users plan their meals and optimize grocery shopping by suggestin
 
 ## Documentation
 
-- [Software Requirements Specification](docs/SRS/)
+- [Software Requirements Specification (PDF)](docs/SRS/CookWise_SRS.pdf)
