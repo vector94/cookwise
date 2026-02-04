@@ -1,0 +1,44 @@
+# LaTeX
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.toc
+*.out
+*.pdf
+*.dvi
+*.ps
+*.synctex.gz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Dependencies
+node_modules/
+.npm
+.yarn
+
+# Build & Dist
+dist/
+build/
+*.o
+*.so
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp

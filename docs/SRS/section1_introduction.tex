@@ -1,0 +1,230 @@
+\section{Introduction}
+
+\subsection{Purpose and scope}
+
+This document specifies the requirements for CookWise, a meal planning and grocery shopping optimization tool designed for the Swedish market. CookWise helps users plan their meals and optimize their grocery shopping by suggesting recipes based on current sales and promotions at major Swedish grocery stores such as ICA, Willys, and Coop.
+
+\vspace{0.5cm}
+
+\textbf{What the System Will Do}
+
+CookWise will provide the following core capabilities:
+
+\begin{itemize}
+    \item Suggest recipes based on items that are currently on sale at local grocery stores (ICA, Willys, Coop)
+    \item Allow users to search for recipes by specific ingredients
+    \item Allow users to filter recipes by cuisine type, dietary restrictions, budget, and cooking time
+    \item Display detailed recipe information including ingredients, quantities, cooking instructions, and nutritional data
+    \item Enable users to rate and provide feedback on recipes
+    \item Generate shopping lists automatically from selected recipes
+    \item Show estimated cost savings by comparing regular prices versus sale prices across different stores
+    \item Provide a map view showing store locations, price comparisons, and navigation routes for the shopping list
+    \item Enable users to create accounts and save favorite recipes for future reference
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textbf{Benefits of the Product}
+
+CookWise delivers several key benefits to users:
+
+\begin{itemize}
+    \item \textbf{Cost Savings:} Users can reduce grocery expenses by taking advantage of current sales and promotions when planning meals
+
+    \item \textbf{Meal Variety:} Users discover new recipes and expand their cooking repertoire while staying within budget through intelligent sale based recipe recommendations
+
+    \item \textbf{Informed Store Selection:} The system provides transparent price comparisons and store recommendations through a single platform, eliminating the need to manually check multiple store websites while enabling data driven shopping choices
+
+    \item \textbf{Time Efficiency:} The system eliminates the need to manually browse multiple store flyers and match sales to recipes, significantly reducing weekly planning time
+
+    \item \textbf{Reduced Food Waste:} By providing exact ingredient quantities and utilizing items on sale, the system helps minimize food waste at the household level
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textbf{System Goals}
+
+The primary goals of CookWise are detailed in Section 1.4 as formal goal level requirements, covering cost effectiveness, meal variety through sale based recipe discovery, informed store selection, time efficiency, and waste reduction.
+
+\vspace{0.5cm}
+
+\textbf{What the System Will NOT Do}
+
+To clarify the boundaries and scope of this project, CookWise will explicitly NOT include:
+
+\begin{itemize}
+    \item Processing of actual purchases or payment transactions
+    \item Real time inventory tracking or stock availability at physical stores
+    \item Home delivery, delivery scheduling, meal kit assembly, or courier services
+    \item Creation of fully custom or AI generated personalized recipes without human review
+    \item Nutritional consultation or medical dietary advice
+\end{itemize}
+
+\subsection{Definitions, acronyms, and abbreviations}
+
+This section provides definitions of all terms, acronyms, abbreviations, and domain specific terminology used throughout this document.
+
+\vspace{0.3cm}
+
+\textbf{Requirement Identifiers}
+
+Requirements in this document are identified using the following prefixes:
+
+\begin{itemize}
+    \item \textbf{DL}: Domain Level Requirement (e.g., DL1, DL2, DL3, DL4, DL5, DL6)
+    \item \textbf{PR}: Product Requirement (e.g., PR1, PR2, PR3, ..., PR14)
+    \item \textbf{DR}: Data Requirement (e.g., DR1, DR2, DR3, DR4)
+    \item \textbf{QR}: Quality Requirement (e.g., QR1, QR2, QR3, QR4, QR5)
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{Terms and Definitions}
+
+\begin{longtable}{|p{4cm}|p{10cm}|}
+\hline
+\textbf{Term} & \textbf{Definition} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Term} & \textbf{Definition} \\
+\hline
+\endhead
+ACID Properties & A set of properties that guarantee reliable database transactions: Atomicity (transactions complete fully or not at all), Consistency (database remains in a valid state), Isolation (concurrent transactions don't interfere), and Durability (committed transactions persist permanently). \\
+\hline
+API & Application Programming Interface. A set of rules and protocols that allow different software applications to communicate with each other. \\
+\hline
+Consolidated Shopping List & A shopping list that combines ingredients from multiple selected recipes, aggregating quantities for items that appear in more than one recipe. \\
+\hline
+CookWise & The name of the meal planning and grocery shopping optimization system described in this document. The product is designed for the Swedish market. \\
+\hline
+GDPR & General Data Protection Regulation. A comprehensive data privacy and security law in the European Union (EU 2016/679) that mandates how the system must handle and protect personal data of users. \\
+\hline
+Recipe & A structured set of instructions for preparing a dish, including a list of ingredients with quantities, step by step cooking instructions, preparation time, and nutritional information. \\
+\hline
+Sale Item & A product that is currently offered at a discounted price or promotional price by a grocery retailer. Sale items are the basis for recipe suggestions in CookWise. \\
+\hline
+Shopping List & An automatically generated list of ingredients required for selected recipes, organized by product category and store, with quantities and estimated prices. \\
+\hline
+Stakeholder & Any individual, group, or organization that has an interest in or is affected by the CookWise system. Stakeholders include end users, grocery retailers, development team members, and regulatory bodies. \\
+\hline
+Total Basket Price & The sum of all ingredient prices for a complete shopping list at a specific store, including all applicable promotions and discounts. This value is used to compare the cost-effectiveness of shopping at different stores for the same set of ingredients or equivalent items. \\
+\hline
+Web Scraping & An automated technique for extracting data from websites by parsing HTML content. CookWise uses web scraping to collect product prices, sale information, and store locations from retailer websites on a daily basis. \\
+\hline
+\end{longtable}
+
+\subsection{Overview}
+
+This document is structured to systematically present the requirements for the CookWise system, from initial stakeholder analysis through detailed specifications to a phased release plan. The organization of subsequent sections is as follows:
+
+\vspace{0.3cm}
+
+\textbf{Section 2: Stakeholder Identification and Analysis} identifies all individuals, groups, and organizations with an interest in the CookWise system. It analyzes their roles, influence levels, expectations, and potential impact on the project. This section establishes who the system must satisfy and whose needs must be balanced during development.
+
+\vspace{0.3cm}
+
+\textbf{Section 3: Requirements Elicitation Techniques} describes the specific methods used to gather requirements from stakeholders identified in Section 2. Five techniques are employed: brainstorming sessions, semi structured interviews, requirements workshops, questionnaires, and prototyping. Each technique's purpose, execution process, and key findings are documented.
+
+\vspace{0.3cm}
+
+\textbf{Section 4: System Requirements} forms the core of this document, detailing all requirements for CookWise. This section is subdivided into four parts:
+
+\begin{itemize}
+    \item \textbf{Section 4.1: Domain Requirements} describes high level business rules and constraints inherent to the grocery shopping and meal planning domain that the system must respect.
+    
+    \item \textbf{Section 4.2: Product Requirements} specifies the concrete functional behaviors and capabilities the system must provide to users.
+    
+    \item \textbf{Section 4.3: Data Requirements} defines the data entities (such as users, recipes, products, stores), their attributes, and the relationships between them that the system must manage. An Entity Relationship Diagram (ERD) is included.
+    
+    \item \textbf{Section 4.4: Quality Requirements} elaborates on non functional requirements using the QUPER model. Five quality aspects are specified in detail: accuracy, reliability, performance, usability, and scalability.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{Section 5: Requirements Prioritization} presents the prioritization of all requirements from Section 4 using three complementary techniques: the 100 Dollar Test (ratio scale prioritization), ranking (ordinal scale prioritization), and Numerical Assignment (ordinal scale prioritization). The results guide development sequencing and resource allocation.
+
+\vspace{0.3cm}
+
+\textbf{Section 6: Release Planning} proposes a phased delivery strategy based on the prioritized requirements. Requirements are grouped into two major releases, each consisting of three two week sprints. Dependencies between requirements and risk factors are considered in the release plan.
+
+\vspace{0.3cm}
+
+\textbf{Section 7: Policy and Regulation Requirements} lists all legal, regulatory, and compliance requirements that CookWise must adhere to. This includes GDPR compliance, consumer protection laws, food information regulations, accessibility standards, and Swedish national legislation.
+
+\vspace{0.3cm}
+
+\textbf{Section 8: References} provides a comprehensive list of all cited documents, academic sources, standards, legal texts, and technical documentation referenced throughout this Software Requirements Document.
+
+\vspace{0.3cm}
+
+\textbf{Section 9: Document Revision History} tracks all versions of this document, including dates, version numbers, and descriptions of changes made in each revision.
+
+\vspace{0.3cm}
+
+\textbf{Section 10: Appendices} contains supplementary materials including the questionnaire, the PlantUML source code for diagrams, the AI-generated prototype prompt, and other supporting documentation.
+
+\vspace{0.3cm}
+
+This structure ensures a logical progression from understanding stakeholders and gathering their needs, to formally specifying requirements, prioritizing them, and planning their implementation in releases.
+
+\subsection{Goals of the Product (Goal Level Requirements)}
+
+This section describes the high level business goals and strategic objectives that CookWise aims to achieve.
+
+\vspace{0.5cm}
+
+\textbf{Goal\_1: Increase Grocery Cost Effectiveness}
+
+Users shall be able to reduce their grocery shopping expenses by leveraging sale items and promotions when planning meals.
+
+\vspace{0.5cm}
+
+\textbf{Goal\_2: Expand Meal Variety and Recipe Discovery}
+
+Users shall discover new recipes and expand their cooking repertoire while staying within their budget constraints through intelligent recipe recommendations based on current sales and promotions.
+
+\vspace{0.5cm}
+
+\textbf{Goal\_3: Optimize Store Selection}
+
+Users shall be able to identify the most cost effective grocery store for their shopping needs based on total basket price and proximity to their location.
+
+\vspace{0.5cm}
+
+\textbf{Goal\_4: Reduce Shopping Planning Time}
+
+Users shall spend significantly less time on meal planning and shopping list preparation compared to manual browsing of multiple store flyers and recipe websites.
+
+\vspace{0.5cm}
+
+\textbf{Goal\_5: Reduce Food Waste and Environmental Impact}
+
+Users shall reduce food waste at the household level through accurate ingredient quantities and strategic meal planning, contributing to environmental sustainability.
+
+\subsection{Context diagram for the system}
+
+The context diagram in Figure \ref{fig:context_diagram} illustrates the CookWise system and its interactions with external entities. The CookWise Main System (shown in blue) is the central component that processes user inputs and provides recipe recommendations, shopping lists, and store price comparisons.
+
+External entities include:
+
+\begin{itemize}
+    \item \textbf{Users}: Primary actors who provide preferences and location, receiving recipe suggestions and shopping lists.
+
+    \item \textbf{Supermarket Websites}: Data sources (ICA, Willys, Coop) providing product prices, sale data, and store locations via web scraping.
+
+    \item \textbf{Maps and Geolocation Service}: External service (Google Maps) providing store coordinates and navigation.
+
+    \item \textbf{AI Recipe Generation Service}: External AI service (OpenAI/Claude) generating recipe suggestions based on sale items and user preferences.
+
+    \item \textbf{External Authentication Service}: Third party authentication providers (Google and Apple) handling user login and account creation.
+\end{itemize}
+
+The diagram shows data flows between CookWise and external entities, with arrows indicating direction of information exchange.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/context_diagram.png}
+    \caption{Context Diagram for CookWise System}
+    \label{fig:context_diagram}
+\end{figure}

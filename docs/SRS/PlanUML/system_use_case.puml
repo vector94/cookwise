@@ -1,0 +1,33 @@
+@startuml CookWise_Overall
+left to right direction
+skinparam packageStyle rectangle
+skinparam linetype ortho
+
+actor "User" as User
+
+rectangle "CookWise System" {
+  usecase "Login to System" as UC1
+  usecase "Select Store" as UC2
+  usecase "Browse Recipes\nBased on Store Sales" as UC3
+  usecase "View Recipe Details" as UC4
+  usecase "Create Shopping List" as UC5
+  usecase "View Total Savings" as UC6
+  usecase "Get Store Directions" as UC7
+  usecase "Rate Recipes" as UC8
+  usecase "Save Favorites" as UC9
+}
+
+User --> UC1
+User --> UC2
+User --> UC3
+User --> UC4
+User --> UC5
+User --> UC6
+User --> UC7
+User --> UC8
+User --> UC9
+
+UC3 ..> UC2 : <<include>>
+UC5 ..> UC3 : <<include>>
+
+@enduml

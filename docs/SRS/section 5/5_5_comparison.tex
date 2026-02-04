@@ -1,0 +1,108 @@
+\subsection{Comparison and Discussion}
+
+\noindent\textbf{Comparison Across Techniques}
+
+The three prioritization techniques provided complementary perspectives on requirement priorities. Table \ref{tab:comparison} presents a consolidated view of the top requirements across all three techniques.
+
+\begin{table}[H]
+\centering
+\caption{Comparison of Top Requirements Across Three Techniques}
+\label{tab:comparison}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Requirement ID} & \textbf{100 Dollar Rank} & \textbf{Ranking Pos.} & \textbf{Numerical Assign.} \\
+\hline
+PR2 & 1 & 3 & Critical \\
+\hline
+DL1 & 2 & 2 & Critical \\
+\hline
+PR4 & 3 & 4 & Critical \\
+\hline
+PR1 & 4 & 1 & Critical \\
+\hline
+QR3 & 5 & 7 & Critical \\
+\hline
+PR3 & 6 & 5 & Critical \\
+\hline
+QR4 & 7 & 9 & Standard \\
+\hline
+DL3 & 8 & 8 & Standard \\
+\hline
+PR12 & 9 & 6 & Critical \\
+\hline
+DL2 & 10 & 11 & Standard \\
+\hline
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Key Observations}
+
+Several important observations emerge from comparing the three techniques:
+
+\begin{enumerate}
+    \item \textbf{Strong Agreement on Core Requirements:} All three techniques consistently identified PR1, DL1, PR2, PR3, PR4, PR12, and QR3 as highest priority, indicating clear consensus on core functionality.
+
+    \item \textbf{Impact of Technical Dependencies:} Ranking elevated PR1 (User authentication) to top position despite fewer points in 100 Dollar Test, recognizing it as a foundational requirement that must be implemented first.
+
+    \item \textbf{Categorization vs. Continuous Scales:} Numerical Assignment grouped 8 requirements as Critical, while 100 Dollar Test and Ranking provided more granular differentiation within the high priority group.
+
+    \item \textbf{Quality Requirements:} QR3 (Performance) and QR1 (Accuracy) were consistently prioritized highly, while QR4, QR5, and QR2 were ranked lower, suggesting they can be addressed incrementally after launch.
+
+    \item \textbf{Data Foundation Requirements:} DL1 and PR12 were both prioritized highly, reflecting that accurate, up to date pricing data is fundamental to CookWise's value proposition.
+\end{enumerate}
+
+\vspace{0.2cm}
+\noindent\textbf{Addressing Disagreements}
+
+The primary disagreement concerned PR1 versus PR2 ordering. The 100 Dollar Test ranked PR2 first based on user value, while Ranking placed PR1 first based on technical necessity. Both are equally critical but serve different purposes: PR1 must be implemented first for technical reasons, while PR2 represents the primary value proposition. Both are classified as Critical in Numerical Assignment, confirming their equal importance.
+
+\vspace{0.5cm}
+\noindent\textbf{Final Consolidated Priority}
+
+Based on the analysis of all three techniques, the team established a final consolidated priority for the CookWise requirements:
+
+\vspace{0.5cm}
+\textbf{Must Have - Release 1.0 MVP (Critical for launch):}
+\begin{itemize}
+    \item PR1: User authentication via external services
+    \item DL1: Web scraping for product and pricing data
+    \item PR2: AI-generated recipe suggestions based on sales
+    \item PR3: Recipe filtering by cuisine and dietary restrictions
+    \item PR4: Automatic shopping list generation from recipes
+    \item PR12: Daily web scraping for product data
+    \item QR3: Performance - Recipe generation response time
+    \item QR1: Accuracy - Price data correctness
+\end{itemize}
+
+\vspace{0.5cm}
+\textbf{Should Have - Release 1.0 if resources permit or Release 2.0 (Standard):}
+\begin{itemize}
+    \item DL2: GDPR compliance for user and partner data
+    \item DL3: Single-store shopping constraint
+    \item PR7: Display recipe details with instructions
+    \item PR8: Store price comparisons and distances
+    \item PR9: Display total savings and price differences
+    \item PR13: Store user preferences for ingredients and recipes
+    \item QR4: Usability - Time to complete first recipe selection
+    \item QR5: Scalability - Concurrent user capacity
+\end{itemize}
+
+\vspace{0.5cm}
+\textbf{Could Have - Future releases (Optional):}
+\begin{itemize}
+    \item DL4: Promotions and discounts in basket price calculation
+    \item DL5: Rate limits for external interfaces
+    \item DL6: Domain events processing
+    \item PR5: Record user ratings and feedback
+    \item PR6: Store AI-generated recipes and details
+    \item PR10: Display recipes by ingredient search
+    \item PR11: Display additional ingredients with sale items first
+    \item PR14: Interactive map with store locations and routes
+    \item PR15: Display average recipe ratings
+    \item QR2: Reliability - System uptime during peak hours
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent\textbf{Implications for Release Planning}
+
+The 8 Must Have requirements form the minimum viable product, while the 8 Should Have requirements should be included in Release 1.0 if resources permit, or deferred to Release 2.0. The 10 Could Have requirements can be deferred to subsequent releases. This prioritized list will guide the release planning process described in Section 6.

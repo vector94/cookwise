@@ -1,0 +1,76 @@
+\subsection{Prioritization Technique 1: 100 Dollar Test}
+
+\noindent\textbf{Description of Technique}
+
+The 100 Dollar Test is a ratio scale technique where each stakeholder distributes 100 points across all requirements according to their perceived importance and value.
+
+\vspace{0.5cm}
+
+\noindent\textbf{Application Process}
+
+Each team member independently allocated 100 points across requirements from Section 4. The allocations were then aggregated by calculating average points, considering factors such as business value, user impact, technical feasibility, and dependencies.
+
+\vspace{0.5cm}
+
+\noindent\textbf{Results}
+
+Table \ref{tab:100dollar} presents the results of the 100 Dollar Test, showing each requirement with its allocated points (averaged across team members) and sorted in descending order of priority.
+
+\begin{table}[H]
+\centering
+\caption{100 Dollar Test Results for CookWise Requirements}
+\label{tab:100dollar}
+\begin{tabular}{|l|l|c|}
+\hline
+\textbf{ID} & \textbf{Requirement Description} & \textbf{Points} \\
+\hline
+PR2 & AI-generated recipe suggestions based on sales & 12.0 \\
+\hline
+DL1 & Web scraping for product and pricing data & 9.5 \\
+\hline
+PR4 & Automatic shopping list generation from recipes & 7.5 \\
+\hline
+PR1 & User authentication via external services & 6.0 \\
+\hline
+QR3 & Performance: Recipe generation response time & 5.5 \\
+\hline
+PR3 & Recipe filtering by cuisine and dietary restrictions & 4.5 \\
+\hline
+QR4 & Usability: Time to complete first recipe selection & 4.0 \\
+\hline
+DL3 & Single-store shopping constraint & 3.5 \\
+\hline
+PR12 & Daily web scraping for product data & 3.5 \\
+\hline
+DL2 & GDPR compliance for user and partner data & 3.0 \\
+\hline
+QR1 & Accuracy: Price data correctness & 2.5 \\
+\hline
+PR8 & Store price comparisons and distances & 2.5 \\
+\hline
+PR13 & Store user preferences for ingredients and recipes & 2.0 \\
+\hline
+PR7 & Display recipe details with instructions & 2.0 \\
+\hline
+QR5 & Scalability: Concurrent user capacity & 1.5 \\
+\hline
+PR9 & Display total savings and price differences & 1.5 \\
+\hline
+PR5 & Record user ratings and feedback & 1.5 \\
+\hline
+QR2 & Reliability: System uptime during peak hours & 1.0 \\
+\hline
+PR6 & Store AI-generated recipes and details & 1.0 \\
+\hline
+PR10 & Display recipes by ingredient search & 0.5 \\
+\hline
+PR11 & Display additional ingredients with sale items first & 0.5 \\
+\hline
+PR14 & Interactive map with store locations and routes & 0.5 \\
+\hline
+PR15 & Display average recipe ratings & 0.5 \\
+\hline
+\end{tabular}
+\end{table}
+
+PR2 (AI-generated recipe suggestions) received the highest allocation with 12 points, followed by DL1 (Web scraping) and PR4 (Automatic shopping list generation), reflecting the core value proposition and essential infrastructure.

@@ -1,0 +1,142 @@
+% Section 3.5: Prototyping
+\subsection{Prototyping}
+
+\textbf{Selection Rationale:} Prototyping was used to visualize UI design, validate user workflows, and gather early feedback through two complementary approaches: (1) high-fidelity interactive Figma prototype for visual design testing, and (2) AI-generated functional prototype (Base64) for rapid design exploration and technical feasibility validation.
+
+\vspace{0.4cm}
+
+\textbf{Execution:}
+
+\textbf{Approach 1: High-Fidelity Interactive Prototype (Figma)}
+
+The team created a comprehensive high-fidelity interactive prototype using Figma, a collaborative interface design tool. The prototype was designed with a mobile-first approach, as most users are expected to access CookWise on smartphones. The Figma prototype covered the complete user journey across two main feature areas:
+
+\vspace{0.2cm}
+\textit{Recipe Features:} The prototype included recipe browsing with multiple view options (all recipes, dessert recipes, low budget recipes), recipe filtering by cuisine type and dietary restrictions, and detailed recipe pages with ingredient lists, cooking instructions, and nutritional information. Figure \ref{fig:figma_recipes} shows the recipe browsing interface with filtering capabilities, validating PR2 (AI recipe suggestions) and PR3 (recipe filtering).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/figma_recipes.jpg}
+    \caption{Recipe browsing with filtering options (Figma - PR2, PR3)}
+    \label{fig:figma_recipes}
+\end{figure}
+
+\textit{Items and Shopping Features:} The prototype included product browsing pages organized by store (ICA, Willys, Coop) and by category (nuts, seafood, bakery, vegetables, fruits), shopping cart functionality with running totals and savings calculations, store location mapping for route optimization, and an "Everyday Low Price" section highlighting consistent deals. Figure \ref{fig:figma_home} shows the home screen with store selection and promotional content, while Figure \ref{fig:figma_items} demonstrates product browsing by store. Figure \ref{fig:figma_cart} displays the shopping cart with savings calculations.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/figma_home.jpg}
+    \caption{CookWise home screen with retailer selection (Figma)}
+    \label{fig:figma_home}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/figma_items_ica.jpg}
+    \caption{Product browsing with price display by store (Figma - PR8)}
+    \label{fig:figma_items}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/figma_cart.jpg}
+    \caption{Shopping cart with savings calculation (Figma - PR4, PR9)}
+    \label{fig:figma_cart}
+\end{figure}
+
+The Figma prototype underwent testing with two groups. First, the internal development team (four members) reviewed the prototype thoroughly, navigating through all interactive elements to identify usability issues and technical feasibility concerns. Second, the prototype was tested with a small group of seven potential users representing the target audience (the same individuals from the interview phase). Test participants were asked to complete specific tasks such as finding recipes based on current sales, adding items to shopping carts, comparing prices across stores, and evaluating the overall visual design. Testing sessions were conducted informally over one week, with participants encouraged to think aloud as they navigated the prototype.
+
+\vspace{0.5cm}
+
+\textbf{Approach 2: AI-Generated Functional Prototype (Base64)}
+
+To complement the Figma prototype and explore alternative design approaches rapidly, the team created a functional prototype using AI-assisted development (Claude Code with Artifacts). The Base64 prototype was generated from a comprehensive prompt specifying all system requirements, Swedish market context, technical stack preferences, and UI/UX guidelines (see Appendix \ref{appendix:base64_prompt} for complete prompt).
+
+The AI-generated prototype implemented working navigation, sample Swedish recipe data, realistic sale item displays, functional shopping list features, and responsive mobile design. Unlike the static Figma prototype, the Base64 version included functional CRUD operations and state management, allowing more realistic testing of user workflows. Figure \ref{fig:base64_home} shows the AI-generated home screen design, while Figure \ref{fig:base64_items} demonstrates the product browsing interface. Figure \ref{fig:base64_recipe} displays the recipe detail page with ingredient optimization, and Figure \ref{fig:base64_shopping} shows the automated shopping list with savings breakdown.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/base64_home.png}
+    \caption{AI-generated home screen design with featured recipes and deals (Base64)}
+    \label{fig:base64_home}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/base64_items.png}
+    \caption{Product browsing interface with store filtering (Base64 - PR8)}
+    \label{fig:base64_items}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/base64_recipe_detail.png}
+    \caption{Recipe detail with ingredient list and price optimization (Base64 - PR2, PR4, PR7)}
+    \label{fig:base64_recipe}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/base64_shopping_list.png}
+    \caption{Automated shopping list with savings breakdown (Base64 - PR4, PR9)}
+    \label{fig:base64_shopping}
+\end{figure}
+
+The Base64 prototype was tested internally by the development team to evaluate technical feasibility, identify implementation challenges, and compare design approaches with the Figma version. The AI-generated code provided valuable insights into data structure design, component architecture, and potential technical constraints.
+
+\textbf{Requirements Elicited:}
+
+Table \ref{tab:proto_requirements} summarizes the requirements validated or identified through both prototyping approaches.
+
+\begin{table}[H]
+\centering
+\caption{Requirements Validated and Identified Through Prototyping}
+\label{tab:proto_requirements}
+\begin{tabular}{|p{0.15\textwidth}|p{0.75\textwidth}|}
+\hline
+\textbf{Requirement} & \textbf{Prototyping Outcome} \\
+\hline
+PR2 & AI recipe suggestions based on sales validated as core value proposition through positive user response \\
+\hline
+PR3 & Recipe filtering by cuisine and dietary restrictions found intuitive by users \\
+\hline
+PR4 & Shopping list functionality demonstrated but users identified need for clearer recipe-to-list connection \\
+\hline
+PR7 & Recipe detail pages with complete instructions and nutritional data validated \\
+\hline
+PR8 & Store comparison display validated as highly valuable for decision-making \\
+\hline
+PR13 & Users strongly expected ability to save favorite recipes and preferences \\
+\hline
+DR1 & Prototype revealed need for data freshness indicator showing when prices were last updated \\
+\hline
+DR4 & Users expected clear system state indicators and data validation \\
+\hline
+QR1 & Image-heavy design raised performance concerns requiring optimization strategies \\
+\hline
+QR2 & Mobile-first design with intuitive navigation validated positively \\
+\hline
+QR3 & Users expressed high expectations for pricing accuracy, reinforcing reliability as critical \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Key Insights:}
+
+The dual prototyping approach provided several valuable insights:
+
+\begin{itemize}
+    \item \textbf{Price Comparison Drives Value}: The side-by-side price display on product detail pages was highlighted as the most valuable feature by users in both prototypes. The ability to see prices from all three retailers without visiting multiple apps directly addresses user pain points identified in interviews.
+
+    \item \textbf{Visual Indicators Matter}: Users wanted more prominent visual indicators distinguishing sale items from regular-priced products. While sale prices were shown with yellow badges in both prototypes, additional icons or color coding would make sale items stand out more clearly in product listings.
+
+    \item \textbf{Recipe-Shopping Integration Needs Clarity}: Users expected explicit visual affordances showing how selecting a recipe would automatically populate their shopping list with required ingredients. The connection between recipe browsing and shopping list generation (PR4) needs stronger visual design in both approaches.
+
+    \item \textbf{Mobile-First Validated}: The mobile-optimized interface with bottom navigation and appropriately sized touch targets tested well with users in the Figma prototype. The design decision to prioritize smartphone usage over desktop was confirmed as aligned with user expectations.
+
+    \item \textbf{Store Logo Trust}: Prominent display of recognizable retailer logos (Willys, ICA, Coop) on the home screen built immediate user confidence in the application's legitimacy and coverage.
+
+    \item \textbf{AI Prototyping Accelerates Iteration}: The Base64 approach allowed rapid generation of functional prototypes with realistic data structures and working interactions in hours rather than days. This speed enabled the team to test multiple design variations and technical approaches efficiently.
+
+    \item \textbf{Complementary Strengths}: The Figma prototype excelled at detailed visual design and user testing, while the Base64 prototype provided technical feasibility validation and rapid iteration. Using both approaches together provided more comprehensive insights than either method alone.
+\end{itemize}

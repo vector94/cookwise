@@ -1,0 +1,221 @@
+\subsection{Data Requirements}
+
+\textbf{Database Model Selection:} The CookWise system will use a **relational database model** (SQL-based). This decision is based on the structured nature of the data, the need for complex relationships between entities (recipes, ingredients, stores, users), and the requirement for transactional integrity when managing shopping lists. A relational model ensures data consistency, supports complex joins for recipe recommendations, and provides ACID properties essential for data management operations.
+
+\vspace{0.3cm}
+
+\noindent\textbf{DR1: Core Entity Data Models:} The system shall implement the following core entities as specified in the Entity-Relationship Diagram (Figure \ref{fig:erd_diagram}):
+
+\begin{itemize}
+    \item \textbf{User:} User ID, Email, Authentication Provider (Google/Apple), Geographic Location (Latitude and Longitude), and Dietary Restrictions
+    \item \textbf{Recipe:} Recipe ID, Recipe Name, Cuisine Type, Cooking Time, Difficulty Level, Number of Servings, Step-by-step Instructions, and Image URL
+    \item \textbf{Ingredient:} Ingredient ID, Ingredient Name, and Category
+    \item \textbf{Rating:} Rating ID, User ID reference, Recipe ID reference, and Rating Score (1-5 scale)
+    \item \textbf{Store:} Store ID, Store Name, and Geographic Coordinates (Latitude and Longitude)
+    \item \textbf{Sale Item:} Sale ID, Store ID reference, Ingredient ID reference, Sale Price, and validity period (Valid From date and Valid To date) to track promotional pricing offered by grocery stores on specific ingredients
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{DR2: Relationship and Associative Entity Data Models:} The system shall implement the following relationship tables to connect core entities:
+
+\begin{itemize}
+    \item \textbf{Recipe-Ingredient:} Recipe ID reference, Ingredient ID reference, Quantity, and Unit to specify exactly how much of each ingredient is needed for a recipe
+    \item \textbf{Shopping List:} List ID, User ID reference, Store ID reference to link each shopping list to a specific user and their chosen store, and Total Price to track the aggregate cost of all items
+    \item \textbf{Shopping List Item:} List ID reference, Ingredient ID reference, Quantity to specify the amount needed, and Sale ID reference to track which specific sale promotion is applied to each item for accurate savings calculation
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{DR3: Data Interchange Formats and Communication Protocols:} The system shall support the following data formats for external communication:
+
+\begin{itemize}
+    \item \textbf{API Communications:} JSON format for all API communications with external services (AI recipe generation, geolocation, authentication)
+    \item \textbf{Data Export:} CSV and JSON formats for user data export functionality
+    \item \textbf{Web Scraping:} Structured HTML parsing for data extraction from grocery store websites
+    \item \textbf{Encoding:} UTF-8 encoding for all API requests and responses following RESTful conventions
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{DR4: System States and Initial Data Configuration:} The system shall maintain the following operational states and be initialized with seed data:
+
+\begin{itemize}
+    \item \textbf{User Session States:} Anonymous, Authenticated, Active, Expired
+    \item \textbf{System Operational States:} Idle, Scraping Data, Processing Requests, Maintenance Mode, Error State
+    \item \textbf{Recipe Generation States:} Pending, In Progress, Completed, Failed
+    \item \textbf{Shopping List States:} Draft, Finalized, Archived
+    \item \textbf{Initial Seed Data:} Minimum of 100 recipes across various cuisines, complete store information for major ICA, Willys, and Coop locations in target regions, comprehensive ingredient database with at least 500 common ingredients, and default user preferences (Swedish language, metric measurements, no dietary restrictions, 30-minute default cooking time filter)
+\end{itemize}
+
+\noindent\textbf{Entity Relation Diagram}
+
+The Entity Relation Diagram (ERD) below illustrates the data model for the CookWise system. The diagram shows the relationships between all entities and their attributes. The system uses a relational database model to ensure data integrity and support complex queries required for recipe recommendations and shopping list optimization.
+
+\vspace{0.5cm}
+
+\textbf{Key Entities and Relationships:}
+
+The data model is organized around four core workflows:
+
+\textbf{1. Recipe Discovery and Rating:} Users can browse recipes, view their ingredients through the RECIPE\_INGREDIENT relationship, and provide ratings. This enables the system to recommend popular recipes and track user preferences.
+
+\textbf{2. Sale and Promotion Management:} Stores offer sale items on specific ingredients, tracked through the SALE\_ITEM entity. This connection between stores and ingredients enables the core functionality of suggesting recipes based on current promotions, with each sale item having a sale price and validity period.
+
+\textbf{3. Ingredient Management:} The INGREDIENT entity serves as the central hub connecting recipes, shopping lists, and sales. Each ingredient has a name and category, enabling efficient search and organization across all system features.
+
+\textbf{4. Shopping List Management:} Users create shopping lists that contain specific ingredients with quantities. Each shopping list is linked to a single store and tracks the total price. The SHOPPING\_LIST\_ITEM entity references which specific sales are applied to calculate accurate savings.
+
+The model ensures single-store shopping (as per DL3) by linking each shopping list to one store through the STORE entity, while enabling price optimization by tracking which sale items are applied to each shopping list item.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth]{images/erd_diagram.png}
+    \caption{Entity Relation Diagram for CookWise System}
+    \label{fig:erd_diagram}
+\end{figure}
+
+The complete PlantUML source code for this diagram is provided in Appendix B.
+
+\vspace{0.5cm}
+
+\noindent\textbf{Virtual Windows}
+
+Virtual windows illustrate how data will be presented to users through simplified screen mockups with realistic data. These windows demonstrate the key data flows and user interactions without detailed UI elements like buttons or menus.
+
+\vspace{0.3cm}
+
+\textbf{Virtual Window 1: Recipe Detail View}
+
+This window shows how recipe data is presented to users, including ingredients with sale indicators, cooking details, and pricing information.
+
+\begin{table}[H]
+\centering
+\fbox{\begin{tabular}{p{13cm}}
+\multicolumn{1}{c}{\textbf{\large Swedish Meatballs with Cream Sauce}} \\[0.3cm]
+\hline
+\\[-0.2cm]
+\textbf{Cuisine:} Swedish \quad \textbf{Cooking Time:} 35 minutes \quad \textbf{Difficulty:} Medium \\
+\textbf{Servings:} 4 people \quad \textbf{Average Rating:} 4.5/5 (24 ratings) \\[0.2cm]
+\hline
+\\[-0.2cm]
+\textbf{Ingredients:} \\[0.1cm]
+\quad $\bullet$ Ground beef, 500g \quad \textcolor{red}{\textbf{ON SALE}} \quad Regular: 89 kr $\rightarrow$ Sale: 59 kr \\
+\quad $\bullet$ Breadcrumbs, 100g \\
+\quad $\bullet$ Onion, 1 medium \\
+\quad $\bullet$ Heavy cream, 200ml \quad \textcolor{red}{\textbf{ON SALE}} \quad Regular: 28 kr $\rightarrow$ Sale: 19 kr \\
+\quad $\bullet$ Butter, 50g \\
+\quad $\bullet$ Beef broth, 250ml \quad \textcolor{red}{\textbf{ON SALE}} \quad Regular: 15 kr $\rightarrow$ Sale: 11 kr \\
+\quad $\bullet$ Salt and pepper to taste \\[0.2cm]
+\hline
+\\[-0.2cm]
+\textbf{Instructions:} \\[0.1cm]
+1. Mix ground beef, breadcrumbs, chopped onion, salt and pepper. Form into small meatballs. \\
+2. Fry meatballs in butter until golden brown on all sides (about 10 minutes). \\
+3. Remove meatballs, add cream and beef broth to pan. Simmer for 5 minutes. \\
+4. Return meatballs to sauce and cook for additional 10 minutes. \\[0.2cm]
+\hline
+\\[-0.2cm]
+\textbf{Your Savings:} \\
+\quad Regular Total: 132 kr \quad \textbf{Sale Total: 89 kr} \quad \textcolor{green}{\textbf{You save: 43 kr (33\%)}} \\[0.1cm]
+\end{tabular}}
+\caption{Virtual Window 1: Recipe Detail with Sale-Based Ingredients}
+\label{tab:vw1_recipe}
+\end{table}
+
+\vspace{0.3cm}
+
+\textbf{Virtual Window 2: Shopping List View}
+
+This window demonstrates how the shopping list aggregates ingredients from multiple selected recipes, applies sale prices, and calculates total savings.
+
+\begin{table}[H]
+\centering
+\fbox{\begin{tabular}{p{13cm}}
+\multicolumn{1}{c}{\textbf{\large My Shopping List}} \\[0.2cm]
+\multicolumn{1}{l}{\textbf{Selected Store:} ICA Maxi Karlskrona} \\
+\multicolumn{1}{l}{\textbf{Recipes:} Swedish Meatballs (4 servings), Pasta Carbonara (4 servings)} \\[0.2cm]
+\hline
+\\[-0.2cm]
+\textbf{Dairy \& Eggs} \\
+\quad $\bullet$ Heavy cream, 400ml \quad \textcolor{red}{\textbf{SALE}} \quad 38 kr \quad (Regular: 56 kr) \\
+\quad $\bullet$ Parmesan cheese, 100g \quad 45 kr \\
+\quad $\bullet$ Eggs, 6 pieces \quad \textcolor{red}{\textbf{SALE}} \quad 25 kr \quad (Regular: 32 kr) \\
+\quad $\bullet$ Butter, 100g \quad 18 kr \\[0.2cm]
+\textbf{Meat \& Seafood} \\
+\quad $\bullet$ Ground beef, 500g \quad \textcolor{red}{\textbf{SALE}} \quad 59 kr \quad (Regular: 89 kr) \\
+\quad $\bullet$ Bacon, 200g \quad \textcolor{red}{\textbf{SALE}} \quad 35 kr \quad (Regular: 48 kr) \\[0.2cm]
+\textbf{Pantry \& Dry Goods} \\
+\quad $\bullet$ Spaghetti pasta, 500g \quad 15 kr \\
+\quad $\bullet$ Breadcrumbs, 100g \quad 12 kr \\
+\quad $\bullet$ Beef broth, 250ml \quad \textcolor{red}{\textbf{SALE}} \quad 11 kr \quad (Regular: 15 kr) \\[0.2cm]
+\textbf{Fresh Produce} \\
+\quad $\bullet$ Onion, 2 medium \quad 8 kr \\
+\quad $\bullet$ Garlic, 3 cloves \quad 5 kr \\[0.2cm]
+\hline
+\\[-0.2cm]
+\textbf{Price Summary:} \\
+\quad Regular Total Price: 338 kr \\
+\quad \textbf{Your Total with Sales: 271 kr} \\
+\quad \textcolor{green}{\textbf{Total Savings: 67 kr (20\%)}} \\
+\quad Number of items on sale: 5 out of 11 \\[0.1cm]
+\end{tabular}}
+\caption{Virtual Window 2: Shopping List with Aggregated Ingredients and Pricing}
+\label{tab:vw2_shoppinglist}
+\end{table}
+
+\vspace{0.3cm}
+
+\textbf{Virtual Window 3: Store Price Comparison View}
+
+This window shows how the system compares total shopping list prices across different stores, helping users make informed decisions about where to shop.
+
+\begin{table}[H]
+\centering
+\fbox{\begin{tabular}{p{13cm}}
+\multicolumn{1}{c}{\textbf{\large Compare Stores for Your Shopping List}} \\[0.2cm]
+\multicolumn{1}{l}{\textbf{Shopping List:} Swedish Meatballs + Pasta Carbonara (11 items)} \\
+\multicolumn{1}{l}{\textbf{Your Location:} Karlskrona City Center} \\[0.2cm]
+\hline
+\\[-0.2cm]
+\textbf{Store 1: ICA Maxi Karlskrona} \quad \textcolor{green}{\textbf{BEST PRICE}} \\
+\quad Distance from you: 2.3 km (7 min drive) \\
+\quad Items on sale: 5 out of 11 \\
+\quad Regular total: 338 kr \\
+\quad \textbf{Your total with sales: 271 kr} \\
+\quad \textcolor{green}{\textbf{You save: 67 kr (20\%)}} \\[0.3cm]
+
+\textbf{Store 2: Willys Karlskrona} \\
+\quad Distance from you: 1.8 km (6 min drive) \\
+\quad Items on sale: 3 out of 11 \\
+\quad Regular total: 325 kr \\
+\quad \textbf{Your total with sales: 289 kr} \\
+\quad You save: 36 kr (11\%) \\[0.3cm]
+
+\textbf{Store 3: Coop Karlskrona} \\
+\quad Distance from you: 3.1 km (9 min drive) \\
+\quad Items on sale: 4 out of 11 \\
+\quad Regular total: 342 kr \\
+\quad \textbf{Your total with sales: 298 kr} \\
+\quad You save: 44 kr (13\%) \\[0.2cm]
+\hline
+\\[-0.2cm]
+\textbf{Recommendation:} \\
+\quad ICA Maxi offers the best price for your shopping list, saving you an additional \\
+\quad 18 kr compared to Willys and 27 kr compared to Coop. \\[0.1cm]
+\end{tabular}}
+\caption{Virtual Window 3: Store Price Comparison and Recommendation}
+\label{tab:vw3_comparison}
+\end{table}
+
+\vspace{0.3cm}
+
+These virtual windows demonstrate the core data presentation requirements for CookWise:
+
+\begin{itemize}
+    \item \textbf{Recipe data integration:} Combining recipe details (DR1), ingredient information (DR1, DR2), and sale price data (DR1) to highlight cost-saving opportunities for users
+    \item \textbf{Shopping list aggregation:} Consolidating ingredients from multiple recipes (DR2) with accurate quantity calculations and price totals including sale discounts
+    \item \textbf{Multi-store comparison:} Presenting store information (DR1), location data, and total basket prices across different retailers to support informed shopping decisions
+    \item \textbf{Visual sale indicators:} Clear marking of discounted items to immediately communicate savings opportunities to users
+    \item \textbf{Savings calculations:} Transparent display of regular prices versus sale prices with percentage savings to demonstrate value proposition
+\end{itemize}

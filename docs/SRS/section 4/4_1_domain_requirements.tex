@@ -1,0 +1,13 @@
+\subsection{Domain Level Requirements}
+
+\noindent\textbf{DL1:} The system's core product and pricing data shall be sourced from grocery store websites through web scraping.
+
+\textbf{DL2:} The system operations shall comply with relevant data protection regulations (e.g., GDPR) regarding user and partner data.
+
+\textbf{DL3:} The system shall ensure all shopping lists contain only items available at a single physical store location (single-store shopping constraint).
+
+\textbf{DL4:} The calculation of a store's total basket price shall include all applicable promotions and discounts for the user.
+
+\textbf{DL5:} The system shall enforce rate limits and operational boundaries for external interfaces (web scraping limited to once daily per retailer, AI API limited to 100 requests per hour per user, geolocation API limited to 50 requests per user per day, and session timeout set to 30 minutes).
+
+\textbf{DL6:} The system shall process domain events triggered by user actions (login, search, filter, select), external service responses (AI recipe generation, geolocation queries, authentication validation), and scheduled operations (daily web scraping at 02:00 local time).

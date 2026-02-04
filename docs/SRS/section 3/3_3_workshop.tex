@@ -1,0 +1,75 @@
+\subsection{Requirements Workshop}
+
+\textbf{Selection Rationale:} A requirements workshop was conducted to consolidate findings from brainstorming and interviews into structured, traceable requirements including domain models, refined specifications, and traceability documentation.
+
+\vspace{0.4cm}
+
+\textbf{Execution:}
+
+\begin{itemize}
+    \item \textbf{Participants:} All four team members (Project Manager: Asif, Customer Coordinator: Letian Zhou, Project Members: Runlin, Oghenero)
+    \item \textbf{Duration:} 4 hours in group room with large screen and whiteboard
+    \item \textbf{Phase 1 - Domain Modeling (90 min):} Created Entity Relationship Diagram identifying core entities (User, Recipe, Ingredient, Store, Sale Item, Shopping List, Rating)
+    \item \textbf{Phase 2 - Requirement Refinement (120 min):} Reviewed and refined all preliminary requirements for clarity, completeness, and traceability
+    \item \textbf{Phase 3 - Traceability Mapping (30 min):} Linked requirements back to interview insights and business goals
+\end{itemize}
+
+\textbf{Requirements Elicited:}
+
+\begin{table}[h]
+\centering
+\caption{Requirements Elicited from Workshop}
+\begin{tabular}{|l|p{9cm}|}
+\hline
+\textbf{Req ID} & \textbf{Requirement Description} \\
+\hline
+\multicolumn{2}{|l|}{\textit{\textbf{Data Requirements (from ERD creation)}}} \\
+\hline
+DR1 & Core entity data models (User, Recipe, Ingredient, Rating, Store, Sale Item) \\
+\hline
+DR2 & Relationship models (Recipe-Ingredient, Shopping List, Shopping List Item) \\
+\hline
+DR3 & Data interchange formats (JSON for APIs, CSV/JSON for export, HTML parsing) \\
+\hline
+DR4 & System states (user sessions, operational states, recipe generation, shopping list) \\
+\hline
+\multicolumn{2}{|l|}{\textit{\textbf{Refined Product Requirements}}} \\
+\hline
+PR1 & External authentication (Google/Apple ID) \\
+\hline
+PR5 & User ratings and feedback for recipes (added during workshop discussion) \\
+\hline
+PR6 & Store AI generated recipes and their details \\
+\hline
+PR7 & Display complete recipe details with step by step instructions \\
+\hline
+PR10 & Search recipes by specific ingredients \\
+\hline
+PR12 & Daily web scraping to gather and update item data from store websites \\
+\hline
+PR14 & Display interactive map with store locations and navigation \\
+\hline
+PR15 & Calculate and display average ratings for recipes \\
+\hline
+\multicolumn{2}{|l|}{\textit{\textbf{Domain Requirements (refined)}}} \\
+\hline
+DL1 & Data sourced from store websites via web scraping (API partnerships future goal) \\
+\hline
+DL2 & Compliance with data protection regulations (GDPR) \\
+\hline
+DL5 & Rate limits and operational boundaries for external interfaces \\
+\hline
+DL6 & Domain events triggered by user actions and system operations \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Key Insights:}
+
+\begin{enumerate}
+    \item ERD creation revealed CookWise's value proposition depends on accurate, current sale price data, elevating QR3 (reliability/data accuracy) to top priority.
+
+    \item The workshop confirmed DL3 (single store shopping) as a fundamental domain constraint, reflected in the ERD by linking each shopping list to exactly one store.
+
+    \item Collaborative modeling revealed technical dependencies: PR1 (user accounts) must precede PR13 (preferences), and DL1 (sale data) plus DR1 (recipe database) must exist before PR2 (recipe suggestions) can function.
+\end{enumerate}

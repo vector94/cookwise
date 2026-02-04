@@ -1,0 +1,126 @@
+@startuml CookWise_ERD
+
+skinparam dpi 300
+
+skinparam linetype ortho
+skinparam nodesep 40
+skinparam ranksep 45
+skinparam defaultFontSize 9
+skinparam padding 2
+skinparam entity {
+  FontSize 9
+  AttributeFontSize 8
+}
+
+together {
+  entity "USER" as USER #E8E8E8 {
+    * User_ID <<PK>>
+    --
+    Email
+    Auth_Provider
+    Latitude, Longitude
+    Dietary_Restrictions
+  }
+  
+  entity "RATING" as RATING #FAD7A0 {
+    * Rating_ID <<PK>>
+    --
+    User_ID <<FK>>
+    Recipe_ID <<FK>>
+    Rating_Score
+  }
+  
+  entity "RECIPE" as RECIPE #D4E6F1 {
+    * Recipe_ID <<PK>>
+    --
+    Recipe_Name
+    Cuisine_Type
+    Cooking_Time
+    Difficulty_Level
+    Instructions
+  }
+}
+
+USER -[hidden]right- RATING
+RATING -[hidden]right- RECIPE
+
+together {
+  entity "RECIPE_INGREDIENT" as RI #D5F4E6 {
+    * Recipe_ID <<FK>>
+    * Ingredient_ID <<FK>>
+    --
+    Quantity
+    Unit
+  }
+  
+  entity "INGREDIENT" as ING #FAD7A0 {
+    * Ingredient_ID <<PK>>
+    --
+    Ingredient_Name
+    Category
+  }
+}
+
+RI -[hidden]right- ING
+
+together {
+  entity "SHOPPING_LIST" as SL #FADBD8 {
+    * List_ID <<PK>>
+    --
+    User_ID <<FK>>
+    Store_ID <<FK>>
+    Total_Price
+  }
+  
+  entity "STORE" as STORE #D5F4E6 {
+    * Store_ID <<PK>>
+    --
+    Store_Name
+    Latitude, Longitude
+  }
+  
+  entity "SALE_ITEM" as SALE #D4E6F1 {
+    * Sale_ID <<PK>>
+    --
+    Store_ID <<FK>>
+    Ingredient_ID <<FK>>
+    Sale_Price
+    Valid_From, Valid_To
+  }
+  
+  entity "SHOPPING_LIST_ITEM" as SLI #E8DAEF {
+    * List_ID <<FK>>
+    * Ingredient_ID <<FK>>
+    --
+    Quantity
+    Sale_ID <<FK>>
+  }
+}
+
+SL -[hidden]right- STORE
+STORE -[hidden]right- SALE
+SALE -[hidden]right- SLI
+
+USER -[hidden]down- RI
+RATING -[hidden]down- RI
+RECIPE -[hidden]down- ING
+RI -[hidden]down- SL
+ING -[hidden]down- STORE
+
+USER ||--o{ RATING : ""
+USER ||--down-o{ SL : ""
+
+RATING }o--|| RECIPE : ""
+RECIPE ||--down-o{ RI : ""
+RI }o--|| ING : ""
+
+SL ||--right-o{ SLI : ""
+SL }o--right-|| STORE : ""
+
+ING ||--down-o{ SALE : ""
+ING ||--down-o{ SLI : ""
+
+STORE ||--down-o{ SALE : ""
+SALE ||--left-o{ SLI : ""
+
+@enduml

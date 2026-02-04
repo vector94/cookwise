@@ -1,0 +1,27 @@
+\subsection{Use Case Specification}
+
+The following use case diagrams illustrate the functional interactions between users and the CookWise system. These diagrams complement the product requirements by visualizing the user's journey through the system.
+
+\vspace{0.5cm}
+
+\noindent\textbf{Overall System Use Cases}
+
+Figure \ref{fig:usecase_overall} presents an overview of all primary use cases available to users in the CookWise system. The diagram shows that recipe browsing is dependent on store selection (<<include>> relationship), and shopping list creation follows from recipe browsing. The use cases are ordered from top to bottom following the typical user flow: login, store selection, recipe browsing, and supporting features.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{images/usecase_overall.png}
+    \caption{Overall System Use Case Diagram for CookWise}
+    \label{fig:usecase_overall}
+\end{figure}
+
+\noindent\textbf{Detailed Use Case: Browse Recipes from Store Sale Items}
+
+Figure \ref{fig:usecase_browse_detail} provides a detailed view of the core use case "Browse Recipes from Store Sale Items." This use case represents the primary value proposition of CookWise: enabling users to discover recipes based on current sales at their selected grocery store. The diagram shows the main flow (blue) with required steps (<<include>> relationships) and optional extensions (yellow) such as filtering, searching, and viewing details (<<extend>> relationships). The PlantUML source code for both diagrams is provided in Appendix C.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{images/usecase_browse_detail.png}
+    \caption{Detailed Use Case: Browse Recipes from Store Sale Items}
+    \label{fig:usecase_browse_detail}
+\end{figure}

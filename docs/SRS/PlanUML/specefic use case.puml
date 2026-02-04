@@ -1,0 +1,32 @@
+@startuml Browse_Recipes_Detail
+skinparam packageStyle rectangle
+skinparam linetype ortho
+
+actor "User" as User
+
+rectangle "Browse Recipes from Store Sale Items" {
+  
+  usecase "Browse Recipes from\nStore Sale Items" as Main #LightBlue
+  
+  usecase "Select Store" as SelectStore
+  usecase "Display Sale-Based Recipes" as ShowRecipes
+  usecase "Select Recipe(s)" as SelectRecipe
+  usecase "Generate Shopping List" as GenList
+  
+  usecase "Filter Recipes" as Filter #LightYellow
+  usecase "Search by Ingredient" as Search #LightYellow
+  usecase "View Recipe Details" as ViewDetails #LightYellow
+}
+
+User --> Main
+
+Main ..> SelectStore : <<include>>
+Main ..> ShowRecipes : <<include>>
+Main ..> SelectRecipe : <<include>>
+Main ..> GenList : <<include>>
+
+Filter ..> ShowRecipes : <<extend>>
+Search ..> ShowRecipes : <<extend>>
+ViewDetails ..> SelectRecipe : <<extend>>
+
+@enduml

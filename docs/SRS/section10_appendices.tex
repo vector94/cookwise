@@ -1,0 +1,536 @@
+\section{Appendices}
+
+\subsection{Appendix A: CookWise User Survey Questionnaire}
+
+This appendix contains the complete questionnaire administered to 25 participants as described in Section 3.4. The questionnaire was designed to quantitatively validate findings from interviews.
+
+\noindent\textbf{Section 1: Demographics}
+\textbf{Q1. What is your age group?}
+\begin{itemize}
+    \item[$\square$] 18-24 years
+    \item[$\square$] 25-34 years
+    \item[$\square$] 35-44 years
+    \item[$\square$] 45-54 years
+    \item[$\square$] 55+ years
+\end{itemize}
+
+\textbf{Q2. What is your primary role in household grocery shopping?}
+\begin{itemize}
+    \item[$\square$] Primarily responsible
+    \item[$\square$] Shared responsibility
+    \item[$\square$] Occasionally help
+    \item[$\square$] Not responsible
+\end{itemize}
+
+\textbf{Q3. How many people live in your household?}
+\begin{itemize}
+    \item[$\square$] 1 person (living alone)
+    \item[$\square$] 2 people
+    \item[$\square$] 3-4 people
+    \item[$\square$] 5+ people
+\end{itemize}
+
+\noindent\textbf{Section 2: Shopping Behaviors}
+
+\textbf{Q4. How often do you grocery shop?}
+\begin{itemize}
+    \item[$\square$] Multiple times per week
+    \item[$\square$] Once per week
+    \item[$\square$] Once every 2 weeks
+    \item[$\square$] Less frequently
+\end{itemize}
+
+\textbf{Q5. Do you typically shop at one store or multiple stores?}
+\begin{itemize}
+    \item[$\square$] Always at one store
+    \item[$\square$] Rarely visit multiple stores (only in rare cases)
+    \item[$\square$] Frequently shop at multiple stores
+\end{itemize}
+
+\textbf{Q6. Which grocery stores do you use most frequently? (Select all that apply)}
+\begin{itemize}
+    \item[$\square$] ICA
+    \item[$\square$] Willys
+    \item[$\square$] Coop
+    \item[$\square$] Lidl
+    \item[$\square$] Hemköp
+    \item[$\square$] Other: \_\_\_\_\_\_\_\_\_\_
+\end{itemize}
+
+\noindent\textbf{Section 3: Price Sensitivity}
+\vspace{0.2cm}
+\textbf{Q7. How often do you check for sales or discounts before shopping?}
+\begin{itemize}
+    \item[$\square$] Always
+    \item[$\square$] Often
+    \item[$\square$] Sometimes
+    \item[$\square$] Rarely
+    \item[$\square$] Never
+\end{itemize}
+
+\textbf{Q8. How much money would you need to save to consider switching to a different store?}
+\begin{itemize}
+    \item[$\square$] Less than 25 SEK
+    \item[$\square$] 25-50 SEK
+    \item[$\square$] 50-100 SEK
+    \item[$\square$] More than 100 SEK
+    \item[$\square$] Would not switch regardless of savings
+\end{itemize}
+
+\textbf{Q9. On a scale of 1-5, how important is it to see a detailed breakdown of your savings?} \\
+(1 = Not important, 5 = Very important)
+\begin{itemize}
+    \item[$\square$] 1 \quad $\square$ 2 \quad $\square$ 3 \quad $\square$ 4 \quad $\square$ 5
+\end{itemize}
+
+\noindent\textbf{Section 4: Meal Planning Habits}
+\vspace{0.2cm}
+\textbf{Q10. How much time do you spend per week planning meals and creating shopping lists?}
+\begin{itemize}
+    \item[$\square$] Less than 15 minutes
+    \item[$\square$] 15-30 minutes
+    \item[$\square$] 30-60 minutes
+    \item[$\square$] More than 60 minutes
+\end{itemize}
+
+\textbf{Q11. Please rank the following factors in order of importance when planning meals:} \\
+(1 = most important, 5 = least important)
+
+\begin{tabular}{ll}
+Cost/Budget & \_\_\_\_ \\
+Health/Nutrition & \_\_\_\_ \\
+Time/Convenience & \_\_\_\_ \\
+Family preference & \_\_\_\_ \\
+Variety & \_\_\_\_ \\
+\end{tabular}
+
+\textbf{Q12. Do you have any dietary restrictions or preferences?}
+\begin{itemize}
+    \item[$\square$] None
+    \item[$\square$] Vegetarian
+    \item[$\square$] Vegan
+    \item[$\square$] Gluten-free
+    \item[$\square$] Lactose-free
+    \item[$\square$] Other: \_\_\_\_\_\_\_\_\_\_
+\end{itemize}
+
+\noindent\textbf{Section 5: Interest in CookWise Concept}
+
+\textbf{Q13. On a scale of 1-5, how interested would you be in an app that automatically suggests recipes based on current sales at your local stores?} \\
+(1 = Not interested, 5 = Very interested)
+\begin{itemize}
+    \item[$\square$] 1 \quad $\square$ 2 \quad $\square$ 3 \quad $\square$ 4 \quad $\square$ 5
+\end{itemize}
+
+\textbf{Q14. Which of the following features would be most valuable to you? (Select top 3)}
+\begin{itemize}
+    \item[$\square$] Recipe suggestions based on current sales
+    \item[$\square$] Automatic shopping list generation
+    \item[$\square$] Price comparison across stores
+    \item[$\square$] Dietary restriction filters
+    \item[$\square$] Meal planning calendar
+    \item[$\square$] Recipe ratings and reviews
+    \item[$\square$] Savings calculator
+\end{itemize}
+
+\textbf{Q15. What would prevent you from using such an app? (Open-ended)}
+
+\subsection{Appendix B: Entity Relation Diagram - PlantUML Source Code}
+
+This appendix contains the PlantUML source code for the Entity Relation Diagram shown in Section 4.3. This code can be used to regenerate or modify the diagram using any PlantUML renderer.
+
+\begin{verbatim}
+@startuml CookWise_ERD
+
+skinparam dpi 300
+
+skinparam linetype ortho
+skinparam nodesep 40
+skinparam ranksep 45
+skinparam defaultFontSize 9
+skinparam padding 2
+skinparam entity {
+  FontSize 9
+  AttributeFontSize 8
+}
+
+together {
+  entity "USER" as USER #E8E8E8 {
+    * User_ID <<PK>>
+    --
+    Email
+    Auth_Provider
+    Latitude, Longitude
+    Dietary_Restrictions
+  }
+
+  entity "RATING" as RATING #FAD7A0 {
+    * Rating_ID <<PK>>
+    --
+    User_ID <<FK>>
+    Recipe_ID <<FK>>
+    Rating_Score
+  }
+
+  entity "RECIPE" as RECIPE #D4E6F1 {
+    * Recipe_ID <<PK>>
+    --
+    Recipe_Name
+    Cuisine_Type
+    Cooking_Time
+    Difficulty_Level
+    Instructions
+  }
+}
+
+USER -[hidden]right- RATING
+RATING -[hidden]right- RECIPE
+
+together {
+  entity "RECIPE_INGREDIENT" as RI #D5F4E6 {
+    * Recipe_ID <<FK>>
+    * Ingredient_ID <<FK>>
+    --
+    Quantity
+    Unit
+  }
+
+  entity "INGREDIENT" as ING #FAD7A0 {
+    * Ingredient_ID <<PK>>
+    --
+    Ingredient_Name
+    Category
+  }
+}
+
+RI -[hidden]right- ING
+
+together {
+  entity "SHOPPING_LIST" as SL #FADBD8 {
+    * List_ID <<PK>>
+    --
+    User_ID <<FK>>
+    Store_ID <<FK>>
+    Total_Price
+  }
+
+  entity "STORE" as STORE #D5F4E6 {
+    * Store_ID <<PK>>
+    --
+    Store_Name
+    Latitude, Longitude
+  }
+
+  entity "SALE_ITEM" as SALE #D4E6F1 {
+    * Sale_ID <<PK>>
+    --
+    Store_ID <<FK>>
+    Ingredient_ID <<FK>>
+    Sale_Price
+    Valid_From, Valid_To
+  }
+
+  entity "SHOPPING_LIST_ITEM" as SLI #E8DAEF {
+    * List_ID <<FK>>
+    * Ingredient_ID <<FK>>
+    --
+    Quantity
+    Sale_ID <<FK>>
+  }
+}
+
+SL -[hidden]right- STORE
+STORE -[hidden]right- SALE
+SALE -[hidden]right- SLI
+
+USER -[hidden]down- RI
+RATING -[hidden]down- RI
+RECIPE -[hidden]down- ING
+RI -[hidden]down- SL
+ING -[hidden]down- STORE
+
+USER ||--o{ RATING : ""
+USER ||--down-o{ SL : ""
+
+RATING }o--|| RECIPE : ""
+RECIPE ||--down-o{ RI : ""
+RI }o--|| ING : ""
+
+SL ||--right-o{ SLI : ""
+SL }o--right-|| STORE : ""
+
+ING ||--down-o{ SALE : ""
+ING ||--down-o{ SLI : ""
+
+STORE ||--down-o{ SALE : ""
+SALE ||--left-o{ SLI : ""
+
+@enduml
+\end{verbatim}
+
+\textbf{To regenerate the diagram:}
+\begin{enumerate}
+    \item Copy the code above
+    \item Visit https://www.plantuml.com/plantuml/uml/ or use a local PlantUML installation
+    \item Paste the code and generate the diagram
+    \item Export as PNG or SVG as needed
+\end{enumerate}
+
+\subsection{Appendix C: Use Case Diagrams - PlantUML Source Code}
+
+This appendix contains the PlantUML source code for the use case diagrams shown in Section 4.2. These codes can be used to regenerate or modify the diagrams using any PlantUML renderer.
+
+\noindent\textbf{Overall System Use Case Diagram}
+
+\begin{verbatim}
+@startuml CookWise_Overall
+left to right direction
+skinparam packageStyle rectangle
+skinparam linetype ortho
+
+actor "User" as User
+
+rectangle "CookWise System" {
+  usecase "Login to System" as UC1
+  usecase "Select Store" as UC2
+  usecase "Browse Recipes\nBased on Store Sales" as UC3
+  usecase "View Recipe Details" as UC4
+  usecase "Create Shopping List" as UC5
+  usecase "View Total Savings" as UC6
+  usecase "Get Store Directions" as UC7
+  usecase "Rate Recipes" as UC8
+  usecase "Save Favorites" as UC9
+}
+
+User --> UC1
+User --> UC2
+User --> UC3
+User --> UC4
+User --> UC5
+User --> UC6
+User --> UC7
+User --> UC8
+User --> UC9
+
+UC3 ..> UC2 : <<include>>
+UC5 ..> UC3 : <<include>>
+
+@enduml
+\end{verbatim}
+
+\noindent\textbf{Detailed Use Case: Browse Recipes from Store Sale Items}
+
+\begin{verbatim}
+@startuml Browse_Recipes_Detail
+skinparam packageStyle rectangle
+skinparam linetype ortho
+
+actor "User" as User
+
+rectangle "Browse Recipes from Store Sale Items" {
+
+  usecase "Browse Recipes from\nStore Sale Items" as Main #LightBlue
+
+  usecase "Select Store" as SelectStore
+  usecase "Display Sale-Based Recipes" as ShowRecipes
+  usecase "Select Recipe(s)" as SelectRecipe
+  usecase "Generate Shopping List" as GenList
+
+  usecase "Filter Recipes" as Filter #LightYellow
+  usecase "Search by Ingredient" as Search #LightYellow
+  usecase "View Recipe Details" as ViewDetails #LightYellow
+}
+
+User --> Main
+
+Main ..> SelectStore : <<include>>
+Main ..> ShowRecipes : <<include>>
+Main ..> SelectRecipe : <<include>>
+Main ..> GenList : <<include>>
+
+Filter ..> ShowRecipes : <<extend>>
+Search ..> ShowRecipes : <<extend>>
+ViewDetails ..> SelectRecipe : <<extend>>
+
+@enduml
+\end{verbatim}
+
+\subsection{Appendix D: AI-Generated Prototype Prompt (Base64)}
+\label{appendix:base64_prompt}
+
+This appendix contains the complete prompt used to generate the functional Base64 prototype described in Section 3.5. The prompt was provided to Claude AI (with Artifacts capability) to create a working interactive prototype of the CookWise application.
+
+\begin{verbatim}
+I need you to create a functional prototype for CookWise, a meal planning
+and grocery shopping optimization app for the Swedish market. This is based
+on our comprehensive System Requirements Document.
+
+Project Overview
+CookWise helps budget-conscious Swedish families save money by suggesting
+recipes based on current sales at major grocery stores (ICA, Willys, Coop)
+and generating optimized shopping lists.
+
+Core Features to Implement (MVP - Release 1.0)
+
+User Authentication
+- External authentication via Google/Apple ID
+- User profile with dietary restrictions (vegetarian, vegan, gluten-free,
+  lactose-free)
+- Location-based services (Swedish cities, default: Karlskrona)
+
+Recipe System
+- Database of Swedish recipes with local ingredients
+- AI-generated recipe suggestions based on current sales
+- Recipe search and filtering by:
+  * Cuisine type (Swedish, Mediterranean, Asian, etc.)
+  * Cooking time
+  * Difficulty level
+  * Dietary restrictions
+  * Budget level (Low Budget, Medium, High)
+- Recipe detail pages showing:
+  * Ingredients with quantities
+  * Step-by-step instructions
+  * Nutritional information
+  * Estimated cost
+  * Potential savings
+
+Store & Price Data
+- Support for three major Swedish retailers: ICA, Willys, Coop
+- Display current sale items by category (Fruits, Vegetables, Bakery,
+  Seafood, Nuts)
+- Price comparison across retailers for same products
+- Store location data with map integration
+
+Shopping List Generation
+- Automatic shopping list creation from selected recipes
+- Single-store optimization (recommend best store based on total price
+  + distance)
+- Display of savings calculation
+- Quantity adjustment controls
+- Running total display
+
+Navigation & UI
+- Bottom navigation: Home, Items, Recipes, User
+- Swedish language interface
+- Mobile-first responsive design
+- Clean, modern aesthetic with food photography
+
+Key Screens to Implement
+1. Home Screen: Store selection, search bar, promotional banner,
+   featured recipes
+2. Store Pages: Category tabs, product grid with prices, "Add to cart"
+   buttons
+3. Recipe Browse: Category filters, recipe cards with images
+4. Recipe Detail: Hero image, ingredients list, instructions, price
+   breakdown
+5. Shopping Cart: Item list, quantities, running total, store display
+6. User Profile: Settings, dietary preferences, purchase history
+
+
+Specific Implementation Requests
+- Create a mock database with 20-30 Swedish recipes and sample sale data
+- Implement the recipe suggestion algorithm that matches recipes with
+  current sales
+- Build the shopping list optimizer that recommends the best single store
+- Include realistic Swedish product names and prices in SEK
+- Add sample store locations in Karlskrona and surrounding areas
+- Implement basic search and filtering functionality
+- Show savings calculations clearly to users
+
+Context
+- Target market: Sweden (Swedish language, SEK currency, local stores)
+- Target users: Budget-conscious families, busy professionals, cooking
+  enthusiasts
+- Key value proposition: Save money by cooking with sale items
+- Competitive advantage: Automatic sale-to-recipe matching
+
+Please create a working prototype that demonstrates the core user flow:
+Browse sale items → Get recipe suggestions → Generate shopping list →
+See savings. Focus on making it functional and visually appealing rather
+than production-ready. Use placeholder/mock data where real integrations
+would be required.
+\end{verbatim}
+\subsection{Appendix E: Complete Requirements Checklist}
+
+This appendix provides a master checklist of all CookWise system requirements organized by type. This checklist can be used for tracking implementation progress, testing coverage, and release planning.
+
+\begin{longtable}{|p{1.5cm}|p{8cm}|p{2cm}|p{1.8cm}|}
+\hline
+\textbf{ID} & \textbf{Requirement Description} & \textbf{Priority} & \textbf{Release} \\
+\hline
+\endfirsthead
+\hline
+\textbf{ID} & \textbf{Requirement Description} & \textbf{Priority} & \textbf{Release} \\
+\hline
+\endhead
+\multicolumn{4}{|l|}{\textbf{Domain Level Requirements (DL)}} \\
+\hline
+DL1 & Web scraping for product and pricing data from grocery stores & Must Have & 1.0 \\
+\hline
+DL2 & GDPR compliance for user and partner data & Must Have & 1.0 \\
+\hline
+DL3 & Single-store shopping constraint (all items from one location) & Should Have & 2.0 \\
+\hline
+DL4 & Total basket price calculation includes promotions and discounts & Must Have & 1.0 \\
+\hline
+DL5 & Rate limits and operational boundaries for external interfaces & Should Have & 2.0 \\
+\hline
+DL6 & Domain event processing (user actions, external responses, scheduled operations) & Could Have & 3.0 \\
+\hline
+\multicolumn{4}{|l|}{\textbf{Product Requirements (PR)}} \\
+\hline
+PR1 & External authentication (Google/Apple ID) & Must Have & 1.0 \\
+\hline
+PR2 & AI Recipe Generation API integration & Must Have & 1.0 \\
+\hline
+PR2.1 & Display top 5 AI-generated recipes ranked by cost savings & Must Have & 1.0 \\
+\hline
+PR3 & Recipe search filtering (cuisine, dietary, budget, time, difficulty, ratings) & Must Have & 1.0 \\
+\hline
+PR4 & Automatic consolidated shopping list generation & Must Have & 1.0 \\
+\hline
+PR5 & Record individual user ratings (1-5 scale) and text feedback & Should Have & 2.0 \\
+\hline
+PR6 & Store AI-generated recipes and details & Must Have & 1.0 \\
+\hline
+PR7 & Display recipe details (ingredients, time, difficulty, instructions, nutrition) & Must Have & 1.0 \\
+\hline
+PR8 & Display store price comparisons and distances from user location & Should Have & 2.0 \\
+\hline
+PR9 & Display total savings amount and itemized price differences & Must Have & 1.0 \\
+\hline
+PR10 & Display recipes containing specified ingredients & Should Have & 2.0 \\
+\hline
+PR11 & Display all ingredients with sale items highlighted and listed first & Must Have & 1.0 \\
+\hline
+PR12 & Daily web scraping at 02:00 local time & Must Have & 1.0 \\
+\hline
+PR13 & Store user preferences for ingredients and recipes & Should Have & 2.0 \\
+\hline
+PR14 & Provide "Get Directions" links to external mapping applications & Could Have & 3.0 \\
+\hline
+PR15 & Calculate and display average ratings for each recipe & Should Have & 2.0 \\
+\hline
+\multicolumn{4}{|l|}{\textbf{Data Requirements (DR)}} \\
+\hline
+DR1 & Core entity data models (User, Recipe, Ingredient, Rating, Store, Sale Item) & Must Have & 1.0 \\
+\hline
+DR2 & Relationship and associative entity data models (Recipe-Ingredient, Shopping List, Shopping List Item) & Must Have & 1.0 \\
+\hline
+DR3 & Data interchange formats (JSON for APIs, CSV/JSON for export, HTML parsing, UTF-8 encoding) & Should Have & 2.0 \\
+\hline
+DR4 & System states and initial seed data (100 recipes, store info, 500 ingredients) & Should Have & 2.0 \\
+\hline
+\multicolumn{4}{|l|}{\textbf{Quality Requirements (QR)}} \\
+\hline
+QR1 & Accuracy: 95\% accuracy in sale price data & Must Have & 1.0 \\
+\hline
+QR2 & Reliability: 98\% uptime during peak hours (17:00-20:00) & Should Have & 2.0 \\
+\hline
+QR3 & Performance: 5 seconds recipe generation response time (95th percentile) & Must Have & 1.0 \\
+\hline
+QR4 & Usability: 8 minutes for first recipe selection (new users) & Should Have & 2.0 \\
+\hline
+QR5 & Scalability: Support 300 concurrent users with acceptable performance & Should Have & 2.0 \\
+\hline
+\end{longtable}

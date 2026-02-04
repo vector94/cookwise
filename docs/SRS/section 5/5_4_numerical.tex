@@ -1,0 +1,90 @@
+\subsection{Prioritization Technique 3: Numerical Assignment}
+
+\noindent\textbf{Description of Technique}
+
+Numerical Assignment categorizes requirements into three priority groups: Critical (essential for system to function and deliver core value), Standard (important enhancements but not necessary for initial launch), and Optional (desirable features with limited impact if omitted).
+
+\vspace{0.5cm}
+
+\noindent\textbf{Application Process}
+
+After completing the 100 Dollar Test and Ranking exercises, each team member independently categorized requirements from Section 4 into three priority groups based on technical foundation, core value proposition support, user experience enhancement, and deferability. The team then reached consensus through structured discussion.
+
+\vspace{0.5cm}
+
+\noindent\textbf{Results}
+
+Table \ref{tab:numerical} presents the Numerical Assignment categorization of CookWise requirements.
+
+\begin{table}[H]
+\centering
+\caption{Numerical Assignment Categorization for CookWise Requirements}
+\label{tab:numerical}
+\begin{tabular}{|l|l|c|}
+\hline
+\textbf{ID} & \textbf{Requirement Description} & \textbf{Category} \\
+\hline
+\multicolumn{3}{|c|}{\textbf{CRITICAL}} \\
+\hline
+PR1 & User authentication via external services & Critical \\
+\hline
+DL1 & Web scraping for product and pricing data & Critical \\
+\hline
+PR2 & AI-generated recipe suggestions based on sales & Critical \\
+\hline
+PR3 & Recipe filtering by cuisine and dietary restrictions & Critical \\
+\hline
+PR4 & Automatic shopping list generation from recipes & Critical \\
+\hline
+PR12 & Daily web scraping for product data & Critical \\
+\hline
+QR3 & Performance: Recipe generation response time & Critical \\
+\hline
+QR1 & Accuracy: Price data correctness & Critical \\
+\hline
+\multicolumn{3}{|c|}{\textbf{STANDARD}} \\
+\hline
+DL2 & GDPR compliance for user and partner data & Standard \\
+\hline
+DL3 & Single-store shopping constraint & Standard \\
+\hline
+PR7 & Display recipe details with instructions & Standard \\
+\hline
+PR8 & Store price comparisons and distances & Standard \\
+\hline
+PR9 & Display total savings and price differences & Standard \\
+\hline
+PR13 & Store user preferences for ingredients and recipes & Standard \\
+\hline
+QR4 & Usability: Time to complete first recipe selection & Standard \\
+\hline
+QR5 & Scalability: Concurrent user capacity & Standard \\
+\hline
+\multicolumn{3}{|c|}{\textbf{OPTIONAL}} \\
+\hline
+DL4 & Promotions and discounts in basket price & Optional \\
+\hline
+DL5 & Rate limits for external interfaces & Optional \\
+\hline
+DL6 & Domain events processing & Optional \\
+\hline
+PR5 & Record user ratings and feedback & Optional \\
+\hline
+PR6 & Store AI-generated recipes and details & Optional \\
+\hline
+PR10 & Display recipes by ingredient search & Optional \\
+\hline
+PR11 & Display additional ingredients with sale items first & Optional \\
+\hline
+PR14 & Interactive map with store locations and routes & Optional \\
+\hline
+PR15 & Display average recipe ratings & Optional \\
+\hline
+QR2 & Reliability: System uptime during peak hours & Optional \\
+\hline
+\end{tabular}
+\end{table}
+
+The Numerical Assignment categorization identified 8 Critical requirements (31\% of total), 8 Standard requirements (31\%), and 10 Optional requirements (38\%). This distribution shows a reasonable balance, with a focused set of Critical requirements deemed absolutely essential for the initial release, an equally sized group of Standard enhancements, and a larger set of Optional features that can be deferred to future releases.
+
+Note that PR13 (Store user preferences) was classified as Standard rather than Critical, as while it enhances personalization significantly, the core functionality can operate without it for the initial MVP release.

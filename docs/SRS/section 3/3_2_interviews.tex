@@ -1,0 +1,56 @@
+\subsection{Interviews}
+
+\textbf{Selection Rationale:} Semi-structured interviews were conducted early in the project to gain deep, qualitative understanding of users' grocery shopping journeys, pain points, and decision-making processes.
+
+\vspace{0.4cm}
+
+\textbf{Execution:}
+
+\begin{itemize}
+    \item \textbf{Participants:} 10 individuals in Karlskrona (5 university students, 2 professionals, 3 household members)
+    \item \textbf{Duration:} 5-10 minutes per interview
+    \item \textbf{Method:} Semi-structured, in-person interviews focusing on recent shopping experiences
+    \item \textbf{Topics Covered:} Meal planning habits, store selection criteria, price comparison behaviors, recipe discovery
+\end{itemize}
+
+\textbf{Requirements Elicited:}
+
+\begin{table}[h]
+\centering
+\caption{Requirements from Interviews}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Requirement ID} & \textbf{Description} \\
+\hline
+\multicolumn{2}{|l|}{\textit{\textbf{Domain Requirements}}} \\
+\hline
+DL3 & Single store shopping constraint \\
+\hline
+DL4 & Include all applicable promotions in basket price \\
+\hline
+\multicolumn{2}{|l|}{\textit{\textbf{Product Requirements}}} \\
+\hline
+PR2 & AI recipe suggestions using discounted ingredients \\
+\hline
+PR8 & Store recommendation based on total cost and distance \\
+\hline
+PR9 & Display detailed savings breakdown \\
+\hline
+\multicolumn{2}{|l|}{\textit{\textbf{Quality Requirements}}} \\
+\hline
+QR1 & Performance critical (time savings valued) \\
+\hline
+QR3 & Reliability critical (price data accuracy) \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Key Insights:}
+
+Interviews revealed two critical findings:
+
+\begin{enumerate}
+    \item Users strongly prefer single-store shopping despite being price-conscious, validating DL3 as a fundamental constraint.
+
+    \item Time is valued more than money, with users spending 30+ minutes weekly manually matching sales to recipes, elevating QR1 (performance) to top priority.
+\end{enumerate}

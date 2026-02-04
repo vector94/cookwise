@@ -1,0 +1,82 @@
+\subsection{Prioritization Technique 2: Ranking}
+
+\noindent\textbf{Description of Technique}
+
+Ranking is an ordinal scale technique where requirements are arranged in strict order from highest to lowest priority, with each requirement receiving a unique rank number (1 = highest priority).
+
+\vspace{0.5cm}
+
+\noindent\textbf{Application Process}
+
+After completing the 100 Dollar Test, the team reviewed point allocations and established a final ranking considering technical dependencies, implementation cost, and strategic importance for initial release.
+
+\vspace{0.5cm}
+
+\noindent\textbf{Results}
+
+Table \ref{tab:ranking} presents the final ranking of CookWise requirements.
+
+\begin{table}[H]
+\centering
+\caption{Ranking Results for CookWise Requirements}
+\label{tab:ranking}
+\begin{tabular}{|c|l|l|}
+\hline
+\textbf{Rank} & \textbf{ID} & \textbf{Requirement Description} \\
+\hline
+1 & PR1 & User authentication via external services \\
+\hline
+2 & DL1 & Web scraping for product and pricing data \\
+\hline
+3 & PR2 & AI-generated recipe suggestions based on sales \\
+\hline
+4 & PR4 & Automatic shopping list generation from recipes \\
+\hline
+5 & PR3 & Recipe filtering by cuisine and dietary restrictions \\
+\hline
+6 & PR12 & Daily web scraping for product data \\
+\hline
+7 & QR3 & Performance: Recipe generation response time \\
+\hline
+8 & DL3 & Single-store shopping constraint \\
+\hline
+9 & QR4 & Usability: Time to complete first recipe selection \\
+\hline
+10 & QR1 & Accuracy: Price data correctness \\
+\hline
+11 & DL2 & GDPR compliance for user and partner data \\
+\hline
+12 & PR8 & Store price comparisons and distances \\
+\hline
+13 & PR9 & Display total savings and price differences \\
+\hline
+14 & PR13 & Store user preferences for ingredients and recipes \\
+\hline
+15 & PR7 & Display recipe details with instructions \\
+\hline
+16 & QR5 & Scalability: Concurrent user capacity \\
+\hline
+17 & DL4 & Promotions and discounts in basket price \\
+\hline
+18 & QR2 & Reliability: System uptime during peak hours \\
+\hline
+19 & PR5 & Record user ratings and feedback \\
+\hline
+20 & PR6 & Store AI-generated recipes and details \\
+\hline
+21 & PR10 & Display recipes by ingredient search \\
+\hline
+22 & PR11 & Display additional ingredients with sale items first \\
+\hline
+23 & PR14 & Interactive map with store locations and routes \\
+\hline
+24 & PR15 & Display average recipe ratings \\
+\hline
+25 & DL5 & Rate limits for external interfaces \\
+\hline
+26 & DL6 & Domain events processing \\
+\hline
+\end{tabular}
+\end{table}
+
+The ranking shows some differences from the 100 Dollar Test results. Notably, PR1 (User authentication) is ranked first because it is a foundational requirement that must be implemented before most other features can function. Although it received fewer points in the 100 Dollar Test, its technical dependency elevated its rank. Similarly, DL1 (Web scraping) ranks second as it provides the essential data foundation for the entire application.

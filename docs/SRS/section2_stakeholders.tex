@@ -1,0 +1,70 @@
+\section{Stakeholder Identification and Analysis}
+
+The following stakeholders have been identified for the system. For each stakeholder, we describe who they are, what goals they have for the system, why they would use or support it, and what concerns or risks they see. They are organized into four categories based on their relationship to the product.
+
+\subsection{Daily Users}
+
+These are the end users who will interact with the application regularly.
+
+\begin{longtable}{|p{4cm}|p{8cm}|p{2cm}|}
+\hline
+\textbf{Stakeholder} & \textbf{Description} & \textbf{Priority} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Stakeholder} & \textbf{Description} & \textbf{Priority} \\
+\hline
+\endhead
+Budget Conscious Home Cooks & Families and individuals who do household grocery shopping and are highly price sensitive. They want the system to help them discover recipes based on current store sales, calculate their total savings, and reduce food waste by providing exact ingredient amounts. However, they worry that the system might recommend cheap items that do not match their preferences. They are concerned about the time needed to learn the system. & Critical \\
+\hline
+Time Constrained Users & Busy professionals, young workers, and people who recently moved to Sweden. These users have limited time for meal planning and grocery shopping. They need quick recipe ideas, efficient shopping routes, and help finding local stores. Their main worry is whether the app will be easy to use or add complexity to their schedules. & Critical \\
+\hline
+Culinary Enthusiasts & People who love cooking and enjoy trying new recipes and cuisines. They want the system to suggest creative recipes using seasonal ingredients or discounted specialty items. This helps them explore new dishes while keeping costs reasonable. They are concerned that the system might not provide enough variety beyond basic recipes. & High \\
+\hline
+\end{longtable}
+
+\subsection{Internal Team (Development and Management)}
+
+These are team members within our organization who are responsible for building and managing the product.
+
+\begin{longtable}{|p{4cm}|p{8cm}|p{2cm}|}
+\hline
+\textbf{Stakeholder} & \textbf{Description} & \textbf{Priority} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Stakeholder} & \textbf{Description} & \textbf{Priority} \\
+\hline
+\endhead
+Product Manager & The person who owns the product vision and decides which features are most important. They gather user feedback, study the market, and ensure the product achieves business success. They must balance what different stakeholders want and make smart decisions about what to build and when. Their main concern is ensuring the product provides real value to users while remaining technically and financially feasible. & Critical \\
+\hline
+Development Team & The technical staff who design, build, test, and maintain the system. They need clear requirements that explain exactly what to build. They must ensure the system works reliably. Their concerns include handling technical challenges, connecting multiple external services such as AI for recipes and maps for locations, and ensuring the system performs well when many users access it simultaneously. & Critical \\
+\hline
+Marketing \& Sales Team & The team who promotes the application, acquires new users, and builds partnerships with grocery stores. They need strong messages that clearly explain why users should choose this app over others. Their success depends on securing data partnerships with stores and achieving user adoption targets. They worry about market competition and the difficulty of convincing stores to collaborate. & High \\
+\hline
+\end{longtable}
+
+\subsection{Business Partners and Resource Providers}
+
+External organizations provide essential data, services, or resources for the system.
+
+\begin{longtable}{|p{4cm}|p{8cm}|p{2cm}|}
+\hline
+\textbf{Stakeholder} & \textbf{Description} & \textbf{Priority} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Stakeholder} & \textbf{Description} & \textbf{Priority} \\
+\hline
+\endhead
+Grocery Store Chains (ICA, Willys, Coop) & Swedish supermarket chains that provide pricing and product data through web scraping. In the future, there will be official partnerships where stores directly share their data. They benefit from increased customer traffic and faster turnover of expiring or seasonal products. Their concerns include data sharing agreements, competitive implications, and alignment with their own digital strategies. & Critical \\
+\hline
+AI Service Provider & An external company that provides artificial intelligence services through an API to generate and recommend recipes. The quality, speed, and cost of their service directly affects how well the recipe feature works. Their concerns include API usage costs at scale and maintaining reliable service availability. & High \\
+\hline
+Map \& Geolocation Service Provider & An external service such as Google Maps that provides location data, calculates distances between places, and suggests routes. This service is essential for helping users identify the closest and most convenient stores. Their concerns include usage costs, API rate limits, and compliance with their terms of service. & High \\
+\hline
+\end{longtable}
+
+\subsection{Regulatory Compliance}
+
+\textbf{Note on Regulatory Authorities:} Data protection authorities (such as GDPR enforcement agencies in the European Union) and other regulatory bodies are not explicitly listed as stakeholders in this document. Instead, their influence is captured through regulatory and compliance requirements embedded in Section 4 (Domain Level Requirements) and Section 7 (Policy and Regulation Requirements). Specifically, DL2 addresses GDPR compliance for user and partner data, ensuring the system meets all data protection obligations without treating regulatory bodies as direct stakeholders.
