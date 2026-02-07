@@ -1,0 +1,7831 @@
+{
+  "scraper": "matspar",
+  "scraped_at": "2026-02-07T09:59:13.938222",
+  "products": [
+    {
+      "product_name": "Gurka 1-P",
+      "brand": "",
+      "weight": "380g",
+      "source": "matspar.se",
+      "product_id": 315735,
+      "slug": "produkt/gurka-1-p-ca-380g",
+      "base_price": 14.9,
+      "median_price": 19.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 20.95,
+          "promo_price": 15.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769100"
+    },
+    {
+      "product_name": "Lök Gul 1kg",
+      "brand": "",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 140846,
+      "slug": "produkt/lok-gul-1kg-ica",
+      "base_price": 11.9,
+      "median_price": 14.425,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 11.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 16.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769128"
+    },
+    {
+      "product_name": "Plommontomater",
+      "brand": "",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 212224,
+      "slug": "produkt/plommontomater-ca-500g-3",
+      "base_price": 29.9,
+      "median_price": 33.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 32.9,
+          "promo_price": 22.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769135"
+    },
+    {
+      "product_name": "Gurka",
+      "brand": "",
+      "weight": "270g",
+      "source": "matspar.se",
+      "product_id": 160682,
+      "slug": "produkt/gurka-1st-1",
+      "base_price": 19.9,
+      "median_price": 19.925,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 19.9,
+          "promo_price": 14.9,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 19.95,
+          "promo_price": 17.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769142"
+    },
+    {
+      "product_name": "Gurka",
+      "brand": "ICA",
+      "weight": "350g",
+      "source": "matspar.se",
+      "product_id": 173237,
+      "slug": "produkt/gurka-ca-ica",
+      "base_price": 18.9,
+      "median_price": 19.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 18.9
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769146"
+    },
+    {
+      "product_name": "Paprika Röd 1-P",
+      "brand": "",
+      "weight": "180g",
+      "source": "matspar.se",
+      "product_id": 315843,
+      "slug": "produkt/paprika-rod-1-p-ca-180g",
+      "base_price": 9.18,
+      "median_price": 13.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 14.75
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769150"
+    },
+    {
+      "product_name": "Vitlök",
+      "brand": "ICA",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 140832,
+      "slug": "produkt/vitlok-250g-ica",
+      "base_price": 26.9,
+      "median_price": 31.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 28.9,
+          "promo_price": 24.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769156"
+    },
+    {
+      "product_name": "Spetspaprika Röd",
+      "brand": "ICA",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 15583,
+      "slug": "produkt/rod-spetspaprika-200-g-ica",
+      "base_price": 21.9,
+      "median_price": 27.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 26.9,
+          "promo_price": 18.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769161"
+    },
+    {
+      "product_name": "Babyplommontomater",
+      "brand": "",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 335813,
+      "slug": "produkt/babyplommontomater-ca-500g",
+      "base_price": 36.9,
+      "median_price": 42.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 39.9,
+          "promo_price": 30.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769166"
+    },
+    {
+      "product_name": "Avocado 1-P",
+      "brand": "",
+      "weight": "180g",
+      "source": "matspar.se",
+      "product_id": 332521,
+      "slug": "produkt/avocado-1-pack-ca-180g",
+      "base_price": 13.9,
+      "median_price": 15.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 17.0,
+          "promo_price": 8.33,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769171"
+    },
+    {
+      "product_name": "Bananer i Klase",
+      "brand": "",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 302188,
+      "slug": "produkt/banan-klase-5-7st-ca-1kg",
+      "base_price": 19.9,
+      "median_price": 20.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 21.9
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769175"
+    },
+    {
+      "product_name": "Vindruvor Gröna Kärnfria",
+      "brand": "",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 140917,
+      "slug": "produkt/grona-karnfria-vindruvor-500g-ica",
+      "base_price": 38.9,
+      "median_price": 43.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 41.9,
+          "promo_price": 25.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769181"
+    },
+    {
+      "product_name": "Apelsiner 1kg Klass 1",
+      "brand": "",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 315716,
+      "slug": "produkt/apelsiner-1kg-klass-1-ca",
+      "base_price": 20.0,
+      "median_price": 24.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 22.9,
+          "promo_price": 15.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769186"
+    },
+    {
+      "product_name": "Citron 1-p",
+      "brand": "",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 334679,
+      "slug": "produkt/citron-1-pack-ca-200g",
+      "base_price": 6.95,
+      "median_price": 8.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 9.95,
+          "promo_price": 6.25,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769191"
+    },
+    {
+      "product_name": "Äpple Merpack",
+      "brand": "",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 304329,
+      "slug": "produkt/apple-merpack-ca-1kg",
+      "base_price": 16.9,
+      "median_price": 17.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 16.9,
+          "promo_price": 12.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769196"
+    },
+    {
+      "product_name": "Vindruvor Röda Kärnfria",
+      "brand": "",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 194296,
+      "slug": "produkt/vindruvorrodakarnfria-1st",
+      "base_price": 34.9,
+      "median_price": 42.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 41.9,
+          "promo_price": 30.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769201"
+    },
+    {
+      "product_name": "Bananer i Klase EKO",
+      "brand": "",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 302187,
+      "slug": "produkt/banan-klase-eko-5-7st-ca-1kg",
+      "base_price": 22.9,
+      "median_price": 23.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 23.9
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769205"
+    },
+    {
+      "product_name": "Päron ca 1kg",
+      "brand": "ICA",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 173247,
+      "slug": "produkt/paron-ca-ica",
+      "base_price": 17.9,
+      "median_price": 18.98,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 17.9,
+          "promo_price": 15.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769210"
+    },
+    {
+      "product_name": "Lime 1-p",
+      "brand": "",
+      "weight": "90g",
+      "source": "matspar.se",
+      "product_id": 334675,
+      "slug": "produkt/lime-1-pack-ca-90g",
+      "base_price": 5.9,
+      "median_price": 6.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 7.0,
+          "promo_price": 2.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769216"
+    },
+    {
+      "product_name": "Äpple Granny Smith 4-p",
+      "brand": "",
+      "weight": "760g",
+      "source": "matspar.se",
+      "product_id": 315713,
+      "slug": "produkt/apple-granny-smith-4-p-ca-760g",
+      "base_price": 25.0,
+      "median_price": 26.52,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 28.88
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769220"
+    },
+    {
+      "product_name": "Morötter",
+      "brand": "ICA",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 142311,
+      "slug": "produkt/nyskordade-morotter-ica",
+      "base_price": 10.0,
+      "median_price": 15.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 14.9,
+          "promo_price": 12.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769226"
+    },
+    {
+      "product_name": "Potatis Fast",
+      "brand": "",
+      "weight": "2kg",
+      "source": "matspar.se",
+      "product_id": 140731,
+      "slug": "produkt/fast-potatis-ica",
+      "base_price": 29.9,
+      "median_price": 33.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 34.9,
+          "promo_price": 33.33,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769231"
+    },
+    {
+      "product_name": "Potatis Fast",
+      "brand": "",
+      "weight": "1.2kg",
+      "source": "matspar.se",
+      "product_id": 257383,
+      "slug": "produkt/potatis-fast-ca-1-2kg",
+      "base_price": 18.9,
+      "median_price": 21.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 24.9,
+          "promo_price": 12.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769235"
+    },
+    {
+      "product_name": "Sötpotatis",
+      "brand": "",
+      "weight": "440g",
+      "source": "matspar.se",
+      "product_id": 317396,
+      "slug": "produkt/sotpotatis-2-p-ca-440g",
+      "base_price": 14.95,
+      "median_price": 16.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 17.98,
+          "promo_price": 10.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769240"
+    },
+    {
+      "product_name": "Champinjoner",
+      "brand": "",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 160695,
+      "slug": "produkt/champinjoner-1st",
+      "base_price": 19.9,
+      "median_price": 19.925,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 19.9,
+          "promo_price": 14.9,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 19.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769245"
+    },
+    {
+      "product_name": "Champinjoner EKO",
+      "brand": "",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 202373,
+      "slug": "produkt/champinjonereko250g-1st",
+      "base_price": 29.9,
+      "median_price": 34.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 37.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769249"
+    },
+    {
+      "product_name": "Potatis Fast",
+      "brand": "",
+      "weight": "900g",
+      "source": "matspar.se",
+      "product_id": 233575,
+      "slug": "produkt/potatis-fast-ca-900g",
+      "base_price": 16.9,
+      "median_price": 17.425,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 16.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 17.95,
+          "promo_price": 10.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769255"
+    },
+    {
+      "product_name": "Fast potatis",
+      "brand": "",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 496212,
+      "slug": "produkt/fast-potatis-ca-1kg",
+      "base_price": 14.95,
+      "median_price": 19.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 20.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769259"
+    },
+    {
+      "product_name": "Champinjon",
+      "brand": "",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 242053,
+      "slug": "produkt/champinjon-ca-250g",
+      "base_price": 19.9,
+      "median_price": 21.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 19.9,
+          "promo_price": 15.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769277"
+    },
+    {
+      "product_name": "Morötter EKO KRAV",
+      "brand": "ICA I Love Eco",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 195282,
+      "slug": "produkt/morotterekokravca500gicailoveeco-1st",
+      "base_price": 12.9,
+      "median_price": 15.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 18.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769282"
+    },
+    {
+      "product_name": "Wokgrönsaker Fryst",
+      "brand": "ICA Basic",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 12404,
+      "slug": "produkt/wokgronsaker-1000-g-ica-basic",
+      "base_price": 19.9,
+      "median_price": 22.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 19.9
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769287"
+    },
+    {
+      "product_name": "Broccoli Buketter Fryst",
+      "brand": "ICA",
+      "weight": "800g",
+      "source": "matspar.se",
+      "product_id": 11761,
+      "slug": "produkt/broccoli-800-g-ica",
+      "base_price": 26.5,
+      "median_price": 28.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 27.9,
+          "promo_price": 29.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769292"
+    },
+    {
+      "product_name": "Broccoli Fryst",
+      "brand": "ICA Basic",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 12409,
+      "slug": "produkt/broccoli-fryst-1kg-ica-basic",
+      "base_price": 27.9,
+      "median_price": 31.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 27.9
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769296"
+    },
+    {
+      "product_name": "Persilja Finhackad Fryst",
+      "brand": "ICA",
+      "weight": "40g",
+      "source": "matspar.se",
+      "product_id": 13008,
+      "slug": "produkt/persilja-finhackad-40-g-ica",
+      "base_price": 7.9,
+      "median_price": 10.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 9.9,
+          "promo_price": 7.66,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769301"
+    },
+    {
+      "product_name": "Ärtor Djupfrysta",
+      "brand": "ICA Basic",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 12517,
+      "slug": "produkt/artor-djupfrysta-1kg-ica-basic",
+      "base_price": 19.9,
+      "median_price": 21.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 19.9
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769305"
+    },
+    {
+      "product_name": "Koriander Finhackad Fryst",
+      "brand": "ICA",
+      "weight": "40g",
+      "source": "matspar.se",
+      "product_id": 13029,
+      "slug": "produkt/koriander-finhackad-40-g-ica",
+      "base_price": 7.9,
+      "median_price": 10.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 9.9,
+          "promo_price": 7.66,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769309"
+    },
+    {
+      "product_name": "Paprika Mix Fryst",
+      "brand": "BEGRO",
+      "weight": "2.5kg",
+      "source": "matspar.se",
+      "product_id": 169962,
+      "slug": "produkt/paprika-mix-fryst-2-5kg-begro",
+      "base_price": 99.9,
+      "median_price": 99.9,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 99.9
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769313"
+    },
+    {
+      "product_name": "Ärtor Svenska",
+      "brand": "ICA",
+      "weight": "600g",
+      "source": "matspar.se",
+      "product_id": 11615,
+      "slug": "produkt/artor-svenska-600g-ica",
+      "base_price": 19.9,
+      "median_price": 22.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 21.9,
+          "promo_price": 20.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769318"
+    },
+    {
+      "product_name": "Sojabönor Fryst",
+      "brand": "ICA",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 12874,
+      "slug": "produkt/sojabonor-250-g-ica",
+      "base_price": 18.9,
+      "median_price": 20.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 20.9,
+          "promo_price": 15.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769323"
+    },
+    {
+      "product_name": "Svenska Ärter Fryst",
+      "brand": "Findus",
+      "weight": "600g",
+      "source": "matspar.se",
+      "product_id": 10492,
+      "slug": "produkt/svenska-arter-600-g-findus",
+      "base_price": 25.9,
+      "median_price": 28.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 26.9,
+          "promo_price": 19.66,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 28.95
+        },
+        {
+          "chain": "MatHem",
+          "price": 31.95,
+          "promo_price": 28.76,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 26.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769330"
+    },
+    {
+      "product_name": "Romansallat",
+      "brand": "",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 510982,
+      "slug": "produkt/romansallat-ca-200g-2",
+      "base_price": 16.95,
+      "median_price": 20.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 19.9,
+          "promo_price": 17.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769335"
+    },
+    {
+      "product_name": "Babyspenat Finbladig Sköljd",
+      "brand": "ICA",
+      "weight": "65g",
+      "source": "matspar.se",
+      "product_id": 12134,
+      "slug": "produkt/baby-spenat-65g-ica",
+      "base_price": 17.9,
+      "median_price": 19.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 18.9,
+          "promo_price": 12.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769340"
+    },
+    {
+      "product_name": "Spenat Storpack Sköljd",
+      "brand": "ICA",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 12136,
+      "slug": "produkt/spenat-sp-200g-ica",
+      "base_price": 19.9,
+      "median_price": 21.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 19.9,
+          "promo_price": 19.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769345"
+    },
+    {
+      "product_name": "Sallat Säsongsmix",
+      "brand": "ICA",
+      "weight": "150g",
+      "source": "matspar.se",
+      "product_id": 21230,
+      "slug": "produkt/sp-sasongsmix-150g-ica",
+      "base_price": 21.9,
+      "median_price": 23.98,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 29.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769349"
+    },
+    {
+      "product_name": "Isbergssallad 1-p",
+      "brand": "",
+      "weight": "440g",
+      "source": "matspar.se",
+      "product_id": 317400,
+      "slug": "produkt/isbergssallad-1-p-ca-440g",
+      "base_price": 17.56,
+      "median_price": 18.47,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 20.66
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769354"
+    },
+    {
+      "product_name": "Ruccola",
+      "brand": "",
+      "weight": "100g",
+      "source": "matspar.se",
+      "product_id": 12133,
+      "slug": "produkt/rucola-65g-ica",
+      "base_price": 17.9,
+      "median_price": 20.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 18.9,
+          "promo_price": 12.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769366"
+    },
+    {
+      "product_name": "Isbergssallad",
+      "brand": "",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 238041,
+      "slug": "produkt/isbergssallad-ca-450g-1",
+      "base_price": 19.95,
+      "median_price": 19.96,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 19.95
+        },
+        {
+          "chain": "Hemköp",
+          "price": 19.97
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769371"
+    },
+    {
+      "product_name": "Sallat Provensalsk Sköljd XL",
+      "brand": "ICA",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 11989,
+      "slug": "produkt/provencalsk-xl-250g-ica",
+      "base_price": 28.9,
+      "median_price": 30.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 28.9
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769376"
+    },
+    {
+      "product_name": "Sallat Röd Råkostmix",
+      "brand": "ICA",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 12065,
+      "slug": "produkt/rod-rakostmix-200g-ica",
+      "base_price": 24.9,
+      "median_price": 29.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 26.9,
+          "promo_price": 20.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769380"
+    },
+    {
+      "product_name": "Sallatsmix Sköljd",
+      "brand": "ICA",
+      "weight": "225g",
+      "source": "matspar.se",
+      "product_id": 13297,
+      "slug": "produkt/salladsmix-225g-ica",
+      "base_price": 26.9,
+      "median_price": 29.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 32.95,
+          "promo_price": 20.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769385"
+    },
+    {
+      "product_name": "Blåbär Odlade Frysta",
+      "brand": "ICA Basic",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 20698,
+      "slug": "produkt/blabar-odlade-frysta-500g-ica-basic",
+      "base_price": 34.95,
+      "median_price": 41.98,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 39.9,
+          "promo_price": 30.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769393"
+    },
+    {
+      "product_name": "Mango Fryst",
+      "brand": "ICA",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 12166,
+      "slug": "produkt/mango-i-bitar-250-g-ica",
+      "base_price": 21.9,
+      "median_price": 23.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 22.9,
+          "promo_price": 17.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769398"
+    },
+    {
+      "product_name": "Mango Bitar Djupfryst",
+      "brand": "ICA Basic",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 114228,
+      "slug": "produkt/mango-bitar-djupfryst-500g-ica-basic",
+      "base_price": 21.9,
+      "median_price": 24.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 21.9
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769403"
+    },
+    {
+      "product_name": "Blåbär Fryst",
+      "brand": "ICA",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 11942,
+      "slug": "produkt/blabar-250-g-ica",
+      "base_price": 33.5,
+      "median_price": 35.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 34.9,
+          "promo_price": 30.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769408"
+    },
+    {
+      "product_name": "Hallon, Djupfrysta",
+      "brand": "ICA Basic",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 20874,
+      "slug": "produkt/hallon-djupfrysta-500g-ica-basic",
+      "base_price": 51.9,
+      "median_price": 55.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 51.9
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769412"
+    },
+    {
+      "product_name": "Hallon Fryst",
+      "brand": "ICA",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 11863,
+      "slug": "produkt/hallon-250-g-ica",
+      "base_price": 32.95,
+      "median_price": 35.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 34.9
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769416"
+    },
+    {
+      "product_name": "Hallon Djupfrysta",
+      "brand": "ICA Basic",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 12883,
+      "slug": "produkt/hallon-djupfrysta-1kg-ica-basic",
+      "base_price": 76.95,
+      "median_price": 76.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 76.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769419"
+    },
+    {
+      "product_name": "Frukt till Smoothies Jordgubb och Banan Fryst",
+      "brand": "ICA",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 20864,
+      "slug": "produkt/frukt-till-smoothies-jordgubb-och-banan-4-pack-500g-ica",
+      "base_price": 29.9,
+      "median_price": 33.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 31.9,
+          "promo_price": 27.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769424"
+    },
+    {
+      "product_name": "Svenska Blåbär",
+      "brand": "ICA",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 273237,
+      "slug": "produkt/svenska-blabar-1kg-ica",
+      "base_price": 119.0,
+      "median_price": 139.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 135.0
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769428"
+    },
+    {
+      "product_name": "Bärmix Fryst",
+      "brand": "ICA Basic",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 113827,
+      "slug": "produkt/barmix-fryst-1kg-ica-basic",
+      "base_price": 49.9,
+      "median_price": 53.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 49.9
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769432"
+    },
+    {
+      "product_name": "Chilipeppar Röd",
+      "brand": "",
+      "weight": "20g",
+      "source": "matspar.se",
+      "product_id": 140760,
+      "slug": "produkt/peppar-rod-ca-20g",
+      "base_price": 2.04,
+      "median_price": 2.4,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 2.4
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769436"
+    },
+    {
+      "product_name": "Basilika EKO KRAV",
+      "brand": "I love eco",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 100009,
+      "slug": "produkt/ica-basilika-i-love-eco-24st-200g",
+      "base_price": 19.9,
+      "median_price": 23.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 21.9,
+          "promo_price": 19.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769441"
+    },
+    {
+      "product_name": "Koriander i Kruka EKO KRAV",
+      "brand": "i love eco",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 181609,
+      "slug": "produkt/koriander-ica-eco-1st-hallnas-handelstradgard",
+      "base_price": 19.9,
+      "median_price": 23.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 21.9,
+          "promo_price": 19.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769445"
+    },
+    {
+      "product_name": "Bladpersilja EKO KRAV",
+      "brand": "Hällnäs Handelsträdgård",
+      "weight": "1st",
+      "source": "matspar.se",
+      "product_id": 183132,
+      "slug": "produkt/persilja-slatbladig-ica-eco-1st-hallnas-handelstradgard",
+      "base_price": 18.9,
+      "median_price": 20.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 21.95,
+          "promo_price": 19.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769450"
+    },
+    {
+      "product_name": "Koriander",
+      "brand": "",
+      "weight": "100g",
+      "source": "matspar.se",
+      "product_id": 384388,
+      "slug": "produkt/koriander-ca-100g",
+      "base_price": 17.95,
+      "median_price": 19.45,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 18.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769454"
+    },
+    {
+      "product_name": "Chilipeppar Röd",
+      "brand": "",
+      "weight": "40g",
+      "source": "matspar.se",
+      "product_id": 191697,
+      "slug": "produkt/pepparrodca40g-1st",
+      "base_price": 17.9,
+      "median_price": 19.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 18.9,
+          "promo_price": 16.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769459"
+    },
+    {
+      "product_name": "Dill i Kruka EKO KRAV",
+      "brand": "ICA I Love Eco",
+      "weight": "1st",
+      "source": "matspar.se",
+      "product_id": 119257,
+      "slug": "produkt/dill-12-pack-ica-eko-1st",
+      "base_price": 18.9,
+      "median_price": 21.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 21.9
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769463"
+    },
+    {
+      "product_name": "Persilja EKO KRAV",
+      "brand": "ICA I Love Eco",
+      "weight": "1st",
+      "source": "matspar.se",
+      "product_id": 118071,
+      "slug": "produkt/persilja-12-pack-ica-eko-1st",
+      "base_price": 18.9,
+      "median_price": 20.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 18.9,
+          "promo_price": 19.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769468"
+    },
+    {
+      "product_name": "Timjan EKO KRAV",
+      "brand": "i love eco",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 182574,
+      "slug": "produkt/timjan-ica-eco-1st-hallnas-handelstradgard",
+      "base_price": 18.95,
+      "median_price": 23.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 21.9,
+          "promo_price": 19.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769472"
+    },
+    {
+      "product_name": "Persilja Blad",
+      "brand": "",
+      "weight": "50g",
+      "source": "matspar.se",
+      "product_id": 595233,
+      "slug": "produkt/persilja-blad-ca-50g",
+      "base_price": 14.9,
+      "median_price": 15.425,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 14.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 15.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769481"
+    },
+    {
+      "product_name": "Jordgubbar",
+      "brand": "",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 243993,
+      "slug": "produkt/jordgubbar-ca-250g-3",
+      "base_price": 40.9,
+      "median_price": 55.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 52.9,
+          "promo_price": 30.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769487"
+    },
+    {
+      "product_name": "Blåbär Klass 1",
+      "brand": "",
+      "weight": "125g",
+      "source": "matspar.se",
+      "product_id": 140696,
+      "slug": "produkt/blabar-klass-1-125g-1",
+      "base_price": 24.95,
+      "median_price": 32.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 31.9,
+          "promo_price": 25.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769492"
+    },
+    {
+      "product_name": "Hallon",
+      "brand": "",
+      "weight": "125g",
+      "source": "matspar.se",
+      "product_id": 191647,
+      "slug": "produkt/hallonca125g-1st",
+      "base_price": 30.0,
+      "median_price": 44.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 42.9,
+          "promo_price": 30.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769497"
+    },
+    {
+      "product_name": "Blåbär",
+      "brand": "",
+      "weight": "125g",
+      "source": "matspar.se",
+      "product_id": 190591,
+      "slug": "produkt/blabar-125g-4",
+      "base_price": 29.95,
+      "median_price": 29.95,
+      "stores": [
+        {
+          "chain": "Coop",
+          "price": 29.95,
+          "promo_price": 22.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769502"
+    },
+    {
+      "product_name": "Bärmix Hallon & Blåbär",
+      "brand": "",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 264469,
+      "slug": "produkt/barmix-hallon-blabar-ca-250g",
+      "base_price": 82.5,
+      "median_price": 82.725,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 82.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769506"
+    },
+    {
+      "product_name": "Jordgubbar Svenska ca 0.5kg",
+      "brand": "",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 243994,
+      "slug": "produkt/jordgubbar-svenska-ca-500g-1",
+      "base_price": 72.95,
+      "median_price": 72.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 72.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769510"
+    },
+    {
+      "product_name": "Björnbär Färsk",
+      "brand": "ICA",
+      "weight": "125g",
+      "source": "matspar.se",
+      "product_id": 142377,
+      "slug": "produkt/bjornbar-125g-ica",
+      "base_price": 61.95,
+      "median_price": 61.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 61.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769514"
+    },
+    {
+      "product_name": "Vinbär Röda",
+      "brand": "ICA",
+      "weight": "125g",
+      "source": "matspar.se",
+      "product_id": 142378,
+      "slug": "produkt/roda-vinbar-125g-ica",
+      "base_price": 50.95,
+      "median_price": 51.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 52.5
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769522"
+    },
+    {
+      "product_name": "Hallon Färska",
+      "brand": "",
+      "weight": "125g",
+      "source": "matspar.se",
+      "product_id": 164585,
+      "slug": "produkt/hallon-farska-125g",
+      "base_price": 39.9,
+      "median_price": 39.925,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 39.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 39.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769526"
+    },
+    {
+      "product_name": "Blåbär Klass 1",
+      "brand": "",
+      "weight": "125g",
+      "source": "matspar.se",
+      "product_id": 164586,
+      "slug": "produkt/blabar-klass-1-125g",
+      "base_price": 29.9,
+      "median_price": 29.925,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 29.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 29.95
+        }
+      ],
+      "category": "Frukt Gront",
+      "scraped_at": "2026-02-07T09:59:15.769530"
+    },
+    {
+      "product_name": "Hushållsost 26%",
+      "brand": "Arla®",
+      "weight": "1.1kg",
+      "source": "matspar.se",
+      "product_id": 284,
+      "slug": "produkt/hushallsost-26-1-1kg-arla",
+      "base_price": 148.0,
+      "median_price": 160.6,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 152.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 152.9
+        },
+        {
+          "chain": "Willys",
+          "price": 148.39
+        },
+        {
+          "chain": "MatHem",
+          "price": 148.0
+        },
+        {
+          "chain": "Coop",
+          "price": 152.9,
+          "promo_price": 119.9,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491536"
+    },
+    {
+      "product_name": "Präst® Ost 31% Mellanlagrad",
+      "brand": "Arla Ko®",
+      "weight": "720g",
+      "source": "matspar.se",
+      "product_id": 298,
+      "slug": "produkt/prast-31-sb-ca667-g-arla-ko",
+      "base_price": 90.38,
+      "median_price": 104.33,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 100.08,
+          "promo_price": 85.68,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 93.13,
+          "promo_price": 79.73,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 90.38
+        },
+        {
+          "chain": "MatHem",
+          "price": 96.95
+        },
+        {
+          "chain": "Coop",
+          "price": 100.08,
+          "promo_price": 85.68,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491555"
+    },
+    {
+      "product_name": "Fetaost Traditionell Smak 23%",
+      "brand": "Zeta",
+      "weight": "150g",
+      "source": "matspar.se",
+      "product_id": 6992,
+      "slug": "produkt/fetaost-traditionell-smak-23-150g-zeta",
+      "base_price": 25.9,
+      "median_price": 28.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 26.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 26.95
+        },
+        {
+          "chain": "Willys",
+          "price": 25.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 25.95
+        },
+        {
+          "chain": "Coop",
+          "price": 27.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491563"
+    },
+    {
+      "product_name": "Fetaost Original",
+      "brand": "Fontana",
+      "weight": "150g",
+      "source": "matspar.se",
+      "product_id": 5685,
+      "slug": "produkt/fetaost-original-150g-fontana",
+      "base_price": 25.9,
+      "median_price": 30.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 26.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 27.95
+        },
+        {
+          "chain": "Coop",
+          "price": 28.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491569"
+    },
+    {
+      "product_name": "Gräddis Ost Familjefavoriter 30% Mild Och Krämig",
+      "brand": "Arla® Familjefavoriter",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 168201,
+      "slug": "produkt/graddis-ost-familjefavoriter-30-mild-och-kramig-1kg-arla-familjefavoriter",
+      "base_price": 109.0,
+      "median_price": 123.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 115.0,
+          "promo_price": 79.9,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 115.0
+        },
+        {
+          "chain": "Willys",
+          "price": 109.0,
+          "promo_price": 79.9,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "MatHem",
+          "price": 129.0
+        },
+        {
+          "chain": "Coop",
+          "price": 115.0
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491576"
+    },
+    {
+      "product_name": "Halloumi",
+      "brand": "ICA",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 12297,
+      "slug": "produkt/halloumi-200-g-ica",
+      "base_price": 28.5,
+      "median_price": 31.45,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 28.9,
+          "promo_price": 28.33,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491643"
+    },
+    {
+      "product_name": "Grevé Ost Mild 28%",
+      "brand": "Arla Ko®",
+      "weight": "667g",
+      "source": "matspar.se",
+      "product_id": 300,
+      "slug": "produkt/greve-ost-mild-28-667g-arla-ko",
+      "base_price": 89.95,
+      "median_price": 101.43,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 97.3,
+          "promo_price": 83.3,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 92.71,
+          "promo_price": 79.37,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 89.97
+        },
+        {
+          "chain": "MatHem",
+          "price": 89.95
+        },
+        {
+          "chain": "Coop",
+          "price": 97.3,
+          "promo_price": 83.3,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491652"
+    },
+    {
+      "product_name": "Riven Ost Mager 12%",
+      "brand": "Arla Köket®",
+      "weight": "150g",
+      "source": "matspar.se",
+      "product_id": 11027,
+      "slug": "produkt/riven-ost-mager-12-150g-arla-koket",
+      "base_price": 28.9,
+      "median_price": 32.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 30.9,
+          "promo_price": 27.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 31.95
+        },
+        {
+          "chain": "Willys",
+          "price": 28.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 28.95,
+          "promo_price": 22.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 29.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491660"
+    },
+    {
+      "product_name": "Gouda Familjefavoriter ost 28%",
+      "brand": "Arla® Familjefavoriter",
+      "weight": "1.2kg",
+      "source": "matspar.se",
+      "product_id": 289,
+      "slug": "produkt/familjefavoriter-gouda-28-ca1-2-kg-arla",
+      "base_price": 130.8,
+      "median_price": 147.54,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 138.0,
+          "promo_price": 95.88,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 138.0
+        },
+        {
+          "chain": "Willys",
+          "price": 130.8,
+          "promo_price": 95.88,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "MatHem",
+          "price": 139.0
+        },
+        {
+          "chain": "Coop",
+          "price": 138.0
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491667"
+    },
+    {
+      "product_name": "Ost Port Salut Familjefavoriter 26%",
+      "brand": "Arla® Familjefavoriter",
+      "weight": "750g",
+      "source": "matspar.se",
+      "product_id": 100058,
+      "slug": "produkt/ost-port-salut-familjefavoriter-26-750g-arla-familjefavoriter",
+      "base_price": 81.75,
+      "median_price": 91.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 86.25,
+          "promo_price": 59.93,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 86.25
+        },
+        {
+          "chain": "Willys",
+          "price": 81.75,
+          "promo_price": 59.92,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "MatHem",
+          "price": 81.95
+        },
+        {
+          "chain": "Coop",
+          "price": 86.25
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491674"
+    },
+    {
+      "product_name": "Grekisk Yoghurt Naturell 0%",
+      "brand": "Arla®",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 275737,
+      "slug": "produkt/grekisk-yoghurt-naturell-0-1kg-arla",
+      "base_price": 41.9,
+      "median_price": 47.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 44.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 43.95
+        },
+        {
+          "chain": "Willys",
+          "price": 41.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 44.5
+        },
+        {
+          "chain": "Coop",
+          "price": 42.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491681"
+    },
+    {
+      "product_name": "Yoghurt Mild Naturell 3%",
+      "brand": "Arla Ko®",
+      "weight": "1.5kg",
+      "source": "matspar.se",
+      "product_id": 4536,
+      "slug": "produkt/mild-yoghurt-naturell-1500-g-arla-ko",
+      "base_price": 26.5,
+      "median_price": 30.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 27.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 28.95
+        },
+        {
+          "chain": "Willys",
+          "price": 26.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 30.95
+        },
+        {
+          "chain": "Coop",
+          "price": 28.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491687"
+    },
+    {
+      "product_name": "Turkisk Yoghurt 10%",
+      "brand": "Salakis",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 7379,
+      "slug": "produkt/turkisk-yoghurt-1000-g-salakis",
+      "base_price": 29.5,
+      "median_price": 35.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 34.5
+        },
+        {
+          "chain": "Hemköp",
+          "price": 34.95
+        },
+        {
+          "chain": "Willys",
+          "price": 34.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 30.5
+        },
+        {
+          "chain": "Coop",
+          "price": 29.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491693"
+    },
+    {
+      "product_name": "Yoghurt Grekisk 10%",
+      "brand": "Arla Köket®",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 100026,
+      "slug": "produkt/yoghurt-grekisk-10-1kg-arla-koket",
+      "base_price": 38.9,
+      "median_price": 45.925,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 41.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 41.95
+        },
+        {
+          "chain": "Willys",
+          "price": 38.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 43.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491698"
+    },
+    {
+      "product_name": "Mild Yoghurt Vanilj 2%",
+      "brand": "Arla Ko®",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 218607,
+      "slug": "produkt/mild-yoghurt-vanilj-2-1kg-arla-ko",
+      "base_price": 22.9,
+      "median_price": 25.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 24.9,
+          "promo_price": 17.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 25.5
+        },
+        {
+          "chain": "Willys",
+          "price": 22.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 22.95,
+          "promo_price": 20.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 25.95,
+          "promo_price": 18.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491706"
+    },
+    {
+      "product_name": "Mild Grekisk Yoghurt Naturell 6%",
+      "brand": "Arla Ko®",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 218754,
+      "slug": "produkt/mild-grekisk-yoghurt-naturell-6-1kg-arla-ko",
+      "base_price": 28.5,
+      "median_price": 33.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 30.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 29.95
+        },
+        {
+          "chain": "Willys",
+          "price": 28.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 28.5,
+          "promo_price": 24.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 29.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491713"
+    },
+    {
+      "product_name": "Yoghurt Naturell Syrlig 3%",
+      "brand": "Arla Ko®",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 218608,
+      "slug": "produkt/yoghurt-naturell-syrlig-3-1kg-arla-ko",
+      "base_price": 18.8,
+      "median_price": 20.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 19.9,
+          "promo_price": 17.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 21.95
+        },
+        {
+          "chain": "Willys",
+          "price": 18.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 21.5,
+          "promo_price": 18.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 20.95,
+          "promo_price": 18.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491724"
+    },
+    {
+      "product_name": "Kefir Naturell Cultura Laktosfri 2,5%",
+      "brand": "Arla®",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 305884,
+      "slug": "produkt/kefir-naturell-cultura-laktosfri-2-5-1kg-arla",
+      "base_price": 21.5,
+      "median_price": 25.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 22.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 22.95
+        },
+        {
+          "chain": "Willys",
+          "price": 21.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 25.5
+        },
+        {
+          "chain": "Coop",
+          "price": 22.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491731"
+    },
+    {
+      "product_name": "Filmjölk Original 3%",
+      "brand": "Arla Ko®",
+      "weight": "1,5l",
+      "source": "matspar.se",
+      "product_id": 166738,
+      "slug": "produkt/filmjolk-original-3-1-5l-arla-ko",
+      "base_price": 21.8,
+      "median_price": 24.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 22.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 23.95
+        },
+        {
+          "chain": "Willys",
+          "price": 21.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 21.95
+        },
+        {
+          "chain": "Coop",
+          "price": 22.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491736"
+    },
+    {
+      "product_name": "Turkisk Yoghurt 10%",
+      "brand": "Arla Köket®",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 10703,
+      "slug": "produkt/turkisk-meze-matyoghurt-1-1000-g-arla-koket",
+      "base_price": 34.9,
+      "median_price": 40.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 37.5
+        },
+        {
+          "chain": "Hemköp",
+          "price": 40.95
+        },
+        {
+          "chain": "Willys",
+          "price": 34.9,
+          "promo_price": 31.9,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "MatHem",
+          "price": 41.5
+        },
+        {
+          "chain": "Coop",
+          "price": 38.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491743"
+    },
+    {
+      "product_name": "Mellanmjölk 1,5% Laktosfri",
+      "brand": "Arla Ko®",
+      "weight": "1,5l",
+      "source": "matspar.se",
+      "product_id": 10707,
+      "slug": "produkt/laktosfri-mellanmjolk-dryck-1-5-l-arla-ko",
+      "base_price": 23.5,
+      "median_price": 25.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 23.9,
+          "promo_price": 20.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 25.95
+        },
+        {
+          "chain": "Willys",
+          "price": 23.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 23.5
+        },
+        {
+          "chain": "Coop",
+          "price": 25.95,
+          "promo_price": 21.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491750"
+    },
+    {
+      "product_name": "Standardmjölk Laktosfri 3%",
+      "brand": "Arla Ko®",
+      "weight": "1.5l",
+      "source": "matspar.se",
+      "product_id": 110701,
+      "slug": "produkt/standardmjolk-laktosfri-3-1-5l-arla-ko",
+      "base_price": 23.5,
+      "median_price": 25.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 23.9,
+          "promo_price": 20.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 25.95
+        },
+        {
+          "chain": "Willys",
+          "price": 23.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 23.5
+        },
+        {
+          "chain": "Coop",
+          "price": 25.95,
+          "promo_price": 21.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491757"
+    },
+    {
+      "product_name": "Mellanmjölk Laktosfri 1,5%",
+      "brand": "Valio",
+      "weight": "1.5l",
+      "source": "matspar.se",
+      "product_id": 9648,
+      "slug": "produkt/mellanmjolk-laktosfri-1-5-1-5l-valio",
+      "base_price": 23.5,
+      "median_price": 26.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 24.9,
+          "promo_price": 20.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 25.95
+        },
+        {
+          "chain": "Willys",
+          "price": 23.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 24.95
+        },
+        {
+          "chain": "Coop",
+          "price": 24.95,
+          "promo_price": 21.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491765"
+    },
+    {
+      "product_name": "Lättmjölk Laktosfri 0,5%",
+      "brand": "Arla Ko®",
+      "weight": "1,5l",
+      "source": "matspar.se",
+      "product_id": 110700,
+      "slug": "produkt/lattmjolk-laktosfri-0-5-1-5l-arla-ko",
+      "base_price": 23.5,
+      "median_price": 25.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 23.9,
+          "promo_price": 20.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 25.95
+        },
+        {
+          "chain": "Willys",
+          "price": 23.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 23.5
+        },
+        {
+          "chain": "Coop",
+          "price": 25.95,
+          "promo_price": 21.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491772"
+    },
+    {
+      "product_name": "Mjölk Laktosfri 3%",
+      "brand": "Valio",
+      "weight": "1.5l",
+      "source": "matspar.se",
+      "product_id": 9649,
+      "slug": "produkt/mjolk-laktosfri-3-1-5l-valio",
+      "base_price": 23.5,
+      "median_price": 26.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 24.9,
+          "promo_price": 20.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 25.95
+        },
+        {
+          "chain": "Willys",
+          "price": 23.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 24.95
+        },
+        {
+          "chain": "Coop",
+          "price": 24.95,
+          "promo_price": 21.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491779"
+    },
+    {
+      "product_name": "Vispgrädde Laktosfri 35%",
+      "brand": "Valio",
+      "weight": "5dl",
+      "source": "matspar.se",
+      "product_id": 9656,
+      "slug": "produkt/vispgradde-laktosfri-35-5dl-valio",
+      "base_price": 34.9,
+      "median_price": 38.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 35.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 36.95
+        },
+        {
+          "chain": "Willys",
+          "price": 35.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 35.95
+        },
+        {
+          "chain": "Coop",
+          "price": 36.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491784"
+    },
+    {
+      "product_name": "Vispgrädde 36% Laktosfri",
+      "brand": "ICA",
+      "weight": "5dl",
+      "source": "matspar.se",
+      "product_id": 12844,
+      "slug": "produkt/laktosfri-vispgradde-36-5-dl-ica",
+      "base_price": 34.5,
+      "median_price": 37.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 35.9,
+          "promo_price": 32.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491800"
+    },
+    {
+      "product_name": "Cottage Cheese Mini Laktosfri 1,5%",
+      "brand": "KESO®",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 151623,
+      "slug": "produkt/cottage-cheese-mini-laktosfri-500g-keso",
+      "base_price": 37.9,
+      "median_price": 43.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 41.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 38.95
+        },
+        {
+          "chain": "Willys",
+          "price": 37.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 44.5
+        },
+        {
+          "chain": "Coop",
+          "price": 39.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491807"
+    },
+    {
+      "product_name": "Matlagningsgrädde Laktosfri 10%",
+      "brand": "Valio",
+      "weight": "5dl",
+      "source": "matspar.se",
+      "product_id": 9657,
+      "slug": "produkt/matlagningsgradde-laktosfri-10-5dl-valio",
+      "base_price": 27.9,
+      "median_price": 32.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 30.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 29.95
+        },
+        {
+          "chain": "Willys",
+          "price": 27.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 27.95
+        },
+        {
+          "chain": "Coop",
+          "price": 29.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491813"
+    },
+    {
+      "product_name": "Kefir Hallon Laktosfri 2,1%",
+      "brand": "Valio",
+      "weight": "1l",
+      "source": "matspar.se",
+      "product_id": 9660,
+      "slug": "produkt/kefir-hallon-laktosfri-2-1-1l-valio",
+      "base_price": 26.9,
+      "median_price": 31.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 29.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 29.5
+        },
+        {
+          "chain": "Willys",
+          "price": 26.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 31.95
+        },
+        {
+          "chain": "Coop",
+          "price": 28.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491818"
+    },
+    {
+      "product_name": "Mellanmjölk 1,5%",
+      "brand": "Arla Ko®",
+      "weight": "1,5l",
+      "source": "matspar.se",
+      "product_id": 10678,
+      "slug": "produkt/mellanmjolk-1-5-l-arla-ko",
+      "base_price": 19.8,
+      "median_price": 22.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 20.5
+        },
+        {
+          "chain": "Hemköp",
+          "price": 22.5
+        },
+        {
+          "chain": "Willys",
+          "price": 19.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 19.95
+        },
+        {
+          "chain": "Coop",
+          "price": 20.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491831"
+    },
+    {
+      "product_name": "Standardmjölk 3%",
+      "brand": "Arla Ko®",
+      "weight": "1.5l",
+      "source": "matspar.se",
+      "product_id": 10676,
+      "slug": "produkt/standardmjolk-3-1-5l-arla-ko",
+      "base_price": 20.8,
+      "median_price": 23.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 21.5
+        },
+        {
+          "chain": "Hemköp",
+          "price": 22.95
+        },
+        {
+          "chain": "Willys",
+          "price": 20.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 20.95
+        },
+        {
+          "chain": "Coop",
+          "price": 20.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491842"
+    },
+    {
+      "product_name": "Mellanmjölk 1,5%",
+      "brand": "Arla Ko®",
+      "weight": "1l",
+      "source": "matspar.se",
+      "product_id": 4438,
+      "slug": "produkt/mellanmjolk-1-l-arla-ko",
+      "base_price": 14.5,
+      "median_price": 15.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 14.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 16.5
+        },
+        {
+          "chain": "Willys",
+          "price": 14.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 14.5
+        },
+        {
+          "chain": "Coop",
+          "price": 15.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491848"
+    },
+    {
+      "product_name": "Mellanmjölk Lite längre hållbarhet 1,5%",
+      "brand": "ICA",
+      "weight": "1.5kg",
+      "source": "matspar.se",
+      "product_id": 178931,
+      "slug": "produkt/mellanmjolk-esl-1-5l-ica",
+      "base_price": 19.9,
+      "median_price": 21.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 20.5,
+          "promo_price": 18.33,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491884"
+    },
+    {
+      "product_name": "Standardmjölk Längre Hållbarhet 3%",
+      "brand": "ICA",
+      "weight": "1.5kg",
+      "source": "matspar.se",
+      "product_id": 163319,
+      "slug": "produkt/standardmjolk-langre-hallbarhet-3-1-5kg-ica",
+      "base_price": 19.9,
+      "median_price": 20.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 20.5,
+          "promo_price": 18.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491889"
+    },
+    {
+      "product_name": "Risgrynsgröt",
+      "brand": "Felix",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 3110,
+      "slug": "produkt/risgrot-500-g-felix",
+      "base_price": 14.8,
+      "median_price": 15.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 15.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 15.95
+        },
+        {
+          "chain": "Willys",
+          "price": 14.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 14.95
+        },
+        {
+          "chain": "Coop",
+          "price": 15.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491895"
+    },
+    {
+      "product_name": "Risifrutti Jordgubb",
+      "brand": "Risifrutti",
+      "weight": "175g",
+      "source": "matspar.se",
+      "product_id": 3113,
+      "slug": "produkt/jordgubb-175-g-risifrutti",
+      "base_price": 12.9,
+      "median_price": 14.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 13.9,
+          "promo_price": 13.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 13.95
+        },
+        {
+          "chain": "Willys",
+          "price": 12.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 13.5
+        },
+        {
+          "chain": "Coop",
+          "price": 13.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491902"
+    },
+    {
+      "product_name": "Grötris",
+      "brand": "ICA",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 10609,
+      "slug": "produkt/grotris-1000-g-ica",
+      "base_price": 29.9,
+      "median_price": 34.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 30.9,
+          "promo_price": 32.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491907"
+    },
+    {
+      "product_name": "Proteinmousse Citron Laktosfri",
+      "brand": "Ehrmann",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 403233,
+      "slug": "produkt/proteinmousse-citron-laktosfri-200g-ehrmann",
+      "base_price": 18.5,
+      "median_price": 19.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 20.95
+        },
+        {
+          "chain": "Coop",
+          "price": 19.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491911"
+    },
+    {
+      "product_name": "Nyponsoppa Original",
+      "brand": "Ekströms",
+      "weight": "1l",
+      "source": "matspar.se",
+      "product_id": 3902,
+      "slug": "produkt/nyponsoppa-original-1000-ml-ekstroms",
+      "base_price": 13.9,
+      "median_price": 16.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 13.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 15.95
+        },
+        {
+          "chain": "Willys",
+          "price": 13.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 18.95
+        },
+        {
+          "chain": "Coop",
+          "price": 16.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491917"
+    },
+    {
+      "product_name": "Proteinshake Choklad Laktosfri",
+      "brand": "Arla® Protein",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 500025,
+      "slug": "produkt/proteinshake-choklad-laktosfri-500g-arla-protein",
+      "base_price": 21.9,
+      "median_price": 25.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 23.9,
+          "promo_price": 21.66,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 25.5,
+          "promo_price": 22.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 21.9,
+          "promo_price": 19.9,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "MatHem",
+          "price": 25.5,
+          "promo_price": 22.95,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 23.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491925"
+    },
+    {
+      "product_name": "Proteinpudding Choklad Laktosfri",
+      "brand": "Ehrmann",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 165684,
+      "slug": "produkt/proteinpudding-choklad-laktosfri-200g-ehrmann",
+      "base_price": 13.95,
+      "median_price": 16.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 15.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 16.5
+        },
+        {
+          "chain": "Willys",
+          "price": 14.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 17.5
+        },
+        {
+          "chain": "Coop",
+          "price": 15.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491934"
+    },
+    {
+      "product_name": "Proteinyoghurt Mango 0.6%",
+      "brand": "Arla® Protein",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 517806,
+      "slug": "produkt/proteinyoghurt-mango-0-6-200g-arla-protein",
+      "base_price": 15.9,
+      "median_price": 18.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 22.95
+        },
+        {
+          "chain": "Coop",
+          "price": 17.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 16.95,
+          "promo_price": 15.26,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491940"
+    },
+    {
+      "product_name": "Sojadryck Plant Protein Naturell",
+      "brand": "Alpro",
+      "weight": "1l",
+      "source": "matspar.se",
+      "product_id": 546348,
+      "slug": "produkt/sojadryck-plant-protein-naturell-1l-alpro",
+      "base_price": 20.9,
+      "median_price": 23.95,
+      "stores": [
+        {
+          "chain": "Hemköp",
+          "price": 23.95
+        },
+        {
+          "chain": "ICA",
+          "price": 23.9
+        },
+        {
+          "chain": "Willys",
+          "price": 20.9,
+          "promo_price": 17.9,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "MatHem",
+          "price": 25.5
+        },
+        {
+          "chain": "Coop",
+          "price": 25.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491946"
+    },
+    {
+      "product_name": "Proteinpudding Choklad Laktosfri",
+      "brand": "ProPud",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 8427,
+      "slug": "produkt/proteinpudding-choklad-laktosfri-200g-propud",
+      "base_price": 16.5,
+      "median_price": 19.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 17.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 19.95,
+          "promo_price": 17.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 16.5
+        },
+        {
+          "chain": "Coop",
+          "price": 17.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491952"
+    },
+    {
+      "product_name": "Smör Normalsaltat 82%",
+      "brand": "Svenskt smör®",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 4453,
+      "slug": "produkt/normalsaltat-82-500-g-svenskt-smor-fran-arla",
+      "base_price": 72.5,
+      "median_price": 76.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 73.9,
+          "promo_price": 72.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 72.95
+        },
+        {
+          "chain": "Willys",
+          "price": 72.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 72.5,
+          "promo_price": 59.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 72.95,
+          "promo_price": 54.9,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491960"
+    },
+    {
+      "product_name": "Bregott Smör & Raps Normalsaltat 75%",
+      "brand": "Bregott®",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 500036,
+      "slug": "produkt/normalsaltat-smor-raps-500g",
+      "base_price": 48.9,
+      "median_price": 61.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 59.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 57.95,
+          "promo_price": 45.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 58.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 58.95
+        },
+        {
+          "chain": "Coop",
+          "price": 59.95,
+          "promo_price": 45.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491968"
+    },
+    {
+      "product_name": "Smör Normalsaltat 80%",
+      "brand": "Valio",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 2217,
+      "slug": "produkt/smor-normalsaltat-80-500g-valio",
+      "base_price": 61.9,
+      "median_price": 71.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 63.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 65.95
+        },
+        {
+          "chain": "Willys",
+          "price": 66.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 64.95
+        },
+        {
+          "chain": "Coop",
+          "price": 64.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491973"
+    },
+    {
+      "product_name": "Bregott Smör & Raps Extrasaltat 75%",
+      "brand": "Bregott®",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 500023,
+      "slug": "produkt/extrasaltat-smor-raps-500g",
+      "base_price": 57.95,
+      "median_price": 61.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 59.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 57.95,
+          "promo_price": 45.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 58.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 58.95
+        },
+        {
+          "chain": "Coop",
+          "price": 61.95,
+          "promo_price": 45.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491980"
+    },
+    {
+      "product_name": "Bregott Normalsaltat Portion 75%",
+      "brand": "Bregott®",
+      "weight": "8g",
+      "source": "matspar.se",
+      "product_id": 250460,
+      "slug": "produkt/normalsaltat-smor-rapsolja-portio-8g",
+      "base_price": 2.5,
+      "median_price": 2.725,
+      "stores": [
+        {
+          "chain": "Hemköp",
+          "price": 2.95
+        },
+        {
+          "chain": "Willys",
+          "price": 2.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491985"
+    },
+    {
+      "product_name": "Smör Osaltat 82%",
+      "brand": "Svenskt smör®",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 10757,
+      "slug": "produkt/smor-osaltat-83-500-g-svenskt-smor-fran-arla",
+      "base_price": 69.95,
+      "median_price": 76.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 73.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 69.95
+        },
+        {
+          "chain": "Willys",
+          "price": 72.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 73.95,
+          "promo_price": 65.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 74.95,
+          "promo_price": 54.9,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.491995"
+    },
+    {
+      "product_name": "Bregott Smör & Raps Mellan 57%",
+      "brand": "Bregott®",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 500058,
+      "slug": "produkt/mellan-smor-raps-500g",
+      "base_price": 56.8,
+      "median_price": 60.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 58.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 56.95,
+          "promo_price": 45.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 56.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 56.95
+        },
+        {
+          "chain": "Coop",
+          "price": 58.95,
+          "promo_price": 45.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492002"
+    },
+    {
+      "product_name": "Smör Normalsaltat 82%",
+      "brand": "Svenskt smör®",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 4454,
+      "slug": "produkt/normalsaltat-82-250-g-svenskt-smor-fran-arla",
+      "base_price": 43.95,
+      "median_price": 50.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 47.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 46.95
+        },
+        {
+          "chain": "Willys",
+          "price": 44.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 46.95
+        },
+        {
+          "chain": "Coop",
+          "price": 46.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492011"
+    },
+    {
+      "product_name": "Smör- & Rapsolja Flytande Laktosfri",
+      "brand": "Arla Köket®",
+      "weight": "5dl",
+      "source": "matspar.se",
+      "product_id": 471701,
+      "slug": "produkt/smor-rapsolja-flytande-laktosfri-5dl-arla-koket",
+      "base_price": 34.9,
+      "median_price": 40.965,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 38.9,
+          "promo_price": 25.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 36.95
+        },
+        {
+          "chain": "Willys",
+          "price": 34.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 39.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492017"
+    },
+    {
+      "product_name": "Culinesse",
+      "brand": "Milda",
+      "weight": "75cl",
+      "source": "matspar.se",
+      "product_id": 229578,
+      "slug": "produkt/culinesse-75cl-milda",
+      "base_price": 28.9,
+      "median_price": 32.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 29.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 29.95
+        },
+        {
+          "chain": "Willys",
+          "price": 28.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 32.95
+        },
+        {
+          "chain": "Coop",
+          "price": 29.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492022"
+    },
+    {
+      "product_name": "Mild Kvarg Vanilj 0,2%",
+      "brand": "Arla®",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 359499,
+      "slug": "produkt/mild-kvarg-vanilj-0-2-1kg-arla",
+      "base_price": 42.9,
+      "median_price": 48.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 45.9,
+          "promo_price": 42.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 45.95
+        },
+        {
+          "chain": "Willys",
+          "price": 42.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 42.95
+        },
+        {
+          "chain": "Coop",
+          "price": 44.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492029"
+    },
+    {
+      "product_name": "Mild Kvarg Hallon 0,2%",
+      "brand": "Arla®",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 359495,
+      "slug": "produkt/mild-kvarg-hallon-0-2-1kg-arla",
+      "base_price": 42.9,
+      "median_price": 48.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 45.9,
+          "promo_price": 42.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 45.95
+        },
+        {
+          "chain": "Willys",
+          "price": 42.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 42.95
+        },
+        {
+          "chain": "Coop",
+          "price": 44.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492035"
+    },
+    {
+      "product_name": "Cottage Cheese 4%",
+      "brand": "KESO®",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 4458,
+      "slug": "produkt/cottage-cheese-naturell-4-500-g-keso",
+      "base_price": 31.5,
+      "median_price": 34.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 32.5
+        },
+        {
+          "chain": "Hemköp",
+          "price": 32.95
+        },
+        {
+          "chain": "Willys",
+          "price": 31.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 32.95
+        },
+        {
+          "chain": "Coop",
+          "price": 33.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492041"
+    },
+    {
+      "product_name": "Mild Kvarg Naturell 0,2%",
+      "brand": "Arla®",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 359480,
+      "slug": "produkt/mild-kvarg-naturell-0-2-1kg-arla",
+      "base_price": 39.9,
+      "median_price": 46.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 42.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 42.95
+        },
+        {
+          "chain": "Willys",
+          "price": 39.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 39.95
+        },
+        {
+          "chain": "Coop",
+          "price": 41.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492046"
+    },
+    {
+      "product_name": "Kvarg Vanilj",
+      "brand": "Lindahls",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 15033,
+      "slug": "produkt/kvarg-vanilj-utan-socker-500-g-1x500g-lindahls",
+      "base_price": 24.5,
+      "median_price": 28.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 24.9,
+          "promo_price": 21.9,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 25.95,
+          "promo_price": 22.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 24.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 28.5
+        },
+        {
+          "chain": "Coop",
+          "price": 26.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492053"
+    },
+    {
+      "product_name": "Lättkvarg Naturell 0,2%",
+      "brand": "ICA Basic",
+      "weight": "900g",
+      "source": "matspar.se",
+      "product_id": 231952,
+      "slug": "produkt/lattkvarg-naturell-0-2-900g-ica-basic",
+      "base_price": 27.9,
+      "median_price": 30.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 27.9
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492057"
+    },
+    {
+      "product_name": "Cottage Cheese Naturell 4%",
+      "brand": "ICA",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 12872,
+      "slug": "produkt/cottage-cheese-naturell-500-g-ica",
+      "base_price": 28.95,
+      "median_price": 32.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 30.9
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492061"
+    },
+    {
+      "product_name": "Mild kvarg persika passion 0,2%",
+      "brand": "Arla®",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 359486,
+      "slug": "produkt/mild-kvarg-persika-passion-0-2-1kg-arla",
+      "base_price": 42.9,
+      "median_price": 48.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 45.9,
+          "promo_price": 42.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 45.95
+        },
+        {
+          "chain": "Willys",
+          "price": 42.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 42.95
+        },
+        {
+          "chain": "Coop",
+          "price": 44.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492072"
+    },
+    {
+      "product_name": "Kvarg Hallon & Blåbär Laktosfri 7%",
+      "brand": "Valio",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 9662,
+      "slug": "produkt/kvarg-hallon-blabar-laktosfri-7-200g-valio",
+      "base_price": 15.9,
+      "median_price": 18.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 16.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 17.95,
+          "promo_price": 16.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 15.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 20.5,
+          "promo_price": 18.45,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 16.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492081"
+    },
+    {
+      "product_name": "iKaffe Havredryck",
+      "brand": "Oatly",
+      "weight": "1l",
+      "source": "matspar.se",
+      "product_id": 7462,
+      "slug": "produkt/ikaffe-1l-oatly",
+      "base_price": 15.9,
+      "median_price": 20.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 19.9,
+          "promo_price": 18.33,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 19.95
+        },
+        {
+          "chain": "Store-103",
+          "price": 25.0
+        },
+        {
+          "chain": "Willys",
+          "price": 18.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 19.95
+        },
+        {
+          "chain": "Coop",
+          "price": 19.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492089"
+    },
+    {
+      "product_name": "Havredryck Barista Glutenfri",
+      "brand": "Valio",
+      "weight": "1l",
+      "source": "matspar.se",
+      "product_id": 228804,
+      "slug": "produkt/havredryck-barista-glutenfri-1l-valio-1",
+      "base_price": 17.9,
+      "median_price": 20.925,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 19.9,
+          "promo_price": 21.25,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 19.95
+        },
+        {
+          "chain": "Willys",
+          "price": 17.9
+        },
+        {
+          "chain": "Coop",
+          "price": 20.95,
+          "promo_price": 16.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492096"
+    },
+    {
+      "product_name": "Havredryck Naturell",
+      "brand": "ICA",
+      "weight": "1l",
+      "source": "matspar.se",
+      "product_id": 220981,
+      "slug": "produkt/havredryck-naturell-1l",
+      "base_price": 14.95,
+      "median_price": 17.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 16.9,
+          "promo_price": 15.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492100"
+    },
+    {
+      "product_name": "iMat 13% Havregrädde",
+      "brand": "Oatly",
+      "weight": "250 ml",
+      "source": "matspar.se",
+      "product_id": 7448,
+      "slug": "produkt/imat-250-ml-oatly",
+      "base_price": 10.5,
+      "median_price": 12.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 10.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 11.5
+        },
+        {
+          "chain": "Willys",
+          "price": 10.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 10.5
+        },
+        {
+          "chain": "Coop",
+          "price": 12.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492106"
+    },
+    {
+      "product_name": "Havredryck Barista",
+      "brand": "ICA",
+      "weight": "1l",
+      "source": "matspar.se",
+      "product_id": 354091,
+      "slug": "produkt/havredryck-barista-1l-ica-1",
+      "base_price": 14.9,
+      "median_price": 19.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 17.9,
+          "promo_price": 15.33,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492111"
+    },
+    {
+      "product_name": "iMat Fraiche",
+      "brand": "Oatly",
+      "weight": "2dl",
+      "source": "matspar.se",
+      "product_id": 7456,
+      "slug": "produkt/imat-fraiche-2-dl-oatly",
+      "base_price": 15.9,
+      "median_price": 19.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 17.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 19.95
+        },
+        {
+          "chain": "Willys",
+          "price": 15.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 20.5
+        },
+        {
+          "chain": "Coop",
+          "price": 18.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492116"
+    },
+    {
+      "product_name": "Sojafärs EKO KRAV",
+      "brand": "Kung Markatta",
+      "weight": "300 g",
+      "source": "matspar.se",
+      "product_id": 22418,
+      "slug": "produkt/sojafars-ekologisk-300g-kung-markatta-alltid-ekologiskt",
+      "base_price": 46.95,
+      "median_price": 48.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 50.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492120"
+    },
+    {
+      "product_name": "Mandeldryck EKO",
+      "brand": "ICA I Love Eco",
+      "weight": "1l",
+      "source": "matspar.se",
+      "product_id": 181674,
+      "slug": "produkt/ekologisk-mandeldryck-1l-ica-i-love-eco",
+      "base_price": 20.95,
+      "median_price": 25.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 22.9
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492126"
+    },
+    {
+      "product_name": "Mandeldryck Osötad",
+      "brand": "Alpro",
+      "weight": "1l",
+      "source": "matspar.se",
+      "product_id": 1709,
+      "slug": "produkt/mandeldryck-osotad-1-liter-alpro-soja",
+      "base_price": 22.9,
+      "median_price": 27.98,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 25.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 25.95,
+          "promo_price": 22.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 22.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 26.5,
+          "promo_price": 22.53,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 26.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492133"
+    },
+    {
+      "product_name": "Yofu Mild & Creamy Naturell",
+      "brand": "Alpro",
+      "weight": "750g",
+      "source": "matspar.se",
+      "product_id": 1705,
+      "slug": "produkt/sojyoghurt-naturell-mild-creamy-750-g-alpro-soja",
+      "base_price": 25.9,
+      "median_price": 30.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 28.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 27.95
+        },
+        {
+          "chain": "Willys",
+          "price": 25.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 29.5
+        },
+        {
+          "chain": "Coop",
+          "price": 27.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492138"
+    },
+    {
+      "product_name": "Vispgrädde 36%",
+      "brand": "Arla Köket®",
+      "weight": "5dl",
+      "source": "matspar.se",
+      "product_id": 4476,
+      "slug": "produkt/vispgradde-36-5-dl-arla-koket",
+      "base_price": 34.5,
+      "median_price": 40.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 37.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 38.5
+        },
+        {
+          "chain": "Willys",
+          "price": 34.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 34.5
+        },
+        {
+          "chain": "Coop",
+          "price": 36.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492144"
+    },
+    {
+      "product_name": "Matlagningsgrädde 13%",
+      "brand": "ICA",
+      "weight": "5dl",
+      "source": "matspar.se",
+      "product_id": 21277,
+      "slug": "produkt/matlagningsgradde-15-5dl-ica",
+      "base_price": 24.95,
+      "median_price": 27.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 26.5,
+          "promo_price": 25.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492148"
+    },
+    {
+      "product_name": "Färsk Vispgrädde 40%",
+      "brand": "Arla Ko®",
+      "weight": "5dl",
+      "source": "matspar.se",
+      "product_id": 10679,
+      "slug": "produkt/vispgradde-4-5-dl-arla-ko",
+      "base_price": 37.9,
+      "median_price": 41.98,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 38.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 41.95
+        },
+        {
+          "chain": "Willys",
+          "price": 37.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 42.95
+        },
+        {
+          "chain": "Coop",
+          "price": 39.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492157"
+    },
+    {
+      "product_name": "Matlagningsgrädde 15%",
+      "brand": "Kelda®",
+      "weight": "25cl",
+      "source": "matspar.se",
+      "product_id": 4480,
+      "slug": "produkt/matlagningsgradde-15-2-5-dl-kelda",
+      "base_price": 14.9,
+      "median_price": 17.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 15.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 17.95
+        },
+        {
+          "chain": "Willys",
+          "price": 14.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 14.95
+        },
+        {
+          "chain": "Coop",
+          "price": 17.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492171"
+    },
+    {
+      "product_name": "Vispgrädde 36% Längre hållbarhet",
+      "brand": "ICA",
+      "weight": "5dl",
+      "source": "matspar.se",
+      "product_id": 167329,
+      "slug": "produkt/vispgradde-36-5dl-ica",
+      "base_price": 31.9,
+      "median_price": 34.6,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 34.9,
+          "promo_price": 31.66,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492192"
+    },
+    {
+      "product_name": "Färsk Vispgrädde 40%",
+      "brand": "Arla Ko®",
+      "weight": "3dl",
+      "source": "matspar.se",
+      "product_id": 185933,
+      "slug": "produkt/farsk-vispgradde-40-3dl-arla-ko",
+      "base_price": 23.95,
+      "median_price": 27.925,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 25.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 26.95
+        },
+        {
+          "chain": "Willys",
+          "price": 24.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 27.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492197"
+    },
+    {
+      "product_name": "Crème Fraiche 34%",
+      "brand": "Arla Köket®",
+      "weight": "5dl",
+      "source": "matspar.se",
+      "product_id": 4446,
+      "slug": "produkt/creme-fraiche-34-5-dl-arla-koket",
+      "base_price": 35.5,
+      "median_price": 39.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 36.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 39.95
+        },
+        {
+          "chain": "Willys",
+          "price": 35.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 35.5
+        },
+        {
+          "chain": "Coop",
+          "price": 36.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492204"
+    },
+    {
+      "product_name": "Crème Fraiche Lätt 15%",
+      "brand": "Arla Köket®",
+      "weight": "2dl",
+      "source": "matspar.se",
+      "product_id": 4450,
+      "slug": "produkt/latt-creme-fraiche-15-2-dl-arla-koket",
+      "base_price": 12.8,
+      "median_price": 14.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 13.5,
+          "promo_price": 12.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 16.5
+        },
+        {
+          "chain": "Willys",
+          "price": 12.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 12.95
+        },
+        {
+          "chain": "Coop",
+          "price": 14.5,
+          "promo_price": 12.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492211"
+    },
+    {
+      "product_name": "Crème Fraiche 32%",
+      "brand": "Arla Köket®",
+      "weight": "2dl",
+      "source": "matspar.se",
+      "product_id": 4448,
+      "slug": "produkt/creme-fraiche-32-2dl-arla-koket",
+      "base_price": 14.5,
+      "median_price": 15.98,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 14.9,
+          "promo_price": 12.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 17.95
+        },
+        {
+          "chain": "Willys",
+          "price": 14.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 14.5
+        },
+        {
+          "chain": "Coop",
+          "price": 14.95,
+          "promo_price": 12.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492218"
+    },
+    {
+      "product_name": "Creme Fraiche 34%",
+      "brand": "ICA",
+      "weight": "2dl",
+      "source": "matspar.se",
+      "product_id": 182055,
+      "slug": "produkt/creme-fraiche-2dl-ica",
+      "base_price": 13.9,
+      "median_price": 15.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 14.9,
+          "promo_price": 12.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492224"
+    },
+    {
+      "product_name": "Gräddfil Original 12%",
+      "brand": "Arla Ko®",
+      "weight": "3dl",
+      "source": "matspar.se",
+      "product_id": 110702,
+      "slug": "produkt/graddfil-original-12-3dl-arla-ko",
+      "base_price": 14.8,
+      "median_price": 16.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 14.9,
+          "promo_price": 15.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 15.95
+        },
+        {
+          "chain": "Willys",
+          "price": 14.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 15.95
+        },
+        {
+          "chain": "Coop",
+          "price": 15.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492231"
+    },
+    {
+      "product_name": "Lätt Creme Fraiche 15%",
+      "brand": "ICA",
+      "weight": "5dl",
+      "source": "matspar.se",
+      "product_id": 181759,
+      "slug": "produkt/latt-creme-fraiche-5dl-ica",
+      "base_price": 29.5,
+      "median_price": 31.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 29.9
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492235"
+    },
+    {
+      "product_name": "Gräddfil 12%",
+      "brand": "ICA",
+      "weight": "3dl",
+      "source": "matspar.se",
+      "product_id": 12098,
+      "slug": "produkt/graddfil-300-ml-ica",
+      "base_price": 13.9,
+      "median_price": 14.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 14.9,
+          "promo_price": 13.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492239"
+    },
+    {
+      "product_name": "Crème Fraiche Laktosfri 32%",
+      "brand": "Arla®",
+      "weight": "2dl",
+      "source": "matspar.se",
+      "product_id": 427597,
+      "slug": "produkt/creme-fraiche-laktosfri-32-2dl-arla",
+      "base_price": 18.5,
+      "median_price": 21.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 19.9,
+          "promo_price": 12.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 18.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 21.95
+        },
+        {
+          "chain": "Coop",
+          "price": 19.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492245"
+    },
+    {
+      "product_name": "Crème Fraiche Lätt Paprika & Chili 13%",
+      "brand": "Arla Köket®",
+      "weight": "2dl",
+      "source": "matspar.se",
+      "product_id": 4445,
+      "slug": "produkt/latt-creme-fraiche-paprika-chili-13-2-dl-arla-koket",
+      "base_price": 17.9,
+      "median_price": 21.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 18.5
+        },
+        {
+          "chain": "Hemköp",
+          "price": 20.95,
+          "promo_price": 19.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 17.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 23.5
+        },
+        {
+          "chain": "Coop",
+          "price": 20.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492251"
+    },
+    {
+      "product_name": "Gräddfil 12%",
+      "brand": "ICA",
+      "weight": "5dl",
+      "source": "matspar.se",
+      "product_id": 12099,
+      "slug": "produkt/graddfil-500-ml-ica",
+      "base_price": 20.9,
+      "median_price": 23.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 21.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492255"
+    },
+    {
+      "product_name": "Ägg Frigående M 15-p",
+      "brand": "Kronägg",
+      "weight": "15st",
+      "source": "matspar.se",
+      "product_id": 9906,
+      "slug": "produkt/frigaende-m-15-pack-15-st-kronagg",
+      "base_price": 42.5,
+      "median_price": 47.7,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 50.95,
+          "promo_price": 39.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "MatHem",
+          "price": 48.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492260"
+    },
+    {
+      "product_name": "Ägg Frigående Inomhus 24-Pack",
+      "brand": "ICA Basic",
+      "weight": "24st",
+      "source": "matspar.se",
+      "product_id": 114148,
+      "slug": "produkt/agg-frigaende-inomhus-24-pack-24st-ica-basic",
+      "base_price": 44.95,
+      "median_price": 49.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 59.95,
+          "promo_price": 42.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492265"
+    },
+    {
+      "product_name": "Ägg Frigående L 12-p Kronägg",
+      "brand": "Kronägg",
+      "weight": "12st",
+      "source": "matspar.se",
+      "product_id": 9908,
+      "slug": "produkt/frigaende-l-12-st-kronagg",
+      "base_price": 38.5,
+      "median_price": 42.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 46.0
+        },
+        {
+          "chain": "MatHem",
+          "price": 44.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492269"
+    },
+    {
+      "product_name": "Ägg frigående M/L 24-p",
+      "brand": "ICA",
+      "weight": "24st",
+      "source": "matspar.se",
+      "product_id": 286421,
+      "slug": "produkt/agg-frigaende-24st-ica",
+      "base_price": 59.9,
+      "median_price": 64.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 68.0
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492283"
+    },
+    {
+      "product_name": "Ägg Frigående M/L 12-p EKO KRAV",
+      "brand": "ICA I Love Eco",
+      "weight": "12st",
+      "source": "matspar.se",
+      "product_id": 12850,
+      "slug": "produkt/agg-12-pack-12-st-ica-eco",
+      "base_price": 47.9,
+      "median_price": 54.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 69.95,
+          "promo_price": 47.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492287"
+    },
+    {
+      "product_name": "Ägg Frigående Utomhus M/L 12-p EKO KRAV",
+      "brand": "Änglamark",
+      "weight": "636g",
+      "source": "matspar.se",
+      "product_id": 2472,
+      "slug": "produkt/agg-eko-12ml-756-gr-coop-anglamark",
+      "base_price": 51.95,
+      "median_price": 51.95,
+      "stores": [
+        {
+          "chain": "Coop",
+          "price": 51.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492291"
+    },
+    {
+      "product_name": "Ägg Frigående Utomhus 10-p",
+      "brand": "Kronägg",
+      "weight": "10st",
+      "source": "matspar.se",
+      "product_id": 101144,
+      "slug": "produkt/frigaende-utomhus-ml-10-pack-kronagg",
+      "base_price": 38.5,
+      "median_price": 41.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 45.0
+        },
+        {
+          "chain": "MatHem",
+          "price": 44.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492296"
+    },
+    {
+      "product_name": "Ägg Frigående M/L 10-p",
+      "brand": "ICA",
+      "weight": "10st",
+      "source": "matspar.se",
+      "product_id": 130908,
+      "slug": "produkt/kampanj-10-pack-ml-10st-ica",
+      "base_price": 29.9,
+      "median_price": 34.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 49.95,
+          "promo_price": 30.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492337"
+    },
+    {
+      "product_name": "Ägg Frigående 15-p M/L EKO",
+      "brand": "Kronägg",
+      "weight": "15st",
+      "source": "matspar.se",
+      "product_id": 9915,
+      "slug": "produkt/ekologiska-agg-15-pack-ml-kronagg",
+      "base_price": 59.95,
+      "median_price": 67.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 71.95,
+          "promo_price": 63.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "MatHem",
+          "price": 66.5
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492343"
+    },
+    {
+      "product_name": "Frukostägg Frigående 12-p",
+      "brand": "ICA",
+      "weight": "12st",
+      "source": "matspar.se",
+      "product_id": 113340,
+      "slug": "produkt/frukostagg-12-pack-12st-ica",
+      "base_price": 36.5,
+      "median_price": 38.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 43.95,
+          "promo_price": 33.33,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492353"
+    },
+    {
+      "product_name": "Jäst Färsk För Matbröd",
+      "brand": "Kronjäst",
+      "weight": "50g",
+      "source": "matspar.se",
+      "product_id": 77,
+      "slug": "produkt/jast-for-matbrod-50-g-kronjast",
+      "base_price": 3.5,
+      "median_price": 3.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 3.5,
+          "promo_price": 3.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 3.95
+        },
+        {
+          "chain": "Willys",
+          "price": 3.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 4.95
+        },
+        {
+          "chain": "Coop",
+          "price": 3.8
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492362"
+    },
+    {
+      "product_name": "Torrjäst För Matbröd",
+      "brand": "Kronjäst",
+      "weight": "28g",
+      "source": "matspar.se",
+      "product_id": 19863,
+      "slug": "produkt/torrjast-for-matbrod-28g-kronjast",
+      "base_price": 7.5,
+      "median_price": 8.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 7.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 7.95
+        },
+        {
+          "chain": "Willys",
+          "price": 7.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 11.95
+        },
+        {
+          "chain": "Coop",
+          "price": 8.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492368"
+    },
+    {
+      "product_name": "Kronjäst Färsk För Söta Degar",
+      "brand": "Kronjäst",
+      "weight": "50g",
+      "source": "matspar.se",
+      "product_id": 80,
+      "slug": "produkt/jast-for-sota-degar-50-g-kronjast",
+      "base_price": 3.5,
+      "median_price": 3.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 3.5,
+          "promo_price": 3.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 3.95
+        },
+        {
+          "chain": "Willys",
+          "price": 3.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 4.95
+        },
+        {
+          "chain": "Coop",
+          "price": 3.8
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492375"
+    },
+    {
+      "product_name": "Jäst Färsk För Matbröd EKO",
+      "brand": "Kronjäst",
+      "weight": "50g",
+      "source": "matspar.se",
+      "product_id": 79,
+      "slug": "produkt/jast-ekologisk-50-g-kronjast",
+      "base_price": 8.9,
+      "median_price": 9.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 11.95
+        },
+        {
+          "chain": "Coop",
+          "price": 9.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492379"
+    },
+    {
+      "product_name": "Torrjäst För Söta Degar",
+      "brand": "Kronjäst",
+      "weight": "28g",
+      "source": "matspar.se",
+      "product_id": 23528,
+      "slug": "produkt/torrjast-for-sota-degar-28g-kronjast",
+      "base_price": 8.5,
+      "median_price": 10.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 8.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 9.95
+        },
+        {
+          "chain": "Willys",
+          "price": 8.5
+        },
+        {
+          "chain": "MatHem",
+          "price": 12.95
+        },
+        {
+          "chain": "Coop",
+          "price": 9.95
+        }
+      ],
+      "category": "Mejeri Ost Agg",
+      "scraped_at": "2026-02-07T09:59:16.492385"
+    },
+    {
+      "product_name": "Nötfärs 12%",
+      "brand": "Smak Av Gotland",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 17986,
+      "slug": "produkt/notfars-12-1000-g-smak-av-gotland",
+      "base_price": 150.0,
+      "median_price": 167.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 176.0
+        },
+        {
+          "chain": "Coop",
+          "price": 158.0
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896137"
+    },
+    {
+      "product_name": "Nötfärs 12%",
+      "brand": "Garant",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 153419,
+      "slug": "produkt/notfars-12-1kg-garant",
+      "base_price": 147.0,
+      "median_price": 149.0,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 149.0
+        },
+        {
+          "chain": "Hemköp",
+          "price": 154.0
+        },
+        {
+          "chain": "MatHem",
+          "price": 147.0
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896164"
+    },
+    {
+      "product_name": "Bacon Piggham Sverige Skiva 3-p",
+      "brand": "Scan",
+      "weight": "420g",
+      "source": "matspar.se",
+      "product_id": 2827,
+      "slug": "produkt/bacon-piggham-se-420g-scan",
+      "base_price": 42.8,
+      "median_price": 47.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 43.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 45.95
+        },
+        {
+          "chain": "Willys",
+          "price": 42.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 42.95,
+          "promo_price": 39.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 46.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896179"
+    },
+    {
+      "product_name": "Färsk fläskfilé",
+      "brand": "Danish Crown",
+      "weight": "590g",
+      "source": "matspar.se",
+      "product_id": 155239,
+      "slug": "produkt/flaskfile-farsk-ica-danish-crown",
+      "base_price": 73.75,
+      "median_price": 81.275,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 76.11,
+          "promo_price": 58.41,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 83.85
+        },
+        {
+          "chain": "Willys",
+          "price": 83.85
+        },
+        {
+          "chain": "MatHem",
+          "price": 76.5
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896189"
+    },
+    {
+      "product_name": "Entrecote",
+      "brand": "Naturkött®",
+      "weight": "1.1kg",
+      "source": "matspar.se",
+      "product_id": 20537,
+      "slug": "produkt/entrecote-1-1kg-naturkott",
+      "base_price": 211.65,
+      "median_price": 235.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 235.0
+        },
+        {
+          "chain": "Willys",
+          "price": 235.0
+        },
+        {
+          "chain": "Hemköp",
+          "price": 259.0
+        },
+        {
+          "chain": "Coop",
+          "price": 211.65,
+          "promo_price": 194.65,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896198"
+    },
+    {
+      "product_name": "Bacon Skivat Originalet",
+      "brand": "Scan",
+      "weight": "140g",
+      "source": "matspar.se",
+      "product_id": 2834,
+      "slug": "produkt/bacon-skivat-originalet-140g-scan",
+      "base_price": 15.9,
+      "median_price": 18.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 16.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 16.95
+        },
+        {
+          "chain": "Willys",
+          "price": 16.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 15.95
+        },
+        {
+          "chain": "Coop",
+          "price": 17.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896424"
+    },
+    {
+      "product_name": "Ryggbiff",
+      "brand": "",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 390000,
+      "slug": "produkt/ryggbiff-ca-1kg",
+      "base_price": 119.8,
+      "median_price": 119.8,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 119.8
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896434"
+    },
+    {
+      "product_name": "Flankstek Sverige",
+      "brand": "ICA",
+      "weight": "700g",
+      "source": "matspar.se",
+      "product_id": 182635,
+      "slug": "produkt/flankstek-vac-sv-700g-ica",
+      "base_price": 134.5,
+      "median_price": 147.93,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 169.98
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896439"
+    },
+    {
+      "product_name": "Blandfärs 21%",
+      "brand": "ICA",
+      "weight": "1.6kg",
+      "source": "matspar.se",
+      "product_id": 103621,
+      "slug": "produkt/blandfars-5050-2-1-6kg-ica",
+      "base_price": 164.8,
+      "median_price": 187.2,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 223.92
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896444"
+    },
+    {
+      "product_name": "LAMMLÄGG",
+      "brand": "Scan",
+      "weight": "780g",
+      "source": "matspar.se",
+      "product_id": 220438,
+      "slug": "produkt/lammlagg-780g-scan",
+      "base_price": 161.0,
+      "median_price": 182.52,
+      "stores": [
+        {
+          "chain": "Coop",
+          "price": 182.52
+        },
+        {
+          "chain": "ICA",
+          "price": 224.6
+        },
+        {
+          "chain": "MatHem",
+          "price": 161.0
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896450"
+    },
+    {
+      "product_name": "Rökt Kalkon Smörgåspålägg",
+      "brand": "Pärsons",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 5946,
+      "slug": "produkt/rokt-kalkon-200g-parsons",
+      "base_price": 36.9,
+      "median_price": 41.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 37.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 40.95
+        },
+        {
+          "chain": "Willys",
+          "price": 37.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 37.95,
+          "promo_price": 29.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 39.95,
+          "promo_price": 28.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896459"
+    },
+    {
+      "product_name": "Leverpastej Ugnsbakad",
+      "brand": "Scan",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 9836,
+      "slug": "produkt/leverpastej-ugnsbakad-200g-scan",
+      "base_price": 14.9,
+      "median_price": 16.98,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 15.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 16.95
+        },
+        {
+          "chain": "Willys",
+          "price": 15.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 14.95
+        },
+        {
+          "chain": "Coop",
+          "price": 15.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896465"
+    },
+    {
+      "product_name": "Skinka Rökt Tunna skivor",
+      "brand": "ICA",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 11934,
+      "slug": "produkt/rokt-skinka-tunna-skivor-200-g-ica",
+      "base_price": 24.5,
+      "median_price": 26.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 24.9,
+          "promo_price": 25.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896471"
+    },
+    {
+      "product_name": "Leverpastej Skivbar",
+      "brand": "Arboga",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 4599,
+      "slug": "produkt/pastej-skivbar-250g-arboga",
+      "base_price": 13.8,
+      "median_price": 15.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 13.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 15.5
+        },
+        {
+          "chain": "Willys",
+          "price": 13.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 18.5
+        },
+        {
+          "chain": "Coop",
+          "price": 15.5
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896477"
+    },
+    {
+      "product_name": "Skinka Kokt Tunna Skivor",
+      "brand": "ICA",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 11935,
+      "slug": "produkt/kokt-skinka-tunna-skivor-200-g-ica",
+      "base_price": 24.5,
+      "median_price": 26.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 24.9,
+          "promo_price": 25.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896482"
+    },
+    {
+      "product_name": "Fuet Iberico",
+      "brand": "ARGAL",
+      "weight": "150g",
+      "source": "matspar.se",
+      "product_id": 172392,
+      "slug": "produkt/fuet-iberico-150g-argal",
+      "base_price": 36.5,
+      "median_price": 41.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 47.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896486"
+    },
+    {
+      "product_name": "Leverpastej Original Bredbar",
+      "brand": "Pastejköket",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 4591,
+      "slug": "produkt/bredbar-leverpastej-200g-pastejkoket",
+      "base_price": 12.9,
+      "median_price": 15.7,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 12.9,
+          "promo_price": 12.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 14.95
+        },
+        {
+          "chain": "Willys",
+          "price": 12.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 16.95
+        },
+        {
+          "chain": "Coop",
+          "price": 14.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896494"
+    },
+    {
+      "product_name": "Gourmetskinka Tunnskivad Rökt",
+      "brand": "Pärsons",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 5940,
+      "slug": "produkt/gourmetskinka-tunnskivad-rokt-200g-parsons",
+      "base_price": 29.9,
+      "median_price": 32.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 30.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 32.5
+        },
+        {
+          "chain": "Willys",
+          "price": 29.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 32.5,
+          "promo_price": 29.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 29.95,
+          "promo_price": 28.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896502"
+    },
+    {
+      "product_name": "Salami Napoli",
+      "brand": "ICA",
+      "weight": "70g",
+      "source": "matspar.se",
+      "product_id": 12820,
+      "slug": "produkt/salami-napoli-70g-ica",
+      "base_price": 21.95,
+      "median_price": 27.25,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 23.9,
+          "promo_price": 24.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896507"
+    },
+    {
+      "product_name": "Pepparsalami Skivad",
+      "brand": "Göl",
+      "weight": "150g",
+      "source": "matspar.se",
+      "product_id": 1901,
+      "slug": "produkt/pepparsalami-skivad-150g-gol",
+      "base_price": 27.9,
+      "median_price": 32.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 28.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 28.95,
+          "promo_price": 24.95,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 27.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 35.5
+        },
+        {
+          "chain": "Coop",
+          "price": 29.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896516"
+    },
+    {
+      "product_name": "Falukorv Klassiker",
+      "brand": "Scan",
+      "weight": "800g",
+      "source": "matspar.se",
+      "product_id": 2828,
+      "slug": "produkt/falukorv-800g-scan",
+      "base_price": 39.8,
+      "median_price": 41.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 40.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 40.95,
+          "promo_price": 39.95,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 39.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 39.95
+        },
+        {
+          "chain": "Coop",
+          "price": 43.95,
+          "promo_price": 30.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896523"
+    },
+    {
+      "product_name": "Falukorv 70% Kött",
+      "brand": "Sorunda Korvfabrik",
+      "weight": "800g",
+      "source": "matspar.se",
+      "product_id": 101015,
+      "slug": "produkt/falukorv-70-kott-800g-sorunda-korvfabrik",
+      "base_price": 41.9,
+      "median_price": 47.965,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 50.95,
+          "promo_price": 40.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 41.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 46.95
+        },
+        {
+          "chain": "MatHem",
+          "price": 48.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896530"
+    },
+    {
+      "product_name": "Falukorv Ring",
+      "brand": "ICA",
+      "weight": "800g",
+      "source": "matspar.se",
+      "product_id": 11744,
+      "slug": "produkt/falukorv-800-g-ica",
+      "base_price": 35.9,
+      "median_price": 38.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 36.9
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896534"
+    },
+    {
+      "product_name": "Chorizo Cayenne & Paprika",
+      "brand": "Scan",
+      "weight": "300g",
+      "source": "matspar.se",
+      "product_id": 2835,
+      "slug": "produkt/chorizo-se-300g-scan",
+      "base_price": 33.9,
+      "median_price": 38.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 34.9,
+          "promo_price": 29.66,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 36.95
+        },
+        {
+          "chain": "Willys",
+          "price": 34.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 38.5
+        },
+        {
+          "chain": "Coop",
+          "price": 37.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896541"
+    },
+    {
+      "product_name": "Falukorv Klassikern",
+      "brand": "Scan",
+      "weight": "300g",
+      "source": "matspar.se",
+      "product_id": 9839,
+      "slug": "produkt/falukorv-klassikern-300g-scan",
+      "base_price": 27.5,
+      "median_price": 31.45,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 27.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 29.95
+        },
+        {
+          "chain": "MatHem",
+          "price": 28.95
+        },
+        {
+          "chain": "Coop",
+          "price": 31.5
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896547"
+    },
+    {
+      "product_name": "Vegokorv Glutenfri 14-Pack Fryst",
+      "brand": "Anamma",
+      "weight": "840g",
+      "source": "matspar.se",
+      "product_id": 186154,
+      "slug": "produkt/vegokorv-glutenfri-14-pack-fryst-840g-anamma",
+      "base_price": 78.9,
+      "median_price": 85.975,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 79.9
+        },
+        {
+          "chain": "Willys",
+          "price": 79.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 97.95
+        },
+        {
+          "chain": "Coop",
+          "price": 85.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896553"
+    },
+    {
+      "product_name": "Extra fin Wienerkorv",
+      "brand": "ICA",
+      "weight": "720g",
+      "source": "matspar.se",
+      "product_id": 323925,
+      "slug": "produkt/extra-fin-wienerkorv-720g-ica",
+      "base_price": 65.95,
+      "median_price": 72.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 89.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896557"
+    },
+    {
+      "product_name": "Grillkorv",
+      "brand": "ICA",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 13069,
+      "slug": "produkt/grillkorv-500-g-ica",
+      "base_price": 26.5,
+      "median_price": 28.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 27.9,
+          "promo_price": 25.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896562"
+    },
+    {
+      "product_name": "Varmkorv Med Skinn 55% Kötthalt Ca 20-Pack",
+      "brand": "Lithells",
+      "weight": "900g",
+      "source": "matspar.se",
+      "product_id": 4244,
+      "slug": "produkt/varmkorv-med-skinn-55-kotthalt-ca-20-pack-900g-lithells",
+      "base_price": 64.9,
+      "median_price": 74.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 68.9
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896566"
+    },
+    {
+      "product_name": "Kycklingrillkorv",
+      "brand": "ICA",
+      "weight": "400g",
+      "source": "matspar.se",
+      "product_id": 220298,
+      "slug": "produkt/kycklinggrillkorv-400g-ica",
+      "base_price": 21.9,
+      "median_price": 23.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 22.9,
+          "promo_price": 15.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896571"
+    },
+    {
+      "product_name": "Kyckling Lårfilé Färsk Naturell",
+      "brand": "Kronfågel",
+      "weight": "925g",
+      "source": "matspar.se",
+      "product_id": 158911,
+      "slug": "produkt/kyckling-larfile-farsk-naturell-925g-kronfagel",
+      "base_price": 143.38,
+      "median_price": 160.465,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 152.63,
+          "promo_price": 100.83,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 147.07
+        },
+        {
+          "chain": "Willys",
+          "price": 147.07
+        },
+        {
+          "chain": "MatHem",
+          "price": 146.0
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896578"
+    },
+    {
+      "product_name": "Kycklingfilé Mörad Djupfryst",
+      "brand": "Kronfågel",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 2842,
+      "slug": "produkt/kycklingfile-morad-djupfryst-1kg-kronfagel",
+      "base_price": 99.0,
+      "median_price": 106.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 105.0,
+          "promo_price": 95.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 109.0
+        },
+        {
+          "chain": "Willys",
+          "price": 99.8
+        },
+        {
+          "chain": "MatHem",
+          "price": 99.95
+        },
+        {
+          "chain": "Coop",
+          "price": 109.0
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896584"
+    },
+    {
+      "product_name": "Kyckling Bröstfilé Färsk Naturell",
+      "brand": "Kronfågel",
+      "weight": "925g",
+      "source": "matspar.se",
+      "product_id": 158909,
+      "slug": "produkt/kyckling-brostfile-farsk-naturell-925g-kronfagel",
+      "base_price": 143.38,
+      "median_price": 157.69,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 152.63,
+          "promo_price": 110.08,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 147.07
+        },
+        {
+          "chain": "Willys",
+          "price": 147.07
+        },
+        {
+          "chain": "MatHem",
+          "price": 146.0
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896590"
+    },
+    {
+      "product_name": "Kalkonfärs Fryst",
+      "brand": "Ingelsta kalkon",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 21029,
+      "slug": "produkt/kalkonfars-djupfryst-500g-ingelsta-kalkon",
+      "base_price": 55.95,
+      "median_price": 66.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 59.9,
+          "promo_price": 56.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 63.95
+        },
+        {
+          "chain": "Willys",
+          "price": 56.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 55.95
+        },
+        {
+          "chain": "Coop",
+          "price": 63.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896598"
+    },
+    {
+      "product_name": "Kycklingfärs",
+      "brand": "ICA Gott Liv",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 233622,
+      "slug": "produkt/kycklingfars-500g-ica-gott-liv-2",
+      "base_price": 46.95,
+      "median_price": 49.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 59.95,
+          "promo_price": 40.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896603"
+    },
+    {
+      "product_name": "Kycklingbröstfiléer Mörade Styckfrysta",
+      "brand": "Guldfågeln",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 11270,
+      "slug": "produkt/kycklingbrostfileer-morade-styckfrysta-1kg-guldfageln",
+      "base_price": 104.0,
+      "median_price": 122.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 109.0,
+          "promo_price": 95.0,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 105.0
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896609"
+    },
+    {
+      "product_name": "Kycklingbröstfilé Fryst",
+      "brand": "Eldorado",
+      "weight": "2kg",
+      "source": "matspar.se",
+      "product_id": 175018,
+      "slug": "produkt/kycklingbrostfile-fryst-2kg-eldorado-1",
+      "base_price": 139.0,
+      "median_price": 144.0,
+      "stores": [
+        {
+          "chain": "Hemköp",
+          "price": 149.0
+        },
+        {
+          "chain": "Willys",
+          "price": 139.0
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896613"
+    },
+    {
+      "product_name": "Kycklingfilé Marinerad Fryst",
+      "brand": "ICA Basic",
+      "weight": "2kg",
+      "source": "matspar.se",
+      "product_id": 226721,
+      "slug": "produkt/kycklingfile-marinerad-fryst-2kg-ica-basic",
+      "base_price": 129.0,
+      "median_price": 138.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 139.0
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896617"
+    },
+    {
+      "product_name": "Kyckling Innerfilé Mörad Fryst",
+      "brand": "ICA Basic",
+      "weight": "700g",
+      "source": "matspar.se",
+      "product_id": 226764,
+      "slug": "produkt/kyckling-innerfile-morad-fryst-700g-ica-basic",
+      "base_price": 46.9,
+      "median_price": 52.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 47.9
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896621"
+    },
+    {
+      "product_name": "Buffalo Wings BBQ Fryst",
+      "brand": "Guldfågeln",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 5549,
+      "slug": "produkt/buffalo-wings-500-g-guldfageln",
+      "base_price": 38.5,
+      "median_price": 45.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 40.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 42.95
+        },
+        {
+          "chain": "Willys",
+          "price": 38.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 43.95
+        },
+        {
+          "chain": "Coop",
+          "price": 40.95,
+          "promo_price": 34.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896628"
+    },
+    {
+      "product_name": "Chicken Nuggets Fryst",
+      "brand": "Guldfågeln",
+      "weight": "350g",
+      "source": "matspar.se",
+      "product_id": 5552,
+      "slug": "produkt/chicken-nuggets-350-g-guldfageln",
+      "base_price": 38.5,
+      "median_price": 45.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 40.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 42.95
+        },
+        {
+          "chain": "Willys",
+          "price": 38.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 43.95
+        },
+        {
+          "chain": "Coop",
+          "price": 41.95,
+          "promo_price": 34.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896635"
+    },
+    {
+      "product_name": "Chicken Nuggets Crispy",
+      "brand": "Guldfågeln",
+      "weight": "350g",
+      "source": "matspar.se",
+      "product_id": 220278,
+      "slug": "produkt/chicken-nuggets-crispy-350g-guldfageln",
+      "base_price": 38.5,
+      "median_price": 45.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 40.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 42.95
+        },
+        {
+          "chain": "Willys",
+          "price": 38.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 43.95
+        },
+        {
+          "chain": "Coop",
+          "price": 41.95,
+          "promo_price": 34.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896643"
+    },
+    {
+      "product_name": "Chicken Nuggets Djupfryst",
+      "brand": "ICA Basic",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 23501,
+      "slug": "produkt/chicken-nuggets-djupfryst-1kg-ica-basic",
+      "base_price": 42.9,
+      "median_price": 46.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 42.9,
+          "promo_price": 42.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896647"
+    },
+    {
+      "product_name": "Köttbullar Små Delikatess Frysta",
+      "brand": "Felix",
+      "weight": "420g",
+      "source": "matspar.se",
+      "product_id": 188818,
+      "slug": "produkt/kottbullar-sma-delikatess-frysta-420g-felix",
+      "base_price": 61.9,
+      "median_price": 67.925,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 62.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 67.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896652"
+    },
+    {
+      "product_name": "Mamma Scans Köttbullar Färska",
+      "brand": "Scan",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 211318,
+      "slug": "produkt/mamma-scans-kottbullar-1kg-scan",
+      "base_price": 76.95,
+      "median_price": 85.925,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 80.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 77.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896658"
+    },
+    {
+      "product_name": "Kalkonköttbullar Små Fina Djupfrysta",
+      "brand": "Ingelsta kalkon",
+      "weight": "400g",
+      "source": "matspar.se",
+      "product_id": 159769,
+      "slug": "produkt/sma-fina-kalkonkottbullar-djupfryst-400g-ingelsta-kalkon",
+      "base_price": 56.9,
+      "median_price": 67.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 60.9,
+          "promo_price": 56.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 63.95
+        },
+        {
+          "chain": "Willys",
+          "price": 56.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 58.95
+        },
+        {
+          "chain": "Coop",
+          "price": 63.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896667"
+    },
+    {
+      "product_name": "Kycklingburgare",
+      "brand": "Kronfågel",
+      "weight": "600g",
+      "source": "matspar.se",
+      "product_id": 195852,
+      "slug": "produkt/kycklingburgare600gkronfagel-1st",
+      "base_price": 62.95,
+      "median_price": 62.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 62.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896671"
+    },
+    {
+      "product_name": "Kycklingkebab Djupfryst",
+      "brand": "ICA Basic",
+      "weight": "600g",
+      "source": "matspar.se",
+      "product_id": 274997,
+      "slug": "produkt/kycklingkebab-djupfryst-600g-ica-basic",
+      "base_price": 54.9,
+      "median_price": 63.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 59.9
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896675"
+    },
+    {
+      "product_name": "Köttbullar Stekta Färska",
+      "brand": "ICA",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 440985,
+      "slug": "produkt/kottbullar-stekta-farska-1kg-ica",
+      "base_price": 67.9,
+      "median_price": 76.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 72.9
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896679"
+    },
+    {
+      "product_name": "Vegoschnitzel Glutenfri Fryst",
+      "brand": "Anamma",
+      "weight": "750g",
+      "source": "matspar.se",
+      "product_id": 246126,
+      "slug": "produkt/vegoschnitzel-glutenfri-fryst-750g-anamma",
+      "base_price": 78.9,
+      "median_price": 86.45,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 79.9
+        },
+        {
+          "chain": "Coop",
+          "price": 86.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896684"
+    },
+    {
+      "product_name": "Kycklingkebab Fryst",
+      "brand": "Eldorado",
+      "weight": "700g",
+      "source": "matspar.se",
+      "product_id": 241249,
+      "slug": "produkt/kycklingkebab-700g-eldorado",
+      "base_price": 69.9,
+      "median_price": 69.95,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 69.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 69.95,
+          "promo_price": 64.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "MatHem",
+          "price": 73.5
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896691"
+    },
+    {
+      "product_name": "Oxpytt",
+      "brand": "Findus",
+      "weight": "750g",
+      "source": "matspar.se",
+      "product_id": 255395,
+      "slug": "produkt/oxpytt-750g-findus",
+      "base_price": 51.9,
+      "median_price": 61.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 54.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 58.95
+        },
+        {
+          "chain": "Willys",
+          "price": 52.9,
+          "promo_price": 40.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "MatHem",
+          "price": 59.95
+        },
+        {
+          "chain": "Coop",
+          "price": 57.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896697"
+    },
+    {
+      "product_name": "Vegetarisk Krögarpytt",
+      "brand": "Felix",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 521071,
+      "slug": "produkt/vegetarisk-krogarpytt-1kg-felix",
+      "base_price": 64.9,
+      "median_price": 78.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 70.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 69.95,
+          "promo_price": 69.95,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 67.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 76.5
+        },
+        {
+          "chain": "Coop",
+          "price": 73.5
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896710"
+    },
+    {
+      "product_name": "Kycklingklubbor Fryst",
+      "brand": "Eldorado",
+      "weight": "2kg",
+      "source": "matspar.se",
+      "product_id": 172603,
+      "slug": "produkt/kycklingklubbor-fryst-2kg-eldorado",
+      "base_price": 54.9,
+      "median_price": 56.925,
+      "stores": [
+        {
+          "chain": "Hemköp",
+          "price": 58.95
+        },
+        {
+          "chain": "Willys",
+          "price": 54.9
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896715"
+    },
+    {
+      "product_name": "Renskav",
+      "brand": "ICA",
+      "weight": "400g",
+      "source": "matspar.se",
+      "product_id": 246054,
+      "slug": "produkt/renskav-400g-ica",
+      "base_price": 119.0,
+      "median_price": 135.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 125.0
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896719"
+    },
+    {
+      "product_name": "Kyckling Nuggets",
+      "brand": "Coop Xtra",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 184125,
+      "slug": "produkt/kyckling-nuggets-1kg-coop-x-tra",
+      "base_price": 47.5,
+      "median_price": 47.5,
+      "stores": [
+        {
+          "chain": "Coop",
+          "price": 47.5
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896723"
+    },
+    {
+      "product_name": "Ankbröst",
+      "brand": "ICA",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 181811,
+      "slug": "produkt/ankbrost-200g-ica",
+      "base_price": 59.95,
+      "median_price": 59.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 59.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896726"
+    },
+    {
+      "product_name": "Kycklingschnitzel",
+      "brand": "Guldfågeln",
+      "weight": "370g",
+      "source": "matspar.se",
+      "product_id": 316733,
+      "slug": "produkt/kycklingschnitzel-370g-guldfageln",
+      "base_price": 38.5,
+      "median_price": 45.925,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 40.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 43.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896731"
+    },
+    {
+      "product_name": "Krögarpytt Klassisk Fryst",
+      "brand": "Felix",
+      "weight": "720g",
+      "source": "matspar.se",
+      "product_id": 10101,
+      "slug": "produkt/krogarpytt-klassisk-fryst-720g-felix",
+      "base_price": 55.9,
+      "median_price": 60.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 56.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 58.95,
+          "promo_price": 58.95,
+          "promo_type": "FIXED"
+        },
+        {
+          "chain": "MatHem",
+          "price": 55.95
+        },
+        {
+          "chain": "Coop",
+          "price": 55.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896737"
+    },
+    {
+      "product_name": "Blodpudding",
+      "brand": "gea´s",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 4603,
+      "slug": "produkt/blodpudding-500g-lithells",
+      "base_price": 9.8,
+      "median_price": 10.225,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 9.8
+        },
+        {
+          "chain": "Hemköp",
+          "price": 10.5
+        },
+        {
+          "chain": "Coop",
+          "price": 11.95
+        },
+        {
+          "chain": "MatHem",
+          "price": 9.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896743"
+    },
+    {
+      "product_name": "Blodpudding Original Skivad",
+      "brand": "gea´s",
+      "weight": "380g",
+      "source": "matspar.se",
+      "product_id": 182458,
+      "slug": "produkt/blodpudding-original-skivad-380g-gea-s",
+      "base_price": 14.9,
+      "median_price": 16.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 14.9
+        },
+        {
+          "chain": "Coop",
+          "price": 16.5
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896748"
+    },
+    {
+      "product_name": "Blodpudding Glutenfri",
+      "brand": "gea´s",
+      "weight": "475g",
+      "source": "matspar.se",
+      "product_id": 10806,
+      "slug": "produkt/blodpudding-glutenfri-475g-lithells",
+      "base_price": 14.9,
+      "median_price": 16.965,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 14.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 15.95
+        },
+        {
+          "chain": "Willys",
+          "price": 14.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 18.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896754"
+    },
+    {
+      "product_name": "Lammhultssylta 200g",
+      "brand": "Ello i Lammhult",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 112963,
+      "slug": "produkt/lammhultssylta-200g-ello-i-lammhult",
+      "base_price": 19.9,
+      "median_price": 20.7,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 19.9
+        },
+        {
+          "chain": "ICA",
+          "price": 21.5
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896759"
+    },
+    {
+      "product_name": "Sylta Småländsk",
+      "brand": "Lithells",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 5333,
+      "slug": "produkt/smalandsk-sylta-200g-lithells",
+      "base_price": 18.5,
+      "median_price": 20.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 18.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 21.95
+        },
+        {
+          "chain": "MatHem",
+          "price": 24.95
+        },
+        {
+          "chain": "Coop",
+          "price": 19.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896764"
+    },
+    {
+      "product_name": "Kalvsylta",
+      "brand": "Lithells",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 5335,
+      "slug": "produkt/kalvsylta-200g-lithells",
+      "base_price": 20.5,
+      "median_price": 22.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 25.95
+        },
+        {
+          "chain": "Hemköp",
+          "price": 24.95
+        },
+        {
+          "chain": "Coop",
+          "price": 20.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896769"
+    },
+    {
+      "product_name": "Lammhultssylta 350g",
+      "brand": "Ello i Lammhult",
+      "weight": "350g",
+      "source": "matspar.se",
+      "product_id": 5694,
+      "slug": "produkt/lammhultssylta-350g-350-g-ello-i-lammhult",
+      "base_price": 25.9,
+      "median_price": 27.95,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 25.9
+        },
+        {
+          "chain": "ICA",
+          "price": 27.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896774"
+    },
+    {
+      "product_name": "Kalvsylta Deli Sverige",
+      "brand": "Scan",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 9845,
+      "slug": "produkt/kalvsylta-deli-se-200g-scan",
+      "base_price": 33.95,
+      "median_price": 37.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 41.95
+        },
+        {
+          "chain": "MatHem",
+          "price": 34.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896778"
+    },
+    {
+      "product_name": "Blodpudding Utan Socker",
+      "brand": "gea´s",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 10805,
+      "slug": "produkt/blodpudding-utan-socker-500g-geas",
+      "base_price": 9.9,
+      "median_price": 10.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 9.9,
+          "promo_price": 13.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 16.95
+        },
+        {
+          "chain": "MatHem",
+          "price": 15.95
+        },
+        {
+          "chain": "Coop",
+          "price": 17.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896784"
+    },
+    {
+      "product_name": "Sylta Småländsk",
+      "brand": "Lithells",
+      "weight": "800g",
+      "source": "matspar.se",
+      "product_id": 11099,
+      "slug": "produkt/smalandsk-sylta-800g-lithells",
+      "base_price": 70.95,
+      "median_price": 70.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 70.95
+        }
+      ],
+      "category": "Kott Fagel Chark",
+      "scraped_at": "2026-02-07T09:59:16.896788"
+    },
+    {
+      "product_name": "Norsk Laxfilé 4-p Fryst",
+      "brand": "Pacific",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 101115,
+      "slug": "produkt/norsk-laxfile-4-pack-500g-pacific",
+      "base_price": 87.5,
+      "median_price": 98.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 87.9,
+          "promo_price": 99.66,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313792"
+    },
+    {
+      "product_name": "Laxfilé fryst",
+      "brand": "Lillängshamnen",
+      "weight": "400g",
+      "source": "matspar.se",
+      "product_id": 501671,
+      "slug": "produkt/fryst-laxfile-400g-lillangshamnen",
+      "base_price": 73.95,
+      "median_price": 73.95,
+      "stores": [
+        {
+          "chain": "MatHem",
+          "price": 73.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313805"
+    },
+    {
+      "product_name": "Torskfilé Fryst",
+      "brand": "ICA",
+      "weight": "400g",
+      "source": "matspar.se",
+      "product_id": 12185,
+      "slug": "produkt/torskfile-400-g-ica",
+      "base_price": 89.95,
+      "median_price": 100.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 96.9,
+          "promo_price": 85.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313811"
+    },
+    {
+      "product_name": "Fiskpinnar Originalet - Family pack",
+      "brand": "Findus",
+      "weight": "750g",
+      "source": "matspar.se",
+      "product_id": 231398,
+      "slug": "produkt/fiskpinnar-msc-750g-findus",
+      "base_price": 52.95,
+      "median_price": 58.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 55.9
+        },
+        {
+          "chain": "Coop",
+          "price": 52.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313815"
+    },
+    {
+      "product_name": "Lutfisk Skinnfri",
+      "brand": "SKÄRHAMNS",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 163759,
+      "slug": "produkt/lutfisk-skinnfri-1kg-skarhamns",
+      "base_price": 109.0,
+      "median_price": 123.95,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 109.0
+        },
+        {
+          "chain": "Hemköp",
+          "price": 125.0
+        },
+        {
+          "chain": "ICA",
+          "price": 123.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313820"
+    },
+    {
+      "product_name": "Fish & Crisp Gourmetfiléer",
+      "brand": "Findus",
+      "weight": "480g",
+      "source": "matspar.se",
+      "product_id": 505231,
+      "slug": "produkt/fish-crisp-gourmetfileer-480g-findus-1",
+      "base_price": 55.95,
+      "median_price": 61.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 60.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 62.95
+        },
+        {
+          "chain": "Willys",
+          "price": 57.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 55.95
+        },
+        {
+          "chain": "Coop",
+          "price": 59.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313825"
+    },
+    {
+      "product_name": "Laxfilé ASC",
+      "brand": "Ica Gott liv",
+      "weight": "1.2kg",
+      "source": "matspar.se",
+      "product_id": 323939,
+      "slug": "produkt/laxfile-asc-1-2kg-ica-gott-liv",
+      "base_price": 238.8,
+      "median_price": 340.8,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 407.94
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313828"
+    },
+    {
+      "product_name": "Torskryggfilé MSC",
+      "brand": "Findus",
+      "weight": "420g",
+      "source": "matspar.se",
+      "product_id": 356461,
+      "slug": "produkt/torskryggfile-msc-420g-findus",
+      "base_price": 128.0,
+      "median_price": 162.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 155.0
+        },
+        {
+          "chain": "Hemköp",
+          "price": 155.0
+        },
+        {
+          "chain": "Willys",
+          "price": 145.0
+        },
+        {
+          "chain": "MatHem",
+          "price": 135.0
+        },
+        {
+          "chain": "Coop",
+          "price": 134.0
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313832"
+    },
+    {
+      "product_name": "Fiskpinnar Frysta 15-Pack",
+      "brand": "ICA Basic",
+      "weight": "450g",
+      "source": "matspar.se",
+      "product_id": 12545,
+      "slug": "produkt/fiskpinnar-frysta-15-pack-450g-ica-basic",
+      "base_price": 19.95,
+      "median_price": 23.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 21.9
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313836"
+    },
+    {
+      "product_name": "Torskfilé Färsk",
+      "brand": "",
+      "weight": "1kg",
+      "source": "matspar.se",
+      "product_id": 192321,
+      "slug": "produkt/torskfile-1st",
+      "base_price": 89.8,
+      "median_price": 89.8,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 89.8
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313839"
+    },
+    {
+      "product_name": "Räkor Skalade Stora",
+      "brand": "ICA",
+      "weight": "400g",
+      "source": "matspar.se",
+      "product_id": 172648,
+      "slug": "produkt/stora-skalade-rakor-400g-ica",
+      "base_price": 66.95,
+      "median_price": 77.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 74.9,
+          "promo_price": 64.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313844"
+    },
+    {
+      "product_name": "Vannameiräkor Sprödbakade Torpedo",
+      "brand": "NORDIC SEAFOOD",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 227401,
+      "slug": "produkt/asc-vannameiraka-crisp-torpedostyle-200-g",
+      "base_price": 48.95,
+      "median_price": 48.95,
+      "stores": [
+        {
+          "chain": "Hemköp",
+          "price": 48.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313847"
+    },
+    {
+      "product_name": "Gambas al Pil Pil",
+      "brand": "Smålandskräftan",
+      "weight": "300g",
+      "source": "matspar.se",
+      "product_id": 256310,
+      "slug": "produkt/gambas-al-pil-pil-300g-smalandskraftan",
+      "base_price": 109.0,
+      "median_price": 125.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 149.95
+        },
+        {
+          "chain": "MatHem",
+          "price": 125.0
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313851"
+    },
+    {
+      "product_name": "Räkor Med Skal 90/120 Frysta",
+      "brand": "ICA",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 11754,
+      "slug": "produkt/rakor-90120-500-g-ica",
+      "base_price": 59.95,
+      "median_price": 72.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 68.9,
+          "promo_price": 49.5,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313855"
+    },
+    {
+      "product_name": "Räkor Med Skal 90/120",
+      "brand": "Royal Greenland",
+      "weight": "500g",
+      "source": "matspar.se",
+      "product_id": 100428,
+      "slug": "produkt/rakor-med-skal-msc-90-120-500g-royal-greenland",
+      "base_price": 48.95,
+      "median_price": 59.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 56.9
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313858"
+    },
+    {
+      "product_name": "Kammusslor",
+      "brand": "Pandalus",
+      "weight": "150g",
+      "source": "matspar.se",
+      "product_id": 182529,
+      "slug": "produkt/kammusslor-150g-pandalus",
+      "base_price": 87.9,
+      "median_price": 100.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 123.0
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313861"
+    },
+    {
+      "product_name": "Hummer",
+      "brand": "ICA",
+      "weight": "425g",
+      "source": "matspar.se",
+      "product_id": 324266,
+      "slug": "produkt/hummer-425g-ica-1",
+      "base_price": 199.0,
+      "median_price": 236.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 245.0
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313864"
+    },
+    {
+      "product_name": "Räkor",
+      "brand": "ICA",
+      "weight": "360g",
+      "source": "matspar.se",
+      "product_id": 11759,
+      "slug": "produkt/rakor-360-g-ica",
+      "base_price": 39.9,
+      "median_price": 43.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 42.9
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313867"
+    },
+    {
+      "product_name": "Vannameiräka Utan Skal 26/30",
+      "brand": "Miramar",
+      "weight": "400g",
+      "source": "matspar.se",
+      "product_id": 139558,
+      "slug": "produkt/vannameiraka-utan-skal-2630-asc-400g-miramar",
+      "base_price": 95.0,
+      "median_price": 95.0,
+      "stores": [
+        {
+          "chain": "Hemköp",
+          "price": 95.0,
+          "promo_price": 95.0,
+          "promo_type": "FIXED"
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313872"
+    },
+    {
+      "product_name": "Kammusslor",
+      "brand": "ICA",
+      "weight": "150g",
+      "source": "matspar.se",
+      "product_id": 166193,
+      "slug": "produkt/kammusslor-150g-ica",
+      "base_price": 86.0,
+      "median_price": 118.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 109.0
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313875"
+    },
+    {
+      "product_name": "Citron & Dillsås För Ugnsbakad Lax",
+      "brand": "Abba",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 4771,
+      "slug": "produkt/citron-dillsas-for-ugnsbakad-lax-250-g-abba",
+      "base_price": 25.9,
+      "median_price": 29.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 27.9,
+          "promo_price": 22.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Hemköp",
+          "price": 27.95,
+          "promo_price": 24.5,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Willys",
+          "price": 25.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 30.95
+        },
+        {
+          "chain": "Coop",
+          "price": 28.5
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313881"
+    },
+    {
+      "product_name": "Caviar Röd Stenbitsrom",
+      "brand": "Abba",
+      "weight": "80g",
+      "source": "matspar.se",
+      "product_id": 4746,
+      "slug": "produkt/caviar-rod-stenbitsrom-80-g-abba",
+      "base_price": 34.95,
+      "median_price": 41.98,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 38.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 41.95
+        },
+        {
+          "chain": "Willys",
+          "price": 38.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 48.5
+        },
+        {
+          "chain": "Coop",
+          "price": 38.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313886"
+    },
+    {
+      "product_name": "Stenbitsrom Svart",
+      "brand": "Abba",
+      "weight": "80g",
+      "source": "matspar.se",
+      "product_id": 180728,
+      "slug": "produkt/msc-svart-stenbitsrom-80g-abba",
+      "base_price": 18.9,
+      "median_price": 41.98,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 38.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 41.95
+        },
+        {
+          "chain": "Willys",
+          "price": 38.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 48.5
+        },
+        {
+          "chain": "Coop",
+          "price": 38.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313898"
+    },
+    {
+      "product_name": "Dillkaviar",
+      "brand": "ICA",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 395806,
+      "slug": "produkt/dillkaviar-250g-ica",
+      "base_price": 24.9,
+      "median_price": 26.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 25.9
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313901"
+    },
+    {
+      "product_name": "Kaviar Original KRAV",
+      "brand": "Kalles",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 19783,
+      "slug": "produkt/kaviar-original-krav-250g-kalles",
+      "base_price": 34.95,
+      "median_price": 39.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 36.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 39.5
+        },
+        {
+          "chain": "Willys",
+          "price": 37.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 42.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313906"
+    },
+    {
+      "product_name": "Kaviar Extra Mild",
+      "brand": "Svennes",
+      "weight": "300g",
+      "source": "matspar.se",
+      "product_id": 370105,
+      "slug": "produkt/extra-mild-kaviar-300g",
+      "base_price": 33.5,
+      "median_price": 37.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 34.9
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313913"
+    },
+    {
+      "product_name": "Remouladsås",
+      "brand": "K-Salat",
+      "weight": "4dl",
+      "source": "matspar.se",
+      "product_id": 1958,
+      "slug": "produkt/remouladsas-400-ml-k-salat",
+      "base_price": 27.9,
+      "median_price": 31.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 29.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 30.95
+        },
+        {
+          "chain": "Willys",
+          "price": 27.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 31.95
+        },
+        {
+          "chain": "Coop",
+          "price": 29.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313917"
+    },
+    {
+      "product_name": "Aioli Lime",
+      "brand": "Eriks Såser",
+      "weight": "23cl",
+      "source": "matspar.se",
+      "product_id": 7220,
+      "slug": "produkt/aioli-lime-228-g230-ml-eriks-saser",
+      "base_price": 26.9,
+      "median_price": 30.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 26.9,
+          "promo_price": 25.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 29.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313922"
+    },
+    {
+      "product_name": "Remouladsås",
+      "brand": "Kavli",
+      "weight": "230g",
+      "source": "matspar.se",
+      "product_id": 10974,
+      "slug": "produkt/remouladsas-230g-kavli",
+      "base_price": 18.5,
+      "median_price": 24.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 22.9
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313925"
+    },
+    {
+      "product_name": "Caviar Röd Finkornig Rom",
+      "brand": "Abba",
+      "weight": "80g",
+      "source": "matspar.se",
+      "product_id": 10857,
+      "slug": "produkt/caviar-rod-finkornig-rom-80g-abba",
+      "base_price": 31.95,
+      "median_price": 38.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 34.9
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313928"
+    },
+    {
+      "product_name": "Ansjovis Original",
+      "brand": "Grebbestads",
+      "weight": "125g",
+      "source": "matspar.se",
+      "product_id": 10850,
+      "slug": "produkt/ansjovis-original-125-g-grebbestads",
+      "base_price": 33.95,
+      "median_price": 39.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 34.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 35.95
+        },
+        {
+          "chain": "Willys",
+          "price": 34.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 35.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313932"
+    },
+    {
+      "product_name": "Saltsillfiléer",
+      "brand": "ALAX",
+      "weight": "2.2kg",
+      "source": "matspar.se",
+      "product_id": 334138,
+      "slug": "produkt/saltsillfileer-2-2kg-3",
+      "base_price": 99.0,
+      "median_price": 105.0,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 135.0
+        },
+        {
+          "chain": "MatHem",
+          "price": 105.0
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313936"
+    },
+    {
+      "product_name": "Kiviks Äpple/currysill",
+      "brand": "Fiskexporten",
+      "weight": "250g",
+      "source": "matspar.se",
+      "product_id": 359155,
+      "slug": "produkt/kiviks-apple-currysill-250g-fiskexporten-1",
+      "base_price": 29.95,
+      "median_price": 33.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 33.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313939"
+    },
+    {
+      "product_name": "SARDINER Delikatessrökta i rapsolja",
+      "brand": "SARDINMÄSTARENS",
+      "weight": "100g",
+      "source": "matspar.se",
+      "product_id": 441949,
+      "slug": "produkt/sardiner-delikatessrokta-i-rapsolja-100g-sardinmastarens",
+      "base_price": 17.9,
+      "median_price": 21.975,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 18.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 20.95
+        },
+        {
+          "chain": "Willys",
+          "price": 17.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 23.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313944"
+    },
+    {
+      "product_name": "Matjes",
+      "brand": "Abba",
+      "weight": "215g",
+      "source": "matspar.se",
+      "product_id": 358744,
+      "slug": "produkt/matjessill-mastarmatjes-215g-abba",
+      "base_price": 9.9,
+      "median_price": 24.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 22.9
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313947"
+    },
+    {
+      "product_name": "Ansjovis Original",
+      "brand": "Grebbestads",
+      "weight": "55g",
+      "source": "matspar.se",
+      "product_id": 4721,
+      "slug": "produkt/ansjovis-original-55-g-grebbestads",
+      "base_price": 19.9,
+      "median_price": 23.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 38.95
+        },
+        {
+          "chain": "Hemköp",
+          "price": 22.95
+        },
+        {
+          "chain": "Willys",
+          "price": 19.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 25.5
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313951"
+    },
+    {
+      "product_name": "Ansjovis",
+      "brand": "ICA",
+      "weight": "100g",
+      "source": "matspar.se",
+      "product_id": 11752,
+      "slug": "produkt/ansjovis-100-g-ica",
+      "base_price": 23.5,
+      "median_price": 28.3,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 59.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313954"
+    },
+    {
+      "product_name": "Saffranspistill",
+      "brand": "Werners Gourmetservice",
+      "weight": "1g",
+      "source": "matspar.se",
+      "product_id": 186662,
+      "slug": "produkt/saffranspistill-1g-werners-gourmetservice-ab",
+      "base_price": 83.5,
+      "median_price": 83.5,
+      "stores": [
+        {
+          "chain": "MatHem",
+          "price": 83.5
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313957"
+    },
+    {
+      "product_name": "Löksill MSC",
+      "brand": "Klädesholmen",
+      "weight": "575g",
+      "source": "matspar.se",
+      "product_id": 189476,
+      "slug": "produkt/loksill-msc-575g",
+      "base_price": 33.95,
+      "median_price": 33.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 33.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313961"
+    },
+    {
+      "product_name": "Ansjoviskryddad Sillfilé",
+      "brand": "Klädesholmen",
+      "weight": "575g",
+      "source": "matspar.se",
+      "product_id": 189477,
+      "slug": "produkt/ansjoviskryddad-sillfile-575g",
+      "base_price": 34.9,
+      "median_price": 36.425,
+      "stores": [
+        {
+          "chain": "Willys",
+          "price": 34.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 37.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313964"
+    },
+    {
+      "product_name": "Tonfisk i vatten 15% flakes MSC",
+      "brand": "ICA",
+      "weight": "170g",
+      "source": "matspar.se",
+      "product_id": 358863,
+      "slug": "produkt/tonfisk-i-vatten-15-flakes-msc-170g-ica",
+      "base_price": 19.9,
+      "median_price": 21.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 20.9,
+          "promo_price": 16.66,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313968"
+    },
+    {
+      "product_name": "Tonfisk i olja 15% flakes MSC",
+      "brand": "ICA",
+      "weight": "170g",
+      "source": "matspar.se",
+      "product_id": 358864,
+      "slug": "produkt/tonfisk-i-olja-15-flakes-msc-170g-ica",
+      "base_price": 19.9,
+      "median_price": 21.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 20.9,
+          "promo_price": 16.66,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313972"
+    },
+    {
+      "product_name": "Makrill i tomatsås",
+      "brand": "ICA",
+      "weight": "375g",
+      "source": "matspar.se",
+      "product_id": 250904,
+      "slug": "produkt/makrill-i-tomatsas-3-pack-375g-ica",
+      "base_price": 39.95,
+      "median_price": 46.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 40.9,
+          "promo_price": 42.0,
+          "promo_type": "X_FOR_FIXED"
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313976"
+    },
+    {
+      "product_name": "Tonfisk i Bit i Olja",
+      "brand": "ICA Basic",
+      "weight": "170g",
+      "source": "matspar.se",
+      "product_id": 358865,
+      "slug": "produkt/tonfisk-i-bit-i-olja-170g-ica-basic",
+      "base_price": 14.9,
+      "median_price": 16.75,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 14.9
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313979"
+    },
+    {
+      "product_name": "Surströmming",
+      "brand": "Röda Ulven",
+      "weight": "300g",
+      "source": "matspar.se",
+      "product_id": 178474,
+      "slug": "produkt/14-burk-surstromming-300g-roda-ulven",
+      "base_price": 70.95,
+      "median_price": 80.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 89.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313984"
+    },
+    {
+      "product_name": "Tonfisk i Olja",
+      "brand": "Abba",
+      "weight": "200g",
+      "source": "matspar.se",
+      "product_id": 4777,
+      "slug": "produkt/msc-tonfisk-i-olja-200-g-abba",
+      "base_price": 29.9,
+      "median_price": 35.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 31.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 36.95
+        },
+        {
+          "chain": "Willys",
+          "price": 29.9
+        },
+        {
+          "chain": "MatHem",
+          "price": 31.5,
+          "promo_price": 25.0,
+          "promo_type": "X_FOR_FIXED"
+        },
+        {
+          "chain": "Coop",
+          "price": 31.5
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313990"
+    },
+    {
+      "product_name": "Tonfisk i Vatten 3-p",
+      "brand": "Abba",
+      "weight": "285g",
+      "source": "matspar.se",
+      "product_id": 4783,
+      "slug": "produkt/msc-tonfisk-i-vatten-3-pack-285-g-abba",
+      "base_price": 42.5,
+      "median_price": 49.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 43.9
+        },
+        {
+          "chain": "Hemköp",
+          "price": 52.95
+        },
+        {
+          "chain": "Coop",
+          "price": 44.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313994"
+    },
+    {
+      "product_name": "Makrill",
+      "brand": "Abba",
+      "weight": "185g",
+      "source": "matspar.se",
+      "product_id": 241106,
+      "slug": "produkt/makrill-i-tomatsas-185-g",
+      "base_price": 24.9,
+      "median_price": 28.5,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 25.5
+        },
+        {
+          "chain": "Coop",
+          "price": 26.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.313997"
+    },
+    {
+      "product_name": "Sardiner i sojaolja",
+      "brand": "Durra",
+      "weight": "125g",
+      "source": "matspar.se",
+      "product_id": 469094,
+      "slug": "produkt/sardiner-i-sojaolja-125g-durra",
+      "base_price": 10.9,
+      "median_price": 14.9,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 16.95
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.314001"
+    },
+    {
+      "product_name": "Tonfisk i Bit i Vatten",
+      "brand": "ICA Basic",
+      "weight": "170g",
+      "source": "matspar.se",
+      "product_id": 358780,
+      "slug": "produkt/tonfisk-i-bit-i-vatten-170g-ica-basic",
+      "base_price": 14.9,
+      "median_price": 15.95,
+      "stores": [
+        {
+          "chain": "ICA",
+          "price": 14.9
+        }
+      ],
+      "category": "Fisk Skaldjur",
+      "scraped_at": "2026-02-07T09:59:17.314004"
+    }
+  ],
+  "categories_scraped": [
+    "kategori/frukt-gront",
+    "kategori/mejeri-ost-agg",
+    "kategori/kott-fagel-chark",
+    "kategori/fisk-skaldjur"
+  ],
+  "suppliers": {
+    "13": {
+      "supplier_id": "13",
+      "name": "Coop",
+      "active": true
+    },
+    "15": {
+      "supplier_id": "15",
+      "name": "Willys",
+      "active": true
+    },
+    "11": {
+      "supplier_id": "11",
+      "name": "MatHem",
+      "active": true
+    },
+    "17": {
+      "supplier_id": "17",
+      "name": "ICA",
+      "active": true
+    },
+    "16": {
+      "supplier_id": "16",
+      "name": "Hemköp",
+      "active": true
+    }
+  }
+}
